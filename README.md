@@ -1,6 +1,7 @@
 # Welcome to Wize Services!
 
-We maintain the documents in this repo to help everyone understand what we do and how we do it:
+We maintain the documents in this repo to help everyone understand
+[what we do and how we do it](http://conferences.oreilly.com/velocity/devops-web-performance-2015/public/schedule/detail/42420):
 - practices
 - standards
 - _etc_.
