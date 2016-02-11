@@ -1,10 +1,13 @@
 # Welcome to Wize Services!
 
-We maintain the documents in this repo to help everyone understand
-[what we do and how we do it](http://conferences.oreilly.com/velocity/devops-web-performance-2015/public/schedule/detail/42420):
-- practices
-- standards
-- _etc_.
+Based, in part, on this
+[presentation](http://conferences.oreilly.com/velocity/devops-web-performance-2015/public/schedule/detail/42420)
+and its
+[slides](https://speakerdeck.com/rkbodenner/changing-the-laws-of-engineering-with-github-pull-requests-velocity-santa-clara-2015),
+we maintain the documents in this repo to help everyone understand...
+- what we do
+- how we do it &mdash; _e.g._, practices, standards, tools, _etc_.
+- why/how we got here &mdash; via commit history, Pull Requests & comments, _etc_.
 
 ## Your success is part of our success!
 
