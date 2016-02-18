@@ -9,7 +9,7 @@ In order to contribute to a repository there are a few guidelines we'll need to 
 - [Git Tactics](#git-tactics)
 
 ## Branch Naming
-Branches must be created in order to keep code organized and separated from the rest of the code. Following the convention branch-per-feature, the creation of a new branch is necessary whether we're developing and pushing a wip, feature, bug fix or an experiment.
+Branches must be created in order to keep code organized and separated from the rest of the code. Following the convention branch-per-feature, the creation of a new branch is necessary whether we're developing and pushing a WIP, feature, bug fix or an experiment.
 
 ### Branch Naming Conventions
 Git branches must follow the next conventions when working or developing over them.
