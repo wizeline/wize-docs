@@ -32,7 +32,7 @@ S3 is just simple storage for stuff.
 
 I would expect the candidate to describe the process:
 
-- Set up the service provider (Amazon, DigitalOcean, etc.)
+- Set up the service provider (Amazon, DigitalOcean, Heroku, etc.)
 - Set up the environment (Linux, Windows, whatever)
 - Install the necessary tools (gulp, node, ruby, MySQL, etc.)
 - Create a script for provisioning the environment based on that (Chef, Vagrant, Docker)
@@ -43,3 +43,14 @@ I would expect a Dockerfile, Vagrantfile, something like that.
 
 **Write a script in your favorite tool that automates a deploy of an app**
 I would expect something on capistrano, something like that.
+
+**What monitoring/performance tools are you familiar with?**
+Would expect tools from 3rd party services like New Relic, Stackify, Ruxit and native tools like monit, upstart and forever.
+
+The candidate should be aware of the difference between native monitoring, retry cycles, persistance of processes, etc.
+
+**What's the difference between a NS, A, MX and CNAME in DNS configurations?**
+- NS: Name Server, basically the name of the servers of the domain.
+- A: Address, associates host with IP addresses.
+- MX: Mail Exchange, mail configuration.
+- CNAME: Canonical Name or aliases, basically host aliases.
