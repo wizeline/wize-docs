@@ -2,6 +2,18 @@
 
 ## DevOps
 
+
+**Desired Skillset**
+
+*Based on recommendations from Ismael Serratos*
+
+- 100% Fullstack
+- Knowledge of physical and virtual infrastructure
+- Very good practices to ensure scalability and high standard SLA's
+- Very good security practices
+- Applies TDD or at least he writes tests
+- Experienced with distributed systems
+
 ### Platform
 
 **When to use S3 and when EC2?**
