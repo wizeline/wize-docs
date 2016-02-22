@@ -2,6 +2,8 @@
 
 ## DevOps
 
+### Platform
+
 **When to use S3 and when EC2?**
 
 *Note:* This is a platform specific question and if the candidate has no previous experience with it, it shouldn't be marked as red flag.
@@ -48,13 +50,19 @@ I would expect a Dockerfile, Vagrantfile, something like that.
 **Write a script in your favorite tool that automates a deploy of an app**
 I would expect something on capistrano, something like that.
 
-**What monitoring/performance tools are you familiar with?**
-Would expect tools from 3rd party services like New Relic, Stackify, Ruxit and native tools like monit, upstart and forever.
-
-The candidate should be aware of the difference between native monitoring, retry cycles, persistance of processes, etc.
+### Network
 
 **What's the difference between a NS, A, MX and CNAME in DNS configurations?**
 - NS: Name Server, basically the name of the servers of the domain.
 - A: Address, associates host with IP addresses.
 - MX: Mail Exchange, mail configuration.
 - CNAME: Canonical Name or aliases, basically host aliases.
+
+### Monitoring
+
+**What monitoring/performance tools are you familiar with?**
+Would expect tools from 3rd party services like New Relic, Stackify, Ruxit and native tools like monit, upstart and forever.
+
+The candidate should be aware of the difference between native monitoring, retry cycles, persistance of processes, etc.
+
+### Security
