@@ -4,6 +4,8 @@
 
 **When to use S3 and when EC2?**
 
+*Note:* This is a platform specific question and if the candidate has no previous experience with it, it shouldn't be marked as red flag.
+
 EC2 is a virtual machine where you can run any thing you want (Linux, Windows, apps inside that, etc).
 
 S3 is just simple storage for stuff.
@@ -11,11 +13,13 @@ S3 is just simple storage for stuff.
 
 **I want to put stuff in S3, how do I do that?**
 
+*Note:* This is a platform specific question and if the candidate has no previous experience with it, it shouldn't be marked as red flag.
+
 
 **What needs to be considered when choosing regions for instances?**
 
 
-**Explain what CloundFront is and when would you use it**
+**Explain what a CDN is and when would you use it**
 
 
 **Design a Cache system**
