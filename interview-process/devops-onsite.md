@@ -9,6 +9,7 @@ Make sure the candidate is proeficient with:
 - Continuous Deployment
 - Automation
 - Monitoring
+- Metric Tracking
 - Testing
 
 ## Proposal
@@ -27,6 +28,6 @@ The Wize Services team should create a simple application (NodeJs or Ruby on Rai
 4. Mount three instances of the services and create a load balancer in a Master-Slave configuration.
 5. Separate the database into another instance.
 6. Implement monitoring.
-7. Implement that the app doesn't die during deployment.
+7. Implement zero-downtime deployments.
 8. Implement stress test
 9. Deploy the app somewhere (AWS, Digital Ocean, Linode, whatever). Heroku doesn't count becuase is cheating.
