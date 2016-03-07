@@ -6,6 +6,10 @@ We maintain the documents in this repo to help everyone understand
 - standards
 - _etc_.
 
+### Sections
+- [Development practices](development/README.md)
+- [Interviewing/Hiring](interview-process/README.md)
+
 ## Your success is part of our success!
 
 ### If you're just starting with us
