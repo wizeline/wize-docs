@@ -31,3 +31,7 @@ The Wize Services team should create a simple application (NodeJs or Ruby on Rai
 7. Implement zero-downtime deployments.
 8. Implement stress test
 9. Deploy the app somewhere (AWS, Digital Ocean, Linode, whatever). Heroku doesn't count becuase is cheating.
+
+[DevOps Interview Process](README.md)<br/>
+[Interview Process](../README.md)<br/>
+[Home](../../README.md)

@@ -81,3 +81,6 @@ describe("feed_model", function () {
 (yah, the sentence structure can get a little 'strained,' but it still tells you where the example is looking)
 
 Though centered on [RSpec](https://www.relishapp.com/rspec), http://betterspecs.org/ has some suggestions.
+
+[Development Standards/Practices](README.md)<br/>
+[Home](../README.md)
