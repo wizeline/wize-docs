@@ -9,28 +9,28 @@ with its `getProduct()` method...
 describe("feed_model", function () {
   describe(".getProduct()", function () {
     var tokenId, product;
-    
+
     context("with a valid tokenId"), function() {
       beforeEach(function() {
         tokenId = "some valid tokenId value";
       });
-      
+
       context("and product", function () {
         beforeEach(function() {
           product = "some valid product value";
         });
-        
+
         it("returns a valid response", function (done) {
           // call feed_model.getProduct(tokenId, product)
           // and check the return/results
         }
       }
-      
+
       context("and an invalid product", function () {
         beforeEach(function() {
           product = "some invalid product value";
         });
-        
+
         it("returns an error", function (done) {
           // call feed_model.getProduct(tokenId, product)
           // and check the return/results
