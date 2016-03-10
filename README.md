@@ -9,6 +9,10 @@ we maintain the documents in this repo to help everyone understand...
 - how we do it &mdash; _e.g._, practices, standards, tools, _etc_.
 - why/how we got here &mdash; via commit history, Pull Requests & comments, _etc_.
 
+### Sections
+- [Development practices](development/README.md)
+- [Interviewing/Hiring](interview-process/README.md)
+
 ## Your success is part of our success!
 
 ### If you're just starting with us
