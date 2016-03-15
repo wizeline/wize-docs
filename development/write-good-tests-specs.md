@@ -9,28 +9,28 @@ with its `getProduct()` method...
 describe("feed_model", function () {
   describe(".getProduct()", function () {
     var tokenId, product;
-    
+
     context("with a valid tokenId"), function() {
       beforeEach(function() {
         tokenId = "some valid tokenId value";
       });
-      
+
       context("and product", function () {
         beforeEach(function() {
           product = "some valid product value";
         });
-        
+
         it("returns a valid response", function (done) {
           // call feed_model.getProduct(tokenId, product)
           // and check the return/results
         }
       }
-      
+
       context("and an invalid product", function () {
         beforeEach(function() {
           product = "some invalid product value";
         });
-        
+
         it("returns an error", function (done) {
           // call feed_model.getProduct(tokenId, product)
           // and check the return/results
@@ -81,3 +81,6 @@ describe("feed_model", function () {
 (yah, the sentence structure can get a little 'strained,' but it still tells you where the example is looking)
 
 Though centered on [RSpec](https://www.relishapp.com/rspec), http://betterspecs.org/ has some suggestions.
+
+[Development Standards/Practices](README.md)<br/>
+[Home](../README.md)

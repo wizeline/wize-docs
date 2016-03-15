@@ -238,3 +238,6 @@ $ git merge --no-ff branch_name
 $ git push origin master
 ```
 First we checkout, in this case, to the `master` branch. Next we will do a `merge` with a `non-fast-forward` flag on the desired branch, and finally we push to our remote.
+
+[Development Standards/Practices](README.md)<br/>
+[Home](../README.md)
