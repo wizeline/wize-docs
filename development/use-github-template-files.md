@@ -3,7 +3,7 @@
 If, like most projects, you keep your project repo(s) on [GitHub](https://github.com), provide templates for Pull Requests and Issues.
 
 ## TL;DR
-- create template Markdown files
+- Create template Markdown files
 - GitHub will auto-populate new Issues and/or Pull Requests with them
 
 ## Details
