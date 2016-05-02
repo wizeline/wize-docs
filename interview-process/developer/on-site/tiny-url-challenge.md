@@ -66,6 +66,7 @@ Produce a "TinyURL" service:
   - how do they handle interruptions, unsolicited interactions, _etc_?
 - make sure they know how much time is left; offer additional time if it might help<br/>
   _e.g._, if _almost done_ with a last feature or detail, delay lunch by 15-30 minutes
+- offer the candidate snacks, water, coffee, _etc._
   
 ## Presentation Questions / Challenges
 
