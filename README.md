@@ -9,6 +9,8 @@ and its
 - how we do it &mdash; _e.g._, practices, standards, tools, _etc_.
 - why/how we got here &mdash; via commit history, Pull Requests & comments, _etc_.
 
+Please read the [contribution guidelines](CONTRIBUTING.md) for more information.
+
 ### Repo _vs_ Wiki
 As described in the presentation & slides linked above, things in the **repo** are cultural 'norms', standards,
 and practices; things which deserve and require discussion and agreement to change &mdash; 'Law', if you like.
