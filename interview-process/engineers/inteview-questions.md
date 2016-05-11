@@ -9,5 +9,5 @@ Here is table describing the name of the problem, its difficulty and the expecte
 | [Anagrams](questions/easy/anagrams.md)          | Easy                  | 25 min
 | [Queue](questions/medium/queue.md)              | Medium                | 30 min
 | [Substring](questions/medium/substring.md)      | Medium                | 40 min
-| [Parenthesis](questions/medium/parenthesis.md)  | Hard                  | 40 min
+| [Parenthesis](questions/hard/parenthesis.md)    | Hard                  | 40 min
 
