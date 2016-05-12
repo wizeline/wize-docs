@@ -1,23 +1,25 @@
 # Welcome to Wize Services!
 
 Based, in part, on this
-[presentation](http://conferences.oreilly.com/velocity/devops-web-performance-2015/public/schedule/detail/42420)
+[presentation](https://www.youtube.com/watch?v=YIpNpptGX6Q)
 and its
-[slides](https://speakerdeck.com/rkbodenner/changing-the-laws-of-engineering-with-github-pull-requests-velocity-santa-clara-2015),
-we maintain the documents in this repo to help everyone understand...
+[slides](https://speakerdeck.com/rkbodenner/changing-the-laws-of-engineering-with-github-pull-requests-velocity-santa-clara-2015), we maintain the documents in this repo to help team members understand...
+
 - what we do
 - how we do it &mdash; _e.g._, practices, standards, tools, _etc_.
 - why/how we got here &mdash; via commit history, Pull Requests & comments, _etc_.
 
+Please read the [contribution guidelines](CONTRIBUTING.md) for more information.
+
 ### Repo _vs_ Wiki
-As described in the presentation & slides linked above, things in the **repo** are cultural 'norms', standards, and practices
-which deserve and require discussion and agreement to change.
+As described in the presentation & slides linked above, things in the **repo** are cultural 'norms', standards,
+and practices; things which deserve and require discussion and agreement to change &mdash; 'Law', if you like.
 
 In contrast, the [wiki](https://github.com/wizeservices/wize-docs/wiki) is a great place to collect and share ideas, resources, _etc_., which do not require/deserve discussion and agreement.
 
 Please add and maintain information in the wiki, adding and editing pages as needed!
 
-### Sections
+## Sections
 - [Development practices](development/README.md)
 - [Interviewing/Hiring](interview-process/README.md)
 
