@@ -8,8 +8,8 @@ Here is table describing the name of the problem, its difficulty and the expecte
 | [Validate IPV4](questions/easy/ipv4.md)                 | Easy                  | 15 min
 | [Repeated Letters](questions/easy/repLetters.md)        | Easy                  | 20 min
 | [Anagrams](questions/easy/anagrams.md)                  | Easy                  | 25 min
-| [Moving 0's](questions/medium/moving0s.md)              | Easy                  | 25 min
-| [TripleDouble](questions/medium/tripleDouble.md)        | Easy                  | 25 min
+| [Moving 0's](questions/easy/moving0s.md)                | Easy                  | 25 min
+| [TripleDouble](questions/easy/tripleDouble.md)          | Easy                  | 25 min
 | [Brackets](questions/medium/brackets.md)                | Medium                | 25 min
 | [Queue](questions/medium/queue.md)                      | Medium                | 30 min
 | [Ugly Numbers](questions/medium/uglyNumbers.md)         | Medium                | 30 min
@@ -17,4 +17,4 @@ Here is table describing the name of the problem, its difficulty and the expecte
 | [Integer Adder](questions/medium/intAdder.md)           | Medium                | 35 min
 | [Substring](questions/medium/substring.md)              | Medium                | 40 min
 | [Parenthesis](questions/hard/parenthesis.md)            | Hard                  | 40 min
-
+| [Matrix product](questions/hard/matrixProduct.md)       | Hard                  | 40 min
