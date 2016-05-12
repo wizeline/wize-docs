@@ -19,7 +19,7 @@ function validateIP(ip){
 ```
 
 ## Test cases
-```javascript
+```
 0.0.0.0 => true
 255.255.255.255 => true
 0.0.0 => false

@@ -18,6 +18,6 @@ function mySubstring(x, y) {
 ## Test cases
 ```javascript
 mySubstring('first', 'The ford motor company introduce the fierce motor engine for the first time') => true
-mySubstring('defg', 'abcabcdabcdefabcdddefghi');
-mySubstring('aab' , 'aaadaabac');
+mySubstring('defg', 'abcabcdabcdefabcdddefghi'); => false
+mySubstring('aab' , 'aaadaabac'); => true
 ```
