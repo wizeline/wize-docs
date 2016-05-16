@@ -11,7 +11,7 @@ _i.e._,
 - their order does not matter
 
 ## Observations
-- Do not mention negative values up front &mdash; if the candidate attempts a numeric sort algorithm, see if they realize it won't work
+- Do **not** mention negative values up front &mdash; if the candidate attempts a numeric sort algorithm, see if they realize it won't work
 - If the candidate uses a loosely-typed language &mdash; _e.g._, would allow `['dog', 0, -3.14, null]` &mdash; wait and see if/how they handle the non-numeric values
 - Note that the description says **return** &mdash; it does not say **print**
 - See if the candidate proposes an appropriate function prototype for the language &mdash; _e.g._,
