@@ -10,6 +10,19 @@ _i.e._,
 - preserve the non-zero values
 - their order does not matter
 
+## Interviewer Statement
+```
+// Write a function to "move" 0s in an input array to the "beginning" and return the resulting array.
+// 
+// For example, if `a`, `b`, _etc_, represent non-zero integers,
+// 
+// `[a, b,  c, 0, d, 0, b, 0] => [0, 0, 0, b, d, a, c, b]`
+// 
+// _i.e._,
+// - preserve the non-zero values
+// - their order does not matter
+```
+
 ## Observations
 - Do **not** mention negative values up front &mdash; if the candidate attempts a numeric sort algorithm, see if they realize it won't work
 - If the candidate uses a loosely-typed language &mdash; _e.g._, would allow `['dog', 0, -3.14, null]` &mdash; wait and see if/how they handle the non-numeric values
