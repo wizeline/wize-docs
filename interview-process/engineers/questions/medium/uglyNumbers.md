@@ -2,11 +2,9 @@
 
 Write a program that shows the first 11 ugly numbers (1 included) then, write a program to find and print the 1500'th ugly number.
 
-## Function prototype
-```javascript
-function uglyNumber(index) {
-  // code here
-}
+## Interviewer Statement
+```
+// Write a program that shows the first 11 ugly numbers (1 included) then, write a program to find and print the 1500'th ugly number.
 ```
 
 ## Problem observations

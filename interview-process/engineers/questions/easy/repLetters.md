@@ -2,11 +2,9 @@
 
 Write a method that for a given string as input, returns the first non repeated letter.
 
-## Function prototype
-```javascript
-function FirstNonRepLetter(input) {
-  // Code here
-}
+## Interviewer Statement
+```
+// Write a method that for a given string as input, returns the first non repeated letter.
 ```
 
 ## Test cases

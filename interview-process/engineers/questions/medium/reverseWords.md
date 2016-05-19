@@ -2,11 +2,9 @@
 
 Write a method that for a given input, reverse all words. *Avoid the use of built-in string functions*
 
-## function prototype
-```javascript
-function reverseWords(input) {
-  // Code Here
-}
+## Inteviewer Statement
+```
+// Write a method that for a given input, reverse all words. Avoid the use of built-in string functions
 ```
 
 ## Test cases

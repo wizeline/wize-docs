@@ -3,11 +3,10 @@
 Write a function which takes two numbers and returns 1 if there is a straight triple of a number at any
 place in the first parameter and also a straight double of the same number on the second parameter.
 
-## Function prototype
-```javascript
-function tripleDouble(num1, num2) {
-  // Code here
-}
+## Interviewer Statement
+```
+// Write a function which takes two numbers and returns 1 if there is a straight triple of a number at any
+// place in the first parameter and also a straight double of the same number on the second parameter.
 ```
 
 ## Test cases
