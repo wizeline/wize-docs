@@ -2,6 +2,11 @@
 
 Write a function that implements a queue using any data structure. Include functionality to enqueue and dequeue a value from the queue.
 
+## Interviewer Statement
+```
+// Write a function that implements a queue using any data structure. Include functionality to enqueue and dequeue a value from the queue.
+```
+
 ## Observations
 - 15 mins FOR AN EXPERIENCED, 30 mins FOR ROOKIE
 - How it should be resolved:
