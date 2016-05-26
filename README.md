@@ -22,6 +22,7 @@ Please add and maintain information in the wiki, adding and editing pages as nee
 ## Sections
 - [Development practices](development/README.md)
 - [Interviewing/Hiring](interview-process/README.md)
+- [Onboarding](onboarding.md)
 
 ## Your success is part of our success!
 
