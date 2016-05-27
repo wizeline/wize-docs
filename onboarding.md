@@ -25,7 +25,9 @@ Build the Issue's checklist from 'templates' collected in the [wiki](https://git
 - Recruiting
 - ...
 
-Assign the Issue to a 'mentor' employee &mdash; the prime contact for helping the new employee / team member...
+Assign the Issue to both the new employee / team member and a
+'mentor' employee. The 'mentor' will be the prime contact for helping
+the new employee / team member...
 
 - understand the checklist
 - find the right resources, meet the right people, _etc_., for working through it (_i.e._, the mentor will not necessarily directly help with each and every item)
