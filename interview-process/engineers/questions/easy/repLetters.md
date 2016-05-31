@@ -12,7 +12,7 @@ Write a method that for a given string as input, returns the first non repeated 
 'abcdefghija' => b
 'hello' => h
 'Java' => J
-'simplest' => s
+'simplest' => i
 ```
 
 ## Solutions
