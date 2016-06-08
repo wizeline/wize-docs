@@ -190,3 +190,19 @@ free, look for total memory cache/available
 /sys is a pseudo fs that holds kernel and hardware information in a new format
 ~~~
 
+### How to create a RAID0/5/6/10 Array ?
+
+Let the candidate to tell about his/her experience with redundant disks
+
+Hardware/Software based arrays, explain advantages of them, etc.
+
+### List at least 30 commmands used in the cli
+
+awk, at, for, while, until, if, sed, cut, find, free, 
+df, du, ls, cd, uname, ip, ifconfig, uptime,
+top, sar, vmstat, lsof, fuser, cat, grep, file, stat
+strip, zip, bc, clear, ssh, cssh, dmesg, ln, fdisk,
+parted, kpartx, chmod, mkdir, mknod, rmdir, rm, mv, mkfs
+vgs, vgdisplay, pvs, pvdisplay, pvcreate, pvremove, vgcreate,
+lvcreate, lvextend, vgextend, resize2fs, who, nc, nmap, strace,
+
