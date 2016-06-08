@@ -198,11 +198,19 @@ Hardware/Software based arrays, explain advantages of them, etc.
 
 ### List at least 30 commmands used in the cli
 
-awk, at, for, while, until, if, sed, cut, find, free, 
-df, du, ls, cd, uname, ip, ifconfig, uptime,
-top, sar, vmstat, lsof, fuser, cat, grep, file, stat
-strip, zip, bc, clear, ssh, cssh, dmesg, ln, fdisk,
-parted, kpartx, chmod, mkdir, mknod, rmdir, rm, mv, mkfs
-vgs, vgdisplay, pvs, pvdisplay, pvcreate, pvremove, vgcreate,
-lvcreate, lvextend, vgextend, resize2fs, who, nc, nmap, strace,
+|Column1     |Column2     |Column3     |Column4     |Column5     |Column6     |Column7     |Column8     |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|alias       |awk         |break       |cat         |cd          |cgdisk      |chdir       |chmod       |
+|chown       |continue    |cp          |cut         |date        |dd          |df          |diff        |
+|dirs        |du          |echo        |emacs       |env         |eval        |exec        |false       |
+|fdisk       |for         |g++         |gcc         |gdb         |getopts     |grep        |history     |
+|host        |if          |ifconfig    |ip          |jobs        |kill        |ld          |less        |
+|ln          |losetup     |ls          |man         |md5         |mkdir       |mkfs        |more        |
+|mount       |mv          |nano        |netstat     |nice        |nohup       |parted      |partprobe   |
+|pgrep       |pico        |ping        |popd        |printf      |ps          |pushd       |pwd         |
+|readlink    |reboot      |rm          |rmdir       |scp         |sed         |shift       |shutdown    |
+|source      |ssh         |ssh-copy-id |ssh-keygen  |stat        |su          |sudo        |tail        |
+|tar         |tee         |test        |time        |tree        |true        |ulimit      |umount      |
+|uname       |unset       |unxz        |vi          |visudo      |watch       |which       |while       |
+|who         |whoami      |xargs       |xz          |
 
