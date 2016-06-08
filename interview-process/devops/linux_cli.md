@@ -89,3 +89,82 @@ Filesystem           Size  Used Avail Use% Mounted on
 /dev/mapper/loop2p1  6.8M  138K  6.1M   3% /myfile
 ~~~
 
+
+### What could be the causes of High Load in a system and how to solve them?
+## What tools can you use to check all that?
+
+
+# Suggested answers
+
+1. CPU spikes, possible bug or high usage, consider talking to developers, kill the process
+2. Too many processes, reduce the number of processes that can be created by the user (shell limits), kill the process
+3. Too much IO, check all processes and look for status 'D', too many processes with IO operations or io waiting (bad disks)
+4. No high cpu, no high memory, no high IO, consider checking memory health, look for mce.log (memory correctable errors)
+5. Network consumption, this rare is a cause of high load, but consider checking it
+6. 
+
+# Tools
+
+top
+sar
+iostat
+netstat
+uptime
+vmstat
+
+
+### How to increase the number of inodes of a filesystem?
+
+Answer:
+with mkfs (reformat) 
+
+### How to create a new PV Device with LVM
+
+e.g.
+# Get the last end of the partition of the disk, that will be our start 
+parted -s /dev/sda print unit b
+# Create a new partition 
+parted -s /dev/sda mkpart extended XXXXXXB YYYYYYYB
+parted -s /dev/sda5 set lvm on
+# Create the Physical Volume
+pvcreate /dev/sda5
+
+### How to increase an existing LV 1 GB
+
+Answer:
+# Check if there's enough size
+vgdisplay
+
+# Add 1 GB to the LV
+lvextend -L +1G /dev/mapper/vg_sys_lv_myLV
+# or
+lvextend -L +1G /dev/vg_sys/lv_myLV
+
+# Resize partition
+resize2fs /dev/mapper/vg_sys_lv_myLV
+# or
+resize2fs /dev/vg_sys/lv_myLV
+
+### What causes and how to solve the following message
+Too Many open files
+
+# increase shell open files, add to your bash profle
+ulimit -n XXXX
+
+### How to change kernel parameters?
+
+sysctl, echo X >/proc/sys/X/Y
+
+### How to flush memory cache?
+
+echo 1,2,3 >/proc/sys/vm/drop_caches
+
+### How to tell how much memory my system has?
+
+free, look for total memory cache/available
+
+### What is the difference of /proc and /sys FS
+
+/proc is a pseudo fs that holds kernel information in old format
+/sys is a pseudo fs that holds kernel and hardware information in a new format
+
