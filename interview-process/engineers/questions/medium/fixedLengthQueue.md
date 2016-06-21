@@ -27,12 +27,12 @@ print(q.getContents())
 ```
 
 ## Problem observations
-* Check if the candidate creates a FixedQueue class. Is not required, but, is a better aproach.
-* Check if is possible to easily print the contents in instertion order. Some candidates store the data in the wrong order, making it harder.
+* Check if the candidate creates a FixedQueue class. Is not required, but, is a better approach.
+* Check if is possible to easily print the contents in insertion order. Some candidates store the data in the wrong order, making it harder.
 * Check if the structure can be resized. Is not required but reflects a better design.
-* The data type of the queue can be anythig, but, let see how generic can be made.
+* The data type of the queue can be anything, but, let see how generic can be made.
 
 ## Test cases
 * When the queue is empty
 * When the queue is not empty and not full,
-* When the quque is full
+* When the queue is full
