@@ -9,7 +9,13 @@ and its
 - how we do it &mdash; _e.g._, practices, standards, tools, _etc_.
 - why/how we got here &mdash; via commit history, Pull Requests & comments, _etc_.
 
-Please read the [contribution guidelines](CONTRIBUTING.md) for more information.
+Please read the [contribution guidelines](CONTRIBUTING.md) for more information;
+watch this repo
+
+![watch this repo](images/watch-repo.png)
+
+to be notified of conversations, proposals, _etc_. via e-mail so you can
+decide if/when you wish to participate!
 
 ### Repo _vs_ Wiki
 As described in the presentation & slides linked above, things in the **repo** are cultural 'norms', standards,
