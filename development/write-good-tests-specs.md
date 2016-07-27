@@ -1,3 +1,6 @@
+[Home](../README.md) |
+[Development Standards/Practices](README.md)
+
 # Write Good Tests/Specs
 
 When a given test/example fails, [Mocha](https://github.com/mochajs/mocha) (and similar tools)
@@ -82,5 +85,5 @@ describe("feed_model", function () {
 
 Though centered on [RSpec](https://www.relishapp.com/rspec), http://betterspecs.org/ has some suggestions.
 
-[Development Standards/Practices](README.md)<br/>
-[Home](../README.md)
+[Home](../README.md) |
+[Development Standards/Practices](README.md)

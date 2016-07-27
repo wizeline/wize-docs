@@ -1,3 +1,7 @@
+[Home](../../../../README.md) |
+[Interview Process](../../../../README.md) |
+[Engineers](../../README.md)
+
 # Ugly Numbers
 
 "Ugly Numbers" are 1 and those whose prime factors are **only** 2, 3, and 5.
@@ -38,3 +42,7 @@ For example:
 - Despite the examples, some candidates...
   - assume "Ugly" numbers must be multiples of **all** of {2, 3, 5}
   - do not consider powers of any 1 of the factors (_e.g._, 81 = 3<sup>4</sup>)
+
+[Home](../../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../../README.md)

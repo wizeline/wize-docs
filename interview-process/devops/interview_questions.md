@@ -1,3 +1,7 @@
+[Home](../../README.md) |
+[Interview Process](../README.md) |
+[DevOps](README.md)
+
 # Interview Questions
 
 ## DevOps
@@ -79,6 +83,6 @@ The candidate should be aware of the difference between native monitoring, retry
 
 ### Security
 
-[DevOps Interview Process](README.md)<br/>
-[Interview Process](../README.md)<br/>
-[Home](../../README.md)
+[Home](../../README.md) |
+[Interview Process](../README.md) |
+[DevOps](README.md)

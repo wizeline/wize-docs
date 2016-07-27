@@ -1,3 +1,7 @@
+[Home](../../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../../README.md)
+
 # FizzBuzz
 
 Write a function that prints the numbers from 1 to 100, with the following conditions:
@@ -35,3 +39,7 @@ WizeServices
 Wize
 Services
 ```
+
+[Home](../../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../../README.md)

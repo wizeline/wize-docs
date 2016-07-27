@@ -1,3 +1,6 @@
+[Home](../README.md) |
+[Development Standards/Practices](README.md)
+
 # Use GitHub Template files
 
 If, like most projects, you keep your project repo(s) on [GitHub](https://github.com), provide templates for Pull Requests and Issues.
@@ -25,5 +28,5 @@ No, really &mdash; not good enough &mdash; use them.
 ### Client Projects: Highly Recommended
 If your client doesn't already have & use these, "raise the bar" by suggesting them.
 
-[Development Standards/Practices](README.md)<br/>
-[Home](../README.md)
+[Home](../README.md) |
+[Development Standards/Practices](README.md)
