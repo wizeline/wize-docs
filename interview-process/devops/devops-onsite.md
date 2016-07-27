@@ -22,7 +22,7 @@ Make the candidate go through the entire deploy process
 
 ### Previous setup
 
-The Wize Services team should create a simple application (NodeJs or Ruby on Rails), that includes a Database.
+The Wizeline team should create a simple application (NodeJs or Ruby on Rails), that includes a Database.
 
 ### Candidate requirements
 

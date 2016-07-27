@@ -1,4 +1,4 @@
-# Welcome to Wize Services!
+# Welcome to Wizeline!
 
 Based, in part, on this
 [presentation](https://www.youtube.com/watch?v=YIpNpptGX6Q)
