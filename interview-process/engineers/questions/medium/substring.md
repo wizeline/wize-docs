@@ -5,12 +5,12 @@
 # Make substring!
 
 Write a function to determine whether an input string x is a substring of another input string y.
-For example, "bat" is a substring of "abate", but not of "beat". 
+For example, "bat" is a substring of "abate", but not of "beat".
 
 ## Interviewer Statement
 ```
 // Write a function to determine whether an input string x is a substring of another input string y.
-// For example, "bat" is a substring of "abate", but not of "beat". 
+// For example, "bat" is a substring of "abate", but not of "beat".
 ```
 
 ## Observations

@@ -17,11 +17,11 @@ _i.e._,
 ## Interviewer Statement
 ```
 // Write a function to "move" 0s in an input array to the "beginning" and return the resulting array.
-// 
+//
 // For example, if `a`, `b`, _etc_, represent non-zero integers,
-// 
+//
 // `[a, b,  c, 0, d, 0, b, 0] => [0, 0, 0, b, d, a, c, b]`
-// 
+//
 // _i.e._,
 // - preserve the non-zero values
 // - their order does not matter

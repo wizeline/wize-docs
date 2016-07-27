@@ -14,7 +14,7 @@ Write a function to solve the problem between 2 matrices. Matrices could be any 
 ## Problem observations
 - Make sure that you consider the case where you cannot get the product of a pair of matrices. Example:
 
-| 1     | 2     | 3 
+| 1     | 2     | 3
 | ---   | ---   | ---
 | 4     |5      | 6
 

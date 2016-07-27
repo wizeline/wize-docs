@@ -21,7 +21,7 @@ def my_queue(action, value):
 def enqueue(value):
   #Logic to add value
 
-def dequeue(value): 
+def dequeue(value):
   #Logic to remove last inserted value
 
 def size():

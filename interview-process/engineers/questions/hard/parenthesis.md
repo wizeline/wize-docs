@@ -3,6 +3,7 @@
 [Engineers](../../README.md)
 
 # Reverse parenthesis
+
 Write a method that for a given input string, reverse all the characters inside parentheses. Consider nested parentheses.
 
 ## Inteviewer Statement

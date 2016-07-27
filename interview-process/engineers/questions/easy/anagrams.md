@@ -2,7 +2,7 @@
 [Interview Process](../../../README.md) |
 [Engineers](../../README.md)
 
-#Anagram clasification
+# Anagram clasification
 
 Write a function that receives an Array of words and prints a clasification of these words by its anagram.
 

@@ -6,7 +6,6 @@
 
 ## DevOps
 
-
 **Desired Skillset**
 
 *Based on recommendations from Ismael Serratos*
