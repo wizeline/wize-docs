@@ -1,3 +1,7 @@
+[Home](../../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../../README.md)
+
 # Triple Double
 
 Write a function which takes two numbers and returns 1 if there is a straight triple of a number at any
@@ -16,3 +20,7 @@ tripleDouble(1222345, 12345) => 0
 tripleDouble(12345, 12345) => 0
 tripleDouble(666789, 12345667) => 1
 ```
+
+[Home](../../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../../README.md)

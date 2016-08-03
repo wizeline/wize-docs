@@ -1,3 +1,5 @@
+[Home](README.md)
+
 # Contributing to Wize-Docs
 
 - `master` is **'Law'** &mdash; things that the team has discussed and agreed to
@@ -40,3 +42,5 @@ Here are the basic ideas:
   - **propose** and **discuss** changes
   - reach **consensus** and make **decisions**
   - record **why** and **how** changes/decisions were made
+
+[Home](README.md)

@@ -1,3 +1,8 @@
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md)
+[On-site](README.md)
+
 # Tiny URL Challenge
 
 Please...
@@ -67,7 +72,7 @@ Produce a "TinyURL" service:
 - make sure they know how much time is left; offer additional time if it might help<br/>
   _e.g._, if _almost done_ with a last feature or detail, delay lunch by 15-30 minutes
 - offer the candidate snacks, water, coffee, _etc._
-  
+
 ## Presentation Questions / Challenges
 
 Here are some questions/challenges that have come up during candidate presentations.
@@ -78,3 +83,8 @@ Please feel free to use, change, and/or add to them...
 - What features of this framework / library / whatever are most important to you?
 - How many short URLs can your scheme produce?<br/>
   What happens when they have all been generated and I try to generate another?
+
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md)
+[On-site](README.md)

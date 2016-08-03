@@ -1,3 +1,8 @@
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md)
+[On-site](README.md)
+
 # CHALLENGE_NAME Challenge
 
 This is a *guide* for presenting the challenge to the candidate, *not* a document to give to the candidate.
@@ -49,12 +54,17 @@ This is a *guide* for presenting the challenge to the candidate, *not* a documen
     - How is it going?
     - What is working yet?
     - Is there anything you need?
-    
+
 - Observe the following:
   - Does it seem like they'll finish the challenge? At least in some part?
   - Are they stuck on something and, perhaps, shy to ask for help?
   - How do they handle interruptions, unsolicited interactions, _etc_?
-  
+
 - Make sure they know how much time is left; offer additional time if it might help.
   _e.g._, if _almost done_ with a last feature or detail, delay lunch by 15-30 minutes.
 - Offer the candidate snacks, water, coffee, _etc._
+
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md)
+[On-site](README.md)

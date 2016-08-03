@@ -1,3 +1,7 @@
+[Home](../../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../../README.md)
+
 # Implemente a Queue
 
 Write a function that implements a queue using any data structure. Include functionality to enqueue and dequeue a value from the queue.
@@ -17,9 +21,13 @@ def my_queue(action, value):
 def enqueue(value):
   #Logic to add value
 
-def dequeue(value): 
+def dequeue(value):
   #Logic to remove last inserted value
 
 def size():
   #Logic to calculate the queue's size
 ```
+
+[Home](../../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../../README.md)

@@ -1,3 +1,7 @@
+[Home](../../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../../README.md)
+
 # Matrix Product
 
 Write a function to solve the problem between 2 matrices. Matrices could be any size, not necessarily a square.
@@ -10,7 +14,7 @@ Write a function to solve the problem between 2 matrices. Matrices could be any 
 ## Problem observations
 - Make sure that you consider the case where you cannot get the product of a pair of matrices. Example:
 
-| 1     | 2     | 3 
+| 1     | 2     | 3
 | ---   | ---   | ---
 | 4     |5      | 6
 
@@ -26,3 +30,7 @@ Write a function to solve the problem between 2 matrices. Matrices could be any 
 | (1 * 7) + (2 * 9) + (3 * 11)| (1 * 8) + (2 * 10) + (3 * 12) |
 | ----------------------------|------------------------------|
 | (4 * 7) + (5 * 9) + (6 * 11)| (4 * 8) + (5 * 10) + (6 * 12) |
+
+[Home](../../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../../README.md)

@@ -1,3 +1,7 @@
+[Home](../../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../../README.md)
+
 # Moving 0s!
 
 Write a function to "move" 0s in an input array to the "beginning" and return the resulting array.
@@ -13,11 +17,11 @@ _i.e._,
 ## Interviewer Statement
 ```
 // Write a function to "move" 0s in an input array to the "beginning" and return the resulting array.
-// 
+//
 // For example, if `a`, `b`, _etc_, represent non-zero integers,
-// 
+//
 // `[a, b,  c, 0, d, 0, b, 0] => [0, 0, 0, b, d, a, c, b]`
-// 
+//
 // _i.e._,
 // - preserve the non-zero values
 // - their order does not matter
@@ -61,3 +65,7 @@ See how many of these cases the candidate considers on their own (more is better
 
 ## Optional Follow-on Challenge
 If the candidate uses a language that allows pass-by-reference (_e.g._, C, C++, _etc_.) and their solution returns a new array, you may wish to ask them to modify the array in-place.
+
+[Home](../../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../../README.md)

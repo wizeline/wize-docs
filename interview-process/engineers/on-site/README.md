@@ -1,3 +1,7 @@
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md)
+
 # Developer On-Site Interviews
 
 Candidates who do well in the initial interviews are invited for an on-site interview.
@@ -17,7 +21,7 @@ for both the **team and candidate**. The result can be **life-changing** for bot
   may help another team member form their **strong opinion**
 - **focus** when interacting with the candidate &mdash; _e.g._, please avoid "inside jokes" and conversations that may
   exclude the candidate
-  
+
 ### Especially during the Candidate's Presentation, Please...
 
 - **be present** &mdash; _e.g._, avoid focusing on your laptop, other work, Slack, _etc_.
@@ -26,7 +30,7 @@ it's (hopefully!) new and stressful to them
 - **move on** &mdash; don't spend too much time on any one question or issue<br/>
 - **learn** what the candidate does/not know; many candidates do not want/like to say, "I don't know."
   If when they do, please...
-  
+
   - **understand** how difficult it may have been for the candidate to admit that
   - **assume** you have **found the limit** of their knowledge on this topic
   - **resist** the urge to show what else you know about the topic
@@ -34,3 +38,7 @@ it's (hopefully!) new and stressful to them
 ## When in doubt
 
 **Remember** when **you were a candidate** and do what **you would want/hope** the team to do with/for you.
+
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md)

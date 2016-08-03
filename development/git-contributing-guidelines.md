@@ -1,3 +1,6 @@
+[Home](../README.md) |
+[Development Standards/Practices](README.md)
+
 # Git Contributing Guidelines
 
 In order to contribute to a repository there are a few guidelines we'll need to follow whether is a code update, commit message, branch, issue, pull request or git tactics.
@@ -239,5 +242,5 @@ $ git push origin master
 ```
 First we checkout, in this case, to the `master` branch. Next we will do a `merge` with a `non-fast-forward` flag on the desired branch, and finally we push to our remote.
 
-[Development Standards/Practices](README.md)<br/>
-[Home](../README.md)
+[Home](../README.md) |
+[Development Standards/Practices](README.md)
