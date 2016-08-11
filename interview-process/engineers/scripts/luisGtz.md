@@ -3,16 +3,18 @@
 [Engineers](../../README.md) |
 [Interview scripts](../scripts.md)
 
+#Greeting
 
 Hi! My name is Luis Gutiérrez, I’m part of the engineering team on Wizline and I will be conducting this interview, feel free to ask me any questions.
 
-# Icebreaker questions
+# Icebreaker Questions
 
 - <name> how did you decide to study <career>?
 - How did you hear about Wizeline and what is what interests you more about it?
 
+# Interview Problem
 
-You will have approximately 45 minutes to solve the following problem, after that we will have a time for Q&A and closing. I will be evaluating the approach you take to solve the problem, the structure of the code and your ideas, please walk me through it. You can also freely look in the internet for the language documentation. To evaluate you we can do it in two ways, whichever you prefer is ok
+You will have approximately 45 minutes to solve the following problem, after that we will have a time for Q&A and closing. I will be evaluating the approach you take to solve the problem, the structure of the code and your ideas, please walk me through it. You can also freely look in the internet for the language documentation. The evaluation can be done in two ways, whichever you prefer:
 
 - You can share your screen and use your environment to solve the problem.
 - Or I can share a collabedit link with you in which you will code, we cannot execute the code with this approach, but for the first one I will be expecting you to run some test cases.
