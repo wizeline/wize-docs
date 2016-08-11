@@ -1,7 +1,7 @@
 [Home](../../../../README.md) |
 [Interview Process](../../../README.md) |
 [Engineers](../../README.md) |
-[Interview scripts](../../interview-questions.md)
+[Interview Questions](../../interview-questions.md)
 
 # Target Sum
 
@@ -41,4 +41,5 @@ Commonly there are three approaches to the problem:
 
 [Home](../../../../README.md) |
 [Interview Process](../../../README.md) |
-[Engineers](../../README.md)
+[Engineers](../../README.md) |
+[Interview Questions](../../interview-questions.md)
