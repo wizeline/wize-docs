@@ -1,6 +1,7 @@
-[Home](../../../../README.md) |
-[Interview Process](../../../../README.md) |
-[Engineers](../../README.md)
+[Home](../../../README.md) |
+[Interview Process](../../../README.md) |
+[Engineers](../README.md)
+[Interview Questions](README.me)
 
 # Ugly Numbers
 
@@ -38,11 +39,12 @@ For example:
 - Make sure the candidate understands the problem &mdash; _e.g._
   - why the first few (above) are "Ugly"
   - why the numbers not in the list are not "Ugly"
-- Some candidates get "fixated" on using the modulo operator (`%` in many languages) to check 'is a multiple of' (in some cases, perhaps, because of recent(?) experience with the [FizzBuzz](../easy/fizzbuzz.md) problem?)
+- Some candidates get "fixated" on using the modulo operator (`%` in many languages) to check 'is a multiple of' (in some cases, perhaps, because of recent(?) experience with the [FizzBuzz](fizzbuzz.md) problem?)
 - Despite the examples, some candidates...
   - assume "Ugly" numbers must be multiples of **all** of {2, 3, 5}
   - do not consider powers of any 1 of the factors (_e.g._, 81 = 3<sup>4</sup>)
 
-[Home](../../../../README.md) |
-[Interview Process](../../../README.md) |
-[Engineers](../../README.md)
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md)
+[Interview Questions](README.me)

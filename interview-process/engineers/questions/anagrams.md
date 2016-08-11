@@ -1,6 +1,7 @@
-[Home](../../../../README.md) |
-[Interview Process](../../../README.md) |
-[Engineers](../../README.md)
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md)
+[Interview Questions](README.me)
 
 # Anagram clasification
 
@@ -47,6 +48,7 @@ ESPONJA - JAPONES
 ALEXIS - XISELA
 ```
 
-[Home](../../../../README.md) |
-[Interview Process](../../../README.md) |
-[Engineers](../../README.md)
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md)
+[Interview Questions](README.me)

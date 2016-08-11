@@ -1,6 +1,7 @@
-[Home](../../../../README.md) |
-[Interview Process](../../../README.md) |
-[Engineers](../../README.md)
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md)
+[Interview Questions](README.me)
 
 # FizzBuzz
 
@@ -40,6 +41,7 @@ Wize
 line
 ```
 
-[Home](../../../../README.md) |
-[Interview Process](../../../README.md) |
-[Engineers](../../README.md)
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md)
+[Interview Questions](README.me)
