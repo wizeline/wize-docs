@@ -10,6 +10,7 @@ Here is table describing the name of the problem, its difficulty and the expecte
 | ----                                              | --------------------- | -------------
 | [FizzBuzz](questions/easy/fizzbuzz.md)            | Easy                  | 5 min
 | [Validate IPV4](questions/easy/ipv4.md)           | Easy                  | 15 min
+| [Target Sum] (questions/easy/targetSum.md)        | Easy                  | 15 min
 | [Repeated Letters](questions/easy/repLetters.md)  | Easy                  | 20 min
 | [Anagrams](questions/easy/anagrams.md)            | Easy                  | 25 min
 | [Moving 0's](questions/easy/moving0s.md)          | Easy                  | 25 min
