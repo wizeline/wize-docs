@@ -4,6 +4,7 @@
 # Engineers Interview Process
 
 - [Interview Questions](inteview-questions.md)
+- [Interview Scripts](scripts.md)
 
 # On-site
 
