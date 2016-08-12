@@ -11,6 +11,8 @@ Here is table describing the name of the problem, its difficulty and the expecte
 | [FizzBuzz](questions/easy/fizzbuzz.md)            | Easy                  | 5 min
 | [Validate IPV4](questions/easy/ipv4.md)           | Easy                  | 15 min
 | [Repeated Letters](questions/easy/repLetters.md)  | Easy                  | 20 min
+| [Utopian tree](questions/easy/utopianTree.md)     | Easy                  | 20 min
+| [Cut the array](questions/easy/cutTheArray.md)    | Easy                  | 25 min
 | [Anagrams](questions/easy/anagrams.md)            | Easy                  | 25 min
 | [Moving 0's](questions/easy/moving0s.md)          | Easy                  | 25 min
 | [TripleDouble](questions/easy/tripleDouble.md)    | Easy                  | 25 min
