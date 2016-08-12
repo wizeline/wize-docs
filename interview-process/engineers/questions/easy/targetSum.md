@@ -29,18 +29,33 @@ Commonly there are three approaches to the problem:
 
 ## Test cases
 ```
+
+// Easy-introductory cases.
+
+[0, 6, 8, 4], 10
+[6, 4]
+
 [20, 18,  5,  4, 10, 22], 42  
 [20, 22]
+
+// Bonus points if he asks what to do when there are multiple solutions (return first one).
 
 [ 3,  5,  6, 18, 13,  0], 18
 [  5, 13] || [18,  0]
 
-// It would be good if he asks what to return when none match.
-[12,  2,  1,  6, 14,  5], 24
+// Bonus points if he asks what to return when none match (return empty array).
+
+[12, 34, 6, 8], 30
 []
 
 [], 10
 []
+
+// This test case covers a common mistake in solutions which do not take in account validating index repetition on solution, eg. O(n^2) solution.
+
+[12,  2,  1,  6, 14,  5], 24
+[]
+
 ```
 
 ## Solutions
