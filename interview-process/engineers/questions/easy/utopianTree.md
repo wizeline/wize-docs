@@ -4,12 +4,12 @@
 
 # Utopian tree
 
-The Utopian Tree goes through 2 cycles of growth every year. Each spring, it doubles in height. Each summer, its height increases by 1 meter. Meaning 1 growth cycle is spring and 3 growth cycles is spring-summer-spring.
-
-If someone plants a utopian tree with an initial height of 1 meter, how tall will it be after N growth cycles.
-
 ## Interviewer Statement
 ```
+// The Utopian Tree goes through 2 cycles of growth every year. Each spring, it doubles in height. Each summer, its
+// height increases by 1 meter. Meaning 1 growth cycle is spring and 3 growth cycles is spring-summer-spring.
+// If someone plants a utopian tree with an initial height of 1 meter, how tall will it be after N growth cycles.
+
 // Write a function which prints the height of a utopian tree after N cycles.
 // your function will receive an integer number N
 ```
@@ -29,7 +29,7 @@ first growth cycle is spring so it doubles its height (2), 2nd growth cycle is s
 
 ## Observations
 
-- This problem shouldn't be considered as a math problem. The thing here is that the candidate has to figure it out that in an even iteration the tree grows double its height `(*= 2)` and in an odd iteration its height grows 1 meter `(+=1)`. 
+- This problem shouldn't be considered as a math problem. The thing here is that the candidate has to figure it out that in an even iteration the tree grows double its height `(*= 2)` and in an odd iteration its height grows 1 meter `(+=1)`.
 
 ## Possible solutions
 
