@@ -9,7 +9,8 @@ Hi! My name is Luis Gutiérrez, I’m part of the engineering team on Wizline an
 
 # Icebreaker Questions
 
-- <name> how did you decide to study <career>?
+- <name> what technologies are you passionate about?
+- Tell me about your best day at work.
 - How did you hear about Wizeline and what is what interests you more about it?
 
 # Interview Problem

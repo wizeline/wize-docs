@@ -23,20 +23,53 @@ Commonly there are three approaches to the problem:
 
 ## Observations
 - Users should quickly notice the worst case solution, if they don’t consider this a red flag.
-- You may want to give him a hint about using data structures (hash table) if you don’t see any improvement after worst case solution.
+- You may want to give him a hint about using data structures if you don’t see any improvement after worst case solution.
+- The questions someone asks at the beginning are almost as important as their eventual solution and problem solving approach. Clarifying questions are a window into how they'll work when giving a task within a team.
 
 
 ## Test cases
 ```
-[20, 18,  5,  4, 10, 22]  42  
+[20, 18,  5,  4, 10, 22], 42  
 [20, 22]
 
-[ 3,  5,  6, 18, 13,  0]  18
+[ 3,  5,  6, 18, 13,  0], 18
 [  5, 13] || [18,  0]
 
 // It would be good if he asks what to return when none match.
-[12,  2,  1,  6, 14,  5]  24
+[12,  2,  1,  6, 14,  5], 24
 []
+
+[], 10
+[]
+```
+
+## Solutions
+
+Worst case O(n^2):
+
+- For every element x in the array, iterate over every element y and check for target sum t (x + y == t), excluding same index.
+
+Good one   O(n log n) - rarely seen:
+
+- Sort array
+- For every element e in the array, binary search for the complement (target - e)
+- Both operations are O(n log n).
+
+Best case  O(n):
+ - For every element e in the array, use a hash to store complement (target - e) as key and e as value.
+ - Return [key e, value] if e is an existing key.
+
+```
+def targetSum(array, target)
+  hash = {}
+
+  array.each do |x|
+    return [x, hash[x]] if hash.has_key? x
+    hash[target - x] = x
+  end
+
+  return []
+end
 ```
 
 [Home](../../../../README.md) |
