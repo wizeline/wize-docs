@@ -51,6 +51,7 @@ With a fifth iteration, all the elements would be less than 0, so the program en
 
 - As we don't care about the numbers less or equals 0, you can let them out (so in the example, the 3rd iteration would be `[ 1, 3 ]`)
 - As the order doesn't matter, the candidate can order the array to get the lowest item.
+- The main problem for the candidate is to figure it out than in an even iteration the tree doubles its height and in an odd iteration the tree grows 1 meter ( += 1 ). It doesn't have to be a math problem only.
 
 
 ## Possible solutions
