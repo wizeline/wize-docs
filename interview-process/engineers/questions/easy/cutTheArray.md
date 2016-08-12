@@ -1,16 +1,15 @@
 # Cut the Array
 
-You are given an array (or List, it doesn't matter) of positive integer numbers greater than 0.
-A *cut* operation is performed such all the elements of the array are reduced by the lowest element on it.
-
-Example of cut operation:
-array: `[ 2,3,4,5,2 ]`
-lowest item: `2`
-array after cut operation: `[ 0,1,2,3,0 ]`
-
 ## Interviewer Statement
 
 ```
+// You are given an array (or List, it doesn't matter) of integer numbers greater than 0.
+// A cut operation is performed such all the elements of the array are reduced by the lowest element on it.
+// Example of cut operation:
+// array: [ 2,3,4,5,2 ]
+// lowest item: 2
+// array after cut operation: [ 0,1,2,3,0 ]
+
 // write a function that performs a cut operation on an array until all the elements of the array are 0
 // the function will return the number of elements greater than 0 on each iteration
 ```
