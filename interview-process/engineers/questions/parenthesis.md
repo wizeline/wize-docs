@@ -1,7 +1,7 @@
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
-[Engineers](../README.md)
-[Interview Questions](README.me)
+[Engineers](../README.md) |
+[Interview Questions](README.md)
 
 # Reverse parenthesis
 
@@ -24,5 +24,5 @@ foo(bar(baz))blim => foo(barzab)blim => foobazrabblim
 
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
-[Engineers](../README.md)
-[Interview Questions](README.me)
+[Engineers](../README.md) |
+[Interview Questions](README.md)

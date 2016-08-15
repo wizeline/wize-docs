@@ -1,7 +1,7 @@
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
-[Engineers](../README.md)
-[Interview Questions](README.me)
+[Engineers](../README.md) |
+[Interview Questions](README.md)
 
 # Moving 0s!
 
@@ -69,5 +69,5 @@ If the candidate uses a language that allows pass-by-reference (_e.g._, C, C++, 
 
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
-[Engineers](../README.md)
-[Interview Questions](README.me)
+[Engineers](../README.md) |
+[Interview Questions](README.md)

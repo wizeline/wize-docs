@@ -1,7 +1,7 @@
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
-[Engineers](../README.md)
-[Interview Questions](README.me)
+[Engineers](../README.md) |
+[Interview Questions](README.md)
 
 # Reverse words
 
@@ -20,5 +20,5 @@ Write a method that for a given input, reverse all words. *Avoid the use of buil
 
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
-[Engineers](../README.md)
-[Interview Questions](README.me)
+[Engineers](../README.md) |
+[Interview Questions](README.md)

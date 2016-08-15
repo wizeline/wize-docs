@@ -1,7 +1,7 @@
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
-[Engineers](../README.md)
-[Interview Questions](README.me)
+[Engineers](../README.md) |
+[Interview Questions](README.md)
 
 # Integer Adder
 
@@ -24,5 +24,5 @@ integerAdder([2, 5], [2, 5]) => [5, 0]
 
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
-[Engineers](../README.md)
-[Interview Questions](README.me)
+[Engineers](../README.md) |
+[Interview Questions](README.md)
