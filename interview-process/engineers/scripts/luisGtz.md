@@ -20,6 +20,8 @@ You will have approximately 45 minutes to solve the following problem, after tha
 - You can share your screen and use your environment to solve the problem.
 - Or I can share a collabedit link with you in which you will code, we cannot execute the code with this approach, but for the first one I will be expecting you to run some test cases.
 
+*NOTE:* _At the end of the interview, ask them to package and send their code if they did not proceed with Collabedit._
+
 # Closing
 
 So now you can ask about things you may want to know, this is your first time in front of a Wizeline engineer so you may have questions for me that you could not do to in the manager phone screen, feel free to ask anything.
