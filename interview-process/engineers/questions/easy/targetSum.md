@@ -9,7 +9,8 @@ Write an algorithm to check if the sum of any two numbers in an array/list match
 
 ## Interviewer Statement
 ```
-// Write an algorithm to check if the sum of any two numbers in an array/list matches a given target, and return them in an array.
+// Write an algorithm to check if the sum of any two elements in an array/list matches a given target,
+// and return their indexes in an array.
 ```
 
 ## Problem considerations
@@ -33,28 +34,28 @@ Commonly there are three approaches to the problem:
 // Easy-introductory cases.
 
 [0, 6, 8, 4], 10
-[6, 4]
+[ 1, 3]
 
 [20, 18,  5,  4, 10, 22], 42  
-[20, 22]
+[ 0, 5]
 
 // Bonus points if he asks what to do when there are multiple solutions (return first one).
 
 [ 3,  5,  6, 18, 13,  0], 18
-[  5, 13] || [18,  0]
+[ 1, 4] || [ 3,  5]
 
 // Bonus points if he asks what to return when none match (return empty array).
 
 [12, 34, 6, 8], 30
-[]
+[ ]
 
 [], 10
-[]
+[ ]
 
 // This test case covers a common mistake in solutions which do not take in account validating index repetition on solution, eg. O(n^2) solution.
 
 [12,  2,  1,  6, 14,  5], 24
-[]
+[ ]
 
 ```
 
@@ -78,9 +79,9 @@ Best case  O(n):
 def targetSum(array, target)
   hash = {}
 
-  array.each do |x|
-    return [x, hash[x]] if hash.has_key? x
-    hash[target - x] = x
+  array.each_with_index do |val, index|
+    return [index, hash[val]] if hash.has_key? val
+    hash[target - val] = index
   end
 
   return []
