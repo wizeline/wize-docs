@@ -47,15 +47,15 @@ Commonly there are three approaches to the problem:
 // Bonus points if he asks what to return when none match (return empty array).
 
 [12, 34, 6, 8], 30
-[ ]
+[-1, -1]
 
 [], 10
-[ ]
+[-1, -1]
 
 // This test case covers a common mistake in solutions which do not take in account validating index repetition on solution, eg. O(n^2) solution.
 
 [12,  2,  1,  6, 14,  5], 24
-[ ]
+[-1, -1]
 
 ```
 
@@ -76,6 +76,8 @@ Best case  O(n):
  - Return [key e, value] if e is an existing key.
 
 ```
+// Ruby O(n)
+
 def targetSum(array, target)
   hash = {}
 
@@ -84,8 +86,51 @@ def targetSum(array, target)
     hash[target - val] = index
   end
 
-  return []
+  return [-1, -1]
 end
+
+-----------------------------------------------------------
+
+// Java O(n^2)
+
+public static int[] targetSum(int[] array, int target) {
+
+  int[] answer = new int[]{-1, -1};
+
+  for(int i = 0; i < array.length; i++){
+    for(int j = 0; j < array.length; j++){
+      if(i == j) continue;
+      if(array[i] + array[j] == target){
+        answer[0] = i;
+        answer[1] = j;
+        return answer;
+      }
+    }
+  }
+
+  return answer;
+}
+
+-----------------------------------------------------------
+
+// Java O(n)
+
+public static int[] targetSum(int[] array, int target) {
+
+  Map<Integer,Integer> map =new HashMap<Integer,Integer>();
+  int[] answer = new int[]{-1, -1};
+
+  for(int i = 0; i < array.length; i++){
+    if(map.containsKey(array[i])){
+      answer[0] = map.get(array[i]);
+      answer[1] = i;
+      return answer;
+    }
+    map.put(target - array[i], i);
+  }
+
+  return answer;
+}
 ```
 
 [Home](../../../../README.md) |
