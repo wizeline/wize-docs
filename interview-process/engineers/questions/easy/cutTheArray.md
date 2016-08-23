@@ -4,7 +4,7 @@
 
 ```
 // You are given an array (or List, it doesn't matter) of integer numbers greater than 0.
-// A cut operation is performed such all the elements of the array are reduced by the lowest element on it.
+// A cut operation means that each number in the array is decreased by the lowest element in the array.
 // Example of cut operation:
 // array: [ 2,3,4,5,2 ]
 // lowest item: 2
