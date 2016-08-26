@@ -1,6 +1,7 @@
-[Home](../../../../README.md) |
-[Interview Process](../../../README.md) |
-[Engineers](../../README.md)
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md) |
+[Interview Questions](README.md)
 
 # Triple Double
 
@@ -21,6 +22,7 @@ tripleDouble(12345, 12345) => 0
 tripleDouble(666789, 12345667) => 1
 ```
 
-[Home](../../../../README.md) |
-[Interview Process](../../../README.md) |
-[Engineers](../../README.md)
+[Home](../../../README.md) |
+[Interview Process](../../README.md) |
+[Engineers](../README.md) |
+[Interview Questions](README.md)
