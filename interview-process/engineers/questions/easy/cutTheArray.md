@@ -3,15 +3,15 @@
 ## Interviewer Statement
 
 ```
-// You are given an array (or List, it doesn't matter) of integer numbers greater than 0.
-// A cut operation means that each number in the array is decreased by the lowest element in the array.
+// A cut operation substracts the lowest element of the array to each number in that array.
 // Example of cut operation:
 // array: [ 2,3,4,5,2 ]
 // lowest item: 2
 // array after cut operation: [ 0,1,2,3,0 ]
-
-// write a function that performs a cut operation on an array until all the elements of the array are 0
-// the function will return the number of elements greater than 0 on each iteration
+// Problem:
+// You have an array or list of integer numbers greater than 0.
+// Write a function that performs a cut operation until all the elements of the array are 0.
+// The function must return the number of elements greater than 0 on each iteration
 ```
 
 ## Test cases
@@ -28,34 +28,35 @@ Output:
 ```
 
 Explanation:
-On the first iteration all the elements are greater than 0, so the result is 6.
+
+First iteration: all the elements are greater than 0. The result is 6.
 
 Second iteration:
-the resulting array after perfomed the cut operation is
+The array after the cut operation is
 `[ 0, 1, 2, 0, 1, 4 ]`
-So the elements greater than 0 are 4.
+The elements greater than 0 are 4.
 
 Third iteration:
 The array after the cut operation is:
 `[ -1, 0, 1, -1, 0, 3 ]`
-So the elements greater than 0 are 2.
+The elements greater than 0 are 2.
 
 Fourth iteration:
 The array after the cut operation is:
 `[ -2, -1, 0, -2, -1, 2 ]`
-So the elements greater than 0 is just 1.
+The elements greater than 0 is just 1.
 
-With a fifth iteration, all the elements would be less than 0, so the program ends.
+If running a 5th iteration, all the elements would be less than 0, so the program ends.
 
 ## Observations
 
-- As we don't care about the numbers less or equals 0, you can let them out (so in the example, the 3rd iteration would be `[ 1, 3 ]`)
-- As the order doesn't matter, the candidate can order the array to get the lowest item.
+- You can leave out numbers that are less or equal to 0. For example, the 3rd iteration would be [1, 3].
+- The order of the array does not matter, the candidate can order the array to get the lowest item.
 
 
 ## Possible solutions
 
-### Fine solution
+### Fine solution O(n^2)
 
 ```
 public List<Integer> cutTheSticks(List<Integer> nums, int shortest) {
@@ -81,7 +82,7 @@ public void printIterations(List<Integer> nums) {
 }
 ```
 
-### Better solution
+### Better solution O(n)
 
 ```
 public void printIterations(List<Integer> nums) {
