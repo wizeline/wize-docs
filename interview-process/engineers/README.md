@@ -3,7 +3,7 @@
 
 # Engineers Interview Process
 
-- [Interview Questions](inteview-questions.md)
+- [Interview Questions](questions/README.md)
 
 # On-site
 
