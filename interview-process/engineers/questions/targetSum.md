@@ -75,11 +75,9 @@ Best case  O(n):
  - For every element e in the array, use a hash to store complement (target - e) as key and e as value.
  - Return [key e, value] if e is an existing key.
 
-```
 
- ---------------------------------------------------------
-| JavaScript                                              |
- ---------------------------------------------------------
+### JavaScript
+```javascript
 
 // O(n)
 // Check he uses (key in obj) to check for key existence, because if he checks
@@ -111,13 +109,12 @@ function targetSum(array, target) {
 
   return [-1, -1];
 }
+```
 
+### Ruby
+```ruby
 
- ---------------------------------------------------------
-| Ruby                                                    |
- ---------------------------------------------------------
-
-// O(n)
+# O(n)
 
 def targetSum(array, target)
   hash = {}
@@ -130,7 +127,7 @@ def targetSum(array, target)
   return [-1, -1]
 end
 
-// O(n^2)
+# O(n^2)
 
 def targetSum(array, target)
   array.each_with_index do |valI, i|
@@ -143,10 +140,10 @@ def targetSum(array, target)
   return [-1, -1]
 end
 
+```
 
- ---------------------------------------------------------
-| Java                                                    |
- ---------------------------------------------------------
+### Java
+```java
 
 // O(n)
 
@@ -186,7 +183,6 @@ public static int[] targetSum(int[] array, int target) {
 
   return answer;
 }
-
 
 ```
 
