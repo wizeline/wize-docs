@@ -3,8 +3,8 @@
 
 # Engineers Interview Process
 
-- [Interview Questions](interview-questions.md)
-- [Interview Scripts](scripts.md)
+- [Interview Questions](questions/README.md)
+- [Interview Scripts](scripts/README.md)
 
 # On-site
 
