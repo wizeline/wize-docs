@@ -76,7 +76,48 @@ Best case  O(n):
  - Return [key e, value] if e is an existing key.
 
 ```
-// Ruby O(n)
+
+ ---------------------------------------------------------
+| JavaScript                                              |
+ ---------------------------------------------------------
+
+// O(n)
+// Check he uses (key in obj) to check for key existence, because if he checks
+// like these: (obj[key]) the condition will be false if the value is a 0.
+
+function targetSum(array, target) {
+  var hash = {};
+  var val;
+
+  for (index = 0; index < array.length; index++) {
+    val = array[index];
+    if(val in hash) return [hash[val], index]; // Check he checks
+    hash[target - val] = index;
+  }
+
+  return [-1, -1];
+}
+
+// O(n^2)
+
+function targetSum(array, target) {
+
+  for (i = 0; i < array.length; i++) {
+    for (j = 0; j < array.length; j++) {
+      if(i === j) continue;
+      if(array[i] + array[j] === target) return [i, j];
+    }
+  }
+
+  return [-1, -1];
+}
+
+
+ ---------------------------------------------------------
+| Ruby                                                    |
+ ---------------------------------------------------------
+
+// O(n)
 
 def targetSum(array, target)
   hash = {}
@@ -89,9 +130,44 @@ def targetSum(array, target)
   return [-1, -1]
 end
 
------------------------------------------------------------
+// O(n^2)
 
-// Java O(n^2)
+def targetSum(array, target)
+  array.each_with_index do |valI, i|
+    array.each_with_index do |valJ, j|
+      next if i == j
+      return [i, j] if valI + valJ == target
+    end
+  end
+
+  return [-1, -1]
+end
+
+
+ ---------------------------------------------------------
+| Java                                                    |
+ ---------------------------------------------------------
+
+// O(n)
+
+public static int[] targetSum(int[] array, int target) {
+
+  Map<Integer,Integer> map =new HashMap<Integer,Integer>();
+  int[] answer = new int[]{-1, -1};
+
+  for(int i = 0; i < array.length; i++){
+    if(map.containsKey(array[i])){
+      answer[0] = map.get(array[i]);
+      answer[1] = i;
+      return answer;
+    }
+    map.put(target - array[i], i);
+  }
+
+  return answer;
+}
+
+// O(n^2)
 
 public static int[] targetSum(int[] array, int target) {
 
@@ -111,26 +187,7 @@ public static int[] targetSum(int[] array, int target) {
   return answer;
 }
 
------------------------------------------------------------
 
-// Java O(n)
-
-public static int[] targetSum(int[] array, int target) {
-
-  Map<Integer,Integer> map =new HashMap<Integer,Integer>();
-  int[] answer = new int[]{-1, -1};
-
-  for(int i = 0; i < array.length; i++){
-    if(map.containsKey(array[i])){
-      answer[0] = map.get(array[i]);
-      answer[1] = i;
-      return answer;
-    }
-    map.put(target - array[i], i);
-  }
-
-  return answer;
-}
 ```
 
 [Home](../../../../README.md) |
