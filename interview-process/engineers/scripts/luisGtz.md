@@ -5,7 +5,7 @@
 
 #Greeting
 
-Hi! My name is Luis Gutiérrez, I’m part of the engineering team on Wizline and I will be conducting this interview, feel free to ask me any questions.
+Hi! My name is Luis Gutiérrez, I’m part of the engineering team on Wizeline and I will be conducting this interview, feel free to ask me any questions.
 
 # Icebreaker Questions
 
