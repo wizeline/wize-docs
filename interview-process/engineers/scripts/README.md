@@ -6,9 +6,10 @@
 
 Here is a table with a variety of interview scripts of our interviewers.
 
-| Name                                  
-| ----                                  
+| Name
+| ----
 | [Luis Eduardo Gtz](luisGtz.md)
+| [Patrick Sears](psears.md)
 
 [Home](../../README.md) |
 [Interview Process](../README.md) |
