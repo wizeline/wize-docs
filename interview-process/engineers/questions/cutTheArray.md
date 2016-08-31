@@ -3,7 +3,7 @@
 ## Interviewer Statement
 
 ```
-// A cut operation substracts the lowest element of the array to each number in that array.
+// A cut operation substracts the lowest element of the array from each number in that array.
 // Example of cut operation:
 // array: [ 2,3,4,5,2 ]
 // lowest item: 2
