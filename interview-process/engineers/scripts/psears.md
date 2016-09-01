@@ -5,6 +5,8 @@
 
 #Greeting
 
+(Offer the candidate water, coffee etc. If you are meeting them at the door and taking them to the interview room, explain to them what they are seeing as you go there. Get them excited about the facilities!)
+
 Hi `<name>`, my name is Patrick and I’m part of the product engineering team at Wizeline. The interview will consists of a few minutes for me to get to know you, and then I'll have you solve a coding problem or two, depending on time. After that you'll have a chance to ask me some questions.
 
 # Icebreaker Questions - 10 minutes
