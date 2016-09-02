@@ -27,6 +27,9 @@ Produce a "TinyURL" service:
 - have some some kind of front-end
 - select and use appropriate tools, frameworks, _etc_., to implement the server backend
 - talk through the system design before beginning (in part to make sure they understand the problem!)
+- consider and be prepared to discuss how to support&hellip;
+  - 1,000+ concurrent requests
+  - 1,000,000+ unique short URLs
 
 ## "Nice to Have" / "Bonus Points"
 
