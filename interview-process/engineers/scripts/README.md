@@ -2,7 +2,7 @@
 [Interview Process](../README.md) |
 [Engineers](README.md)
 
-# Interview Questions
+# Interview Scripts
 
 Here is a table with a variety of interview scripts of our interviewers.
 
