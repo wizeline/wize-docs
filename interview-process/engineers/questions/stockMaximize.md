@@ -53,13 +53,14 @@ f([48051 22111 63634 11658 17152 38593 33637 45902 8595 16570 29021 10651 94392 
 
 ## Possible solution
 ```python
-def getProfit(a):
+def getProfit(stock_price_predictions):
     stocks = 0
     earned = 0
     spent = 0
-    number_of_days = len(a)
+    number_of_days = len(stock_price_predictions)
     # get optimal stock sale day and price on that day
-    max_stock_trade_day, max_stock_trade_price = getNewMax(0, a)
+    new_max_stock = getNewMax(stock_price_predictions)
+    max_stock_trade_day, max_stock_trade_price = new_max_stock
     for current_day in range(number_of_days):
         # if it's sale day
         if current_day == max_stock_trade_day:
@@ -68,11 +69,9 @@ def getProfit(a):
             stocks = 0
             # get new optimal stock sale day and stock price
             if current_day + 1 < number_of_days:
-                new_max_stock = getNewMax(current_day + 1, a)
+                next_day = current_day + 1
+                new_max_stock = getNewMax(stock_price_predictions, next_day)
                 max_stock_trade_day, max_stock_trade_price = new_max_stock
-            else:
-                max_stock_trade_day = number_of_days - 1
-                max_stock_trade_price = a[number_of_days - 1]
         else:
             # buy one stock
             spent += a[current_day]
@@ -81,12 +80,12 @@ def getProfit(a):
     return earned - spent
 
 
-def getNewMax(current_day, a):
-    number_of_days = len(a)
+def getNewMax(stock_price_predictions, current_day=0):
+    number_of_days = len(stock_price_predictions)
     new_max_stock_trade_day = current_day
-    new_max_stock_trade_price = a[current_day]
+    new_max_stock_trade_price = stock_price_predictions[current_day]
     for remaining_day in range(current_day + 1, number_of_days):
-        if a[remaining_day] >= new_max_stock_trade_price:
+        if stock_price_predictions[remaining_day] >= new_max_stock_trade_price:
             new_max_stock_trade_day = remaining_day
             new_max_stock_trade_price = a[remaining_day]
     return (new_max_stock_trade_day, new_max_stock_trade_price)
