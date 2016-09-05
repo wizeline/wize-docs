@@ -39,6 +39,24 @@ function reverse(str) {
 'A laborer' => 'rerobal A'
 ```
 
+Including edge/corner cases:
+```
+null => null (or language equivalent)
+undefined => undefined (or ''. Bonus points if they ask what it should do in these cases [requirements gathering])
+// Non-strings in weakly-typed languages. They don't need to support these immediately, a defensive check
+// in the function before solving is enough, give credit if they include it or if they add it when
+// asked about testing.
+[] => ?
+{} => ?
+123 => ?
+// Non-ascii characters:
+'Abc🌎' => '🌎cbA'
+// Very large inputs - an extension to the original answer.
+// There are many ways to do this so you must decide if their answer is appropriate. Not expecting them
+// to code this, but a reasonable description of an approach is a good step.
+'some string 100,000,000 chars in length' => properly reversed without taking down the machine
+```
+
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
 [Engineers](../README.md) |
