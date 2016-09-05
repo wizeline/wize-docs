@@ -74,7 +74,7 @@ def getProfit(stock_price_predictions):
                 max_stock_trade_day, max_stock_trade_price = new_max_stock
         else:
             # buy one stock
-            spent += a[current_day]
+            spent += stock_price_predictions[current_day]
             stocks += 1
     # return profit
     return earned - spent
