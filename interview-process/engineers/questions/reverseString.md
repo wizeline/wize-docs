@@ -40,15 +40,18 @@ function reverse(str) {
 ```
 
 Including edge/corner cases:
+(Bonus points if they ask what it should do in these cases [requirements gathering])
 ```
 null => null (or language equivalent)
-undefined => undefined (or ''. Bonus points if they ask what it should do in these cases [requirements gathering])
+undefined => undefined
+
 // Non-strings in weakly-typed languages. They don't need to support these immediately, a defensive check
 // in the function before solving is enough, give credit if they include it or if they add it when
 // asked about testing.
 [] => ?
 {} => ?
 123 => ?
+
 // Non-ascii characters:
 'Abc🌎' => '🌎cbA'
 // Very large inputs - an extension to the original answer.
