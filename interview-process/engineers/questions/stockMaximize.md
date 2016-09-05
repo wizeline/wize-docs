@@ -68,8 +68,8 @@ def getProfit(stock_price_predictions):
             earned += stocks * max_stock_trade_price
             stocks = 0
             # get new optimal stock sale day and stock price
-            if current_day + 1 < number_of_days:
-                next_day = current_day + 1
+            next_day = current_day + 1
+            if next_day < number_of_days:
                 new_max_stock = getNewMax(stock_price_predictions, next_day)
                 max_stock_trade_day, max_stock_trade_price = new_max_stock
         else:
