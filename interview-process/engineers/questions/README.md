@@ -20,6 +20,7 @@ Here is table describing the name of the problem, its difficulty and the expecte
 | [Queue](queue.md)                  | Medium                | 30 min
 | [Ugly Numbers](uglyNumbers.md)     | Medium                | 30 min
 | [Reverse Words](reverseWords.md)   | Medium                | 30 min
+| [Stock Maximize](stockMaximize.md) | Medium                | 30 min
 | [Integer Adder](intAdder.md)       | Medium                | 35 min
 | [Substring](substring.md)          | Medium                | 40 min
 |
