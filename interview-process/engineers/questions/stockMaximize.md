@@ -30,8 +30,11 @@ A candidate may take a while to actually write the code, but from early on they 
 
 ## Observations
 - This problem has two main approaches:
+- This problem has four main approaches:
     - Go through each member of the list, and deciding on each day if one should buy, sell, or do nothing based on the following days (this is not very efficient)
     - Find the best day to sell among the remaining days to decide, buy stock each day until sell day, on that day sell all stock, and repeat (this is more efficient)
+    - Create a record of the highest stock prices and the day they appear on, and calculate the profit based on such record (more time efficient, requires more space)
+    - Traverse the list from last day to first, if the price is the highest price seen, set it as the max, otherwise, add to the profits the difference between max stock price and the current stock price (this is probably the most efficient)
 
 ## Test cases
 ```
