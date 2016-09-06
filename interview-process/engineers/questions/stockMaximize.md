@@ -29,7 +29,6 @@ Based on [this hackerrank problem](https://www.hackerrank.com/challenges/stockma
 A candidate may take a while to actually write the code, but from early on they should be able to explain to the interviewer how they plan to approach the problem and how they plan to code the proposed solution
 
 ## Observations
-- This problem has two main approaches:
 - This problem has four main approaches:
     - Go through each member of the list, and deciding on each day if one should buy, sell, or do nothing based on the following days (this is not very efficient)
     - Find the best day to sell among the remaining days to decide, buy stock each day until sell day, on that day sell all stock, and repeat (this is more efficient)
