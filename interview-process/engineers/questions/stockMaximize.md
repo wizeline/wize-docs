@@ -53,7 +53,7 @@ f([48051 22111 63634 11658 17152 38593 33637 45902 8595 16570 29021 10651 94392 
 // For the third case, you can buy one share on day 1, sell one on day 2, buy one share on day 3, and sell one share on day 4.
 ```
 
-## Possible solution
+## Possible solutions
 ```python
 def getProfit(stock_price_predictions):
     stocks = 0
@@ -93,6 +93,21 @@ def getNewMax(stock_price_predictions, current_day=0):
     return (new_max_stock_trade_day, new_max_stock_trade_price)
 
 ```
+
+```python
+def getProfit(stock_price_predictions):
+    profit = 0
+    max_stock_trade_price = stock_price_predictions.pop()
+    while len(stock_price_predictions):
+        current_stock_trade_price = stock_price_predictions.pop()
+        if current_stock_trade_price <= max_stock_trade_price:
+            profit += max_stock_trade_price - current_stock_trade_price
+        else:
+            max_stock_trade_price = current_stock_trade_price
+    return profit
+
+```
+
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
 [Engineers](../README.md) |
