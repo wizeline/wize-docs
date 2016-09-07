@@ -98,7 +98,7 @@ def getNewMax(stock_price_predictions, current_day=0):
 def getProfit(stock_price_predictions):
     profit = 0
     max_stock_trade_price = stock_price_predictions.pop()
-    while len(stock_price_predictions):
+    while stock_price_predictions:
         current_stock_trade_price = stock_price_predictions.pop()
         if current_stock_trade_price <= max_stock_trade_price:
             profit += max_stock_trade_price - current_stock_trade_price
