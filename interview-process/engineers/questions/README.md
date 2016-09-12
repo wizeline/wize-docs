@@ -9,6 +9,7 @@ Here is table describing the name of the problem, its difficulty and the expecte
 | Name                               | (Expected) Difficulty | Expected time
 | ----                               | --------------------- | -------------
 | [FizzBuzz](fizzbuzz.md)            | Easy                  | 5 min
+| [Reverse String](reverseString.md) | Easy                  | 10 min
 | [Validate IPV4](ipv4.md)           | Easy                  | 15 min
 | [Repeated Letters](repLetters.md)  | Easy                  | 20 min
 | [Anagrams](anagrams.md)            | Easy                  | 25 min
