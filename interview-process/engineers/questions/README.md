@@ -17,6 +17,7 @@ Here is table describing the name of the problem, its difficulty and the expecte
 | [Moving 0's](moving0s.md)          | Easy                  | 25 min
 | [TripleDouble](tripleDouble.md)    | Easy                  | 25 min
 | [Target Sum] (targetSum.md)        | Easy                  | 25 min
+| [Cut the array](cutTheArray.md)    | Easy                  | 30 min
 |
 | [Brackets](brackets.md)            | Medium                | 25 min
 | [Queue](queue.md)                  | Medium                | 30 min
