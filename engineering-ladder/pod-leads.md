@@ -1,5 +1,5 @@
 [Home](../README.md) |
-[Engineering Ladder](README.md)
+[Engineering Ladder](README.md) |
 [Pod Leads](pod-leads.md)
 
 # Pod Leads Position Overview
@@ -61,5 +61,5 @@ To learn more about what is expected from the role, or, to enroll on the leaders
 [Original Document](https://docs.google.com/document/d/1e0eNQJvLI0BqwrmVbEMKomBONTMOUT3y7S_vn5dLGWk/edit)
 
   [Home](../README.md) |
-  [Engineering Ladder](README.md)
+  [Engineering Ladder](README.md) |
   [Pod Leads](pod-leads.md)
