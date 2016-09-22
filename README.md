@@ -18,6 +18,7 @@ via e-mail so you can decide if/when you wish to participate!
 
 ## Sections
 
+- [Engineering Ladder](engineering-ladder/README.md)
 - [Development practices](development/README.md)
 - [Interviewing/Hiring](interview-process/README.md)
 - [Onboarding](onboarding.md)
