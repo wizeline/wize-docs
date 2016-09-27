@@ -7,9 +7,14 @@
 
 ## Interviewer Statement
 ```
+// Anagrams are words with exactly the same letters in different order
+// e.g., AMOR, ROMA, and MORA
+//
 // Write a function that...
 // - receives an Array of words
 // - prints the sets of anagrams
+//   - one set per line
+//   - separated by ' - '
 //
 // e.g.,
 //
