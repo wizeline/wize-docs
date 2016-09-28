@@ -186,7 +186,7 @@ public static int[] targetSum(int[] array, int target) {
 
 ```
 
-### Java
+### PHP
 ```php
 
 // O(n)
