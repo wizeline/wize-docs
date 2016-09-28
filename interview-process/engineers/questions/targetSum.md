@@ -186,7 +186,32 @@ public static int[] targetSum(int[] array, int target) {
 
 ```
 
+### Java
+```php
+
+// O(n)
+
+<?php
+
+function targetSum($array, $target) {
+  $hash = array();
+
+  foreach ($array as $index=>$value) {
+    if(array_key_exists($value, $hash)) return array($hash[$value], $index);
+    $hash[$target - $value] = $index;
+  }
+
+  return array();
+
+}
+
+?>
+
+```
+
+
 [Home](../../../../README.md) |
 [Interview Process](../../../README.md) |
 [Engineers](../../README.md) |
 [Interview Questions](../../interview-questions.md)
+g
