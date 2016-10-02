@@ -82,7 +82,8 @@ public void printIterations(List<Integer> nums) {
 }
 ```
 
-### Better solution O(n)
+### Better solution O(n lg n)
+Let's not forget that general sorting is `O(n lg n)`. The only way for this solution to become `O(n)` is if we can do a counting sort (`O(n + k)`), but that requires the additional assumption that elements in the array are in a somewhat small range relative to `n` (`k` is the upper bound of the range.)
 
 ```
 public void printIterations(List<Integer> nums) {
