@@ -52,6 +52,7 @@ If running a 5th iteration, all the elements would be less than 0, so the progra
 
 - You can leave out numbers that are less or equal to 0. For example, the 3rd iteration would be [1, 3].
 - The order of the array does not matter, the candidate can order the array to get the lowest item.
+- One way to turn the proposed `O(n lg n)` solution into a linear one (`O(n)`) is to use a counting sort (`O(n + k)`) instead of a general sort. However, that works only if we can assume that elements in the array are in a somewhat small range relative to `n` (`k` is the upper bound of the range.)
 
 
 ## Possible solutions
@@ -100,5 +101,3 @@ public void printIterations(List<Integer> nums) {
     }
 }
 ```
-#### Observations
-- The only way for this solution to become `O(n)` is if we can do a counting sort (`O(n + k)`), but that requires the additional assumption that elements in the array are in a somewhat small range relative to `n` (`k` is the upper bound of the range.)
