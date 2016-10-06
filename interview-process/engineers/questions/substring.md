@@ -5,13 +5,13 @@
 
 # Make substring!
 
-Write a function to determine whether an input string x is a substring of another input string y.
-For example, "bat" is a substring of "abate", but not of "beat".
-
 ## Interviewer Statement
+
 ```
 // Write a function to determine whether an input string x is a substring of another input string y.
-// For example, "bat" is a substring of "abate", but not of "beat".
+// For example...
+// ("bat", "abate") => true
+// ("bat", "beat")  => false
 ```
 
 ## Observations
@@ -19,12 +19,33 @@ For example, "bat" is a substring of "abate", but not of "beat".
 - Basically implement something similar string.substring without using this function or any other similar function (string.find, string.contains, etc).
 - Minus points if the candidate uses string functions
 
-## Test cases
-```javascript
-mySubstring('first', 'The ford motor company introduce the fierce motor engine for the first time') => true
-mySubstring('defg', 'abcabcdabcdefabcdddefghi'); => false
-mySubstring('aab' , 'aaadaabac'); => true
+## Other test cases
+Once the candidate has a solution, perhaps ask what other kinds of test cases / input they would use. Share these only if the candidate doesn't identify them — especially if the proposed solution wouldn't handle them!
+
+### 'Substring' is longer than the 'superstring'
+
 ```
+// ("bat", "ba") => false
+```
+
+### Non-strings
+
+If the candidate's chosen language has dynamic typing &mdash; _e.g._, JavaScript, Python, Ruby, _etc._
+
+- does the candidate consider non-string input? _e.g._,
+
+```
+// ("bat", 0)    => ?
+// (null, "bat") => ?
+// ({}, [])      => ?
+```
+
+  - what do they think should happen? why?
+    - raise error / throw exception?
+    - simply return false?
+    - other idea(s)?
+
+At least to see how the candidate thinks through/about it; if there's enough time, giving another problem might be more interesting and informative than actually coding these details.
 
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
