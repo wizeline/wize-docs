@@ -21,7 +21,7 @@ Write a function that returns true/false whether a given string is a palindrome 
 
 ## Inputs - test cases
 - kayAk
-- yamlyaml
+- yaml yaMl
 - Never odd or even
 - No x in Nixon
 - ab
