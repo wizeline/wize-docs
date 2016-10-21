@@ -12,9 +12,9 @@
 //
 // Write a function that...
 // - receives an Array of words
-// - prints the sets of anagrams
-//   - one set per line
-//   - separated by ' - '
+// - prints the words found in the Array
+//   - each set of anagrams on a line
+//   - separate words with ' - '
 //
 // e.g.,
 //
