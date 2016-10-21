@@ -12,6 +12,7 @@ Here is table describing the name of the problem, its difficulty and the expecte
 | [Utopian tree](utopianTree.md)     | Easy                  | 10 min
 | [Reverse String](reverseString.md) | Easy                  | 10 min
 | [Validate IPV4](ipv4.md)           | Easy                  | 15 min
+| [Palindrome](palindrome.md)        | Easy                  | 15 min
 | [Repeated Letters](repLetters.md)  | Easy                  | 20 min
 | [Anagrams](anagrams.md)            | Easy                  | 25 min
 | [Moving 0's](moving0s.md)          | Easy                  | 25 min
