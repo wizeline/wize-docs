@@ -12,8 +12,8 @@ Write a function that returns true/false whether a given string is a palindrome 
 
 ## Observations
 - How to solve it? Ordering characters in ascending/descending order, then using a stack to push characters findings if a character is duplicated then pop it out. The main idea is to evaluate that:
--- for even string lengths must not be any character left in the stack. 
--- for odd strings should remain one character within the stack.
+  - for even string lengths must not be any character left in the stack. 
+  - for odd strings should remain one character within the stack.
 - NOTE: palindromes are not case sensitive.
 
 ## Observations
