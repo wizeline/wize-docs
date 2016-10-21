@@ -5,11 +5,20 @@
 
 # Validate an IP version 4
 
-Write a function that receives a string containing an IP version 4 and returns true if it's a valid IP or false on the contrary.
-
 ## Interviewer Statement
 ```
-// Write a function that receives a string containing an IP version 4 and returns true if it's a valid IP or false on the contrary.
+// Write a function that receives a string
+// - return true  if it's a valid IP version 4 address
+// - return false if not
+//
+// For example...
+// "0.0.0.0"         => true
+// "0.1.2.3"         => true
+// "255.255.255.255" => true
+// "256.256.256.256" => false
+// "0.0.0"           => false
+// "1.2.3.4.5"       => false
+
 ```
 
 ## Problem considerations
@@ -21,28 +30,22 @@ An IP version 4 is formed by 4 parts: A.B.C.D and each part must have a value be
 - Plus points if he does not use REGEX
 - The point is to validate simple code instructions if the candidate uses regex ask him to do the problem without them.
 
-## Test cases
+## Other test cases
+Once the candidate has a solution, perhaps ask what other kinds of test cases / input
+they would use. Share these only if the candidate doesn't identify them &mdash; _especially_ if the proposed solution wouldn't handle them!
+
 ```
-0.0.0.0
-true
+"123.10.231.0"    => true
+"1.2.3.4.5"       => false
+"256.0.0.0"       => false
+"123.-10.231.0"   => false
+"a.b.c.d"         => false
+""                => false
 
-255.255.255.255
-true
-
-0.0.0
-false
-
-123.10.231.0
-true
-
-255.256.255.255
-false
-
-123.-10.231.0
-false
-
-a.b.c.d
-false
+// non-strings if the language has dynamic typing -- e.g., JavaScript, Python, Ruby, etc.
+0  => false
+[] => false
+etc.
 ```
 
 [Home](../../../README.md) |
