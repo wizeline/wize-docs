@@ -45,6 +45,57 @@ Lines may be printed in any order; the anagrams within each line may be printed 
 
 then simply print each array `join`()ed with `" - "`.
 
+
+## Possible Solutions
+
+### Javascript
+Using normal iterator. This is the easiest approach to solve this problem.
+
+```javascript
+const anagrams = (words) => {
+    var dictionary = {};
+    words.forEach(word => {
+        var sortedLettersInWord = word.split('').sort().join('');
+        if (!dictionary[sortedLettersInWord]) {
+          dictionary[sortedLettersInWord] = [];
+        }
+        dictionary[sortedLettersInWord].push(word);
+    });
+
+  Object.keys(dictionary).forEach(wordAnagram => {
+    console.log(dictionary[wordAnagram].join(' - '));
+  });
+}
+
+const wordsArray = ['AMOR', 'XISELA', 'JAMON', 'ROMA', 'OMAR', 'MORA', 'ESPONJA', 'RAMO', 'JAPONES', 'ARMO', 'MOJAN', 'MARO', 'ORAM', 'MONJA', 'ALEXIS'];
+
+anagrams(wordsArray);
+```
+
+Using reduce array helper function.
+This is a creative solution, maybe the candidate want to show domain and strength in the language.
+
+```javascript
+const anagrams = (words) => {
+  const dictionary = words.reduce((acumulator, word)=> {
+    var sortedLettersInWord = word.split('').sort().join('');
+    if (!acumulator[sortedLettersInWord]) {
+      acumulator[sortedLettersInWord] = [];
+    }
+    acumulator[sortedLettersInWord].push(word);
+    return acumulator;
+  }, {});
+
+  Object.keys(dictionary).forEach(wordAnagram => {
+    console.log(dictionary[wordAnagram].join(' - '));
+  });
+}
+
+const wordsArray = ['AMOR', 'XISELA', 'JAMON', 'ROMA', 'OMAR', 'MORA', 'ESPONJA', 'RAMO', 'JAPONES', 'ARMO', 'MOJAN', 'MARO', 'ORAM', 'MONJA', 'ALEXIS'];
+
+anagrams(wordsArray);
+```
+
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
 [Engineers](../README.md) |
