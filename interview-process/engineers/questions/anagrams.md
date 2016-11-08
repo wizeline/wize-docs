@@ -73,7 +73,7 @@ anagrams(wordsArray);
 ```
 
 Using reduce array helper function.
-This is a creative solution, maybe the candidate want to show domain and strength in the language.
+This is another way to iterate the array.
 
 ```javascript
 const anagrams = (words) => {
