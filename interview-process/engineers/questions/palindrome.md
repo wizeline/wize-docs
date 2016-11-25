@@ -6,10 +6,13 @@
 # Palindrome
 
 ## Inteviewer Statement
+
+```
 // Write a function that returns true/false whether a given string is a palindrome 
 // or not with any combination of its characters. (A palindrome is a a word, phrase, 
 // or sequence that reads the same backward as forward, such as madam or kayak)
 // NOTE: palindrome is not case sensitive
+```
 
 ## Inputs - test cases
 - kayAk
