@@ -96,6 +96,21 @@ const wordsArray = ['AMOR', 'XISELA', 'JAMON', 'ROMA', 'OMAR', 'MORA', 'ESPONJA'
 anagrams(wordsArray);
 ```
 
+### Ruby
+[Create a Hash](https://docs.ruby-lang.org/en/2.3.0/Hash.html#method-c-new)
+that, when it is accessed by a key not already present, associates a new, empty Array with that key.
+
+Append each word to the array associated with the key formed by sorting the word's letters.
+
+```ruby
+def print_anagrams(words)
+  h = Hash.new { |h, k| h[k] = [] }
+  
+  words.each { |word| h[word.chars.sort] << word}
+  h.each_value { |v| puts v.join ' - ' }
+end
+```
+
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
 [Engineers](../README.md) |
