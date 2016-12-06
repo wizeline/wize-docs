@@ -9,7 +9,7 @@ Write a function to solve the problem between 2 matrices. Matrices could be any 
 
 ## Interviewer Statement
 ```
-// Write a function to solve the problem between 2 matrices. Matrices could be any size, not necessarily a square.
+// Write a function to solve the product between 2 matrices. Matrices could be any size, not necessarily a square.
 ```
 
 ## Problem observations
