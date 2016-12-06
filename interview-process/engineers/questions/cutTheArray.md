@@ -3,7 +3,7 @@
 ## Interviewer Statement
 
 ```
-// A cut operation subtract the lowest element of the array from each positive number in that array.
+// A cut operation subtracts the lowest element of the array from each positive number in that array.
 // Example of cut operation:
 // array: [ 2,3,4,5,2 ]
 // lowest item: 2
@@ -11,7 +11,7 @@
 // Problem:
 // You have an array or list of integer numbers greater than 0.
 // Write a function that performs a cut operation until all the elements of the array are 0.
-// The function must print the number of elements greater than 0 on each iteration, or return a list(or array) with those numbers
+// The function must return a list with the amount of elements greater than 0 on each iteration
 ```
 
 ## Test cases
@@ -69,35 +69,45 @@ public ArrayList<Integer> cutTheSticks(ArrayList<Integer> nums, int shortest) {
     return result;
 }
 
-public void printIterations(ArrayList<Integer> nums) {
+public ArrayList<Integer> printIterations(ArrayList<Integer> nums) {
     int size = nums.size();
     ArrayList<Integer> newNums = nums;
 
+    ArrayList<Integer> answer = new ArrayList<Integer>();
+
     while (size > 0) {
-        System.out.println(size);
+        answer.add(size);
         Collections.sort(newNums);
         int shortest = newNums.get(0);
         newNums = cutTheSticks(newNums, shortest);
         size = newNums.size();
     }
+
+    return answer;
 }
 ```
 
-### Better solution O(n lg n)
+### Better solution O(n lg(n))
 ```
-public void printIterations(ArrayList<Integer> nums) {
+public ArrayList<Integer> printIterations(ArrayList<Integer> nums) {
     int size = nums.size();
     int previous;
 
+    ArrayList<Integer> answer = new ArrayList<Integer>();
+
     Collections.sort(nums);
     System.out.println(size);
+    answer.add(size);
 
     previous = nums.get(0);
     for(int i = 1; i < nums.size(); i++) {
         if(nums.get(i) != previous) {
             System.out.println(size - i);
+            answer.add(size - i);
         }
         previous = nums.get(i);
     }
+
+    return answer;
 }
 ```
