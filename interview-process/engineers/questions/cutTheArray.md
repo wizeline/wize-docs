@@ -3,7 +3,7 @@
 ## Interviewer Statement
 
 ```
-// A cut operation substracts the lowest element of the array from each number in that array.
+// A cut operation subtract the lowest element of the array from each positive number in that array.
 // Example of cut operation:
 // array: [ 2,3,4,5,2 ]
 // lowest item: 2
@@ -11,7 +11,7 @@
 // Problem:
 // You have an array or list of integer numbers greater than 0.
 // Write a function that performs a cut operation until all the elements of the array are 0.
-// The function must return the number of elements greater than 0 on each iteration
+// The function must print the number of elements greater than 0 on each iteration, or return a list(or array) with those numbers
 ```
 
 ## Test cases
@@ -38,15 +38,15 @@ The elements greater than 0 are 4.
 
 Third iteration:
 The array after the cut operation is:
-`[ -1, 0, 1, -1, 0, 3 ]`
+`[ 0, 0, 1, 0, 0, 3 ]`
 The elements greater than 0 are 2.
 
 Fourth iteration:
 The array after the cut operation is:
-`[ -2, -1, 0, -2, -1, 2 ]`
+`[ 0, 0, 0, 0, 0, 2 ]`
 The elements greater than 0 is just 1.
 
-If running a 5th iteration, all the elements would be less than 0, so the program ends.
+If running a 5th iteration, all the elements would be 0, so the program ends.
 
 ## Observations
 
@@ -60,8 +60,8 @@ If running a 5th iteration, all the elements would be less than 0, so the progra
 ### Fine solution O(n^2)
 
 ```
-public List<Integer> cutTheSticks(List<Integer> nums, int shortest) {
-    List<Integer> result = new ArrayList<Integer>();
+public ArrayList<Integer> cutTheSticks(ArrayList<Integer> nums, int shortest) {
+    ArrayList<Integer> result = new ArrayList<Integer>();
     for(Integer num : nums){
         int newNum = num - shortest;
         if(newNum > 0) result.add(newNum);
@@ -69,9 +69,9 @@ public List<Integer> cutTheSticks(List<Integer> nums, int shortest) {
     return result;
 }
 
-public void printIterations(List<Integer> nums) {
+public void printIterations(ArrayList<Integer> nums) {
     int size = nums.size();
-    List<Integer> newNums = nums;
+    ArrayList<Integer> newNums = nums;
 
     while (size > 0) {
         System.out.println(size);
@@ -85,7 +85,7 @@ public void printIterations(List<Integer> nums) {
 
 ### Better solution O(n lg n)
 ```
-public void printIterations(List<Integer> nums) {
+public void printIterations(ArrayList<Integer> nums) {
     int size = nums.size();
     int previous;
 
@@ -93,7 +93,7 @@ public void printIterations(List<Integer> nums) {
     System.out.println(size);
 
     previous = nums.get(0);
-    for(int i = 0; i < nums.size(); i++) {
+    for(int i = 1; i < nums.size(); i++) {
         if(nums.get(i) != previous) {
             System.out.println(size - i);
         }
