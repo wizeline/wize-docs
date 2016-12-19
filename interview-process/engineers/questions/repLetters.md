@@ -12,6 +12,14 @@ Write a method that for a given string as input, returns the first non repeated 
 // Write a method that for a given string as input, returns the first non repeated letter.
 ```
 
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/personal/mine/coding/questions/289110/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
 ## Test cases
 ```
 'abcdefghija' => b

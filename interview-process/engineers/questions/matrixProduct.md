@@ -12,6 +12,14 @@ Write a function to solve the problem between 2 matrices. Matrices could be any 
 // Write a function to solve the product between 2 matrices. Matrices could be any size, not necessarily a square.
 ```
 
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/personal/mine/coding/questions/304588/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
 ## Problem observations
 - Make sure that you consider the case where you cannot get the product of a pair of matrices. Example:
 

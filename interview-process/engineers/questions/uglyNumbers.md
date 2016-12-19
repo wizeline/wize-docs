@@ -34,6 +34,14 @@ For example:
 // Write a program that prints the 1500'th "Ugly" number.
 ```
 
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/hackerrank/coding/questions/303777/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
 ## Problem observations
 
 - Make sure the candidate understands the problem &mdash; _e.g._
