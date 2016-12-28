@@ -4,7 +4,7 @@
 
 # Developer On-Site Interviews
 
-Candidates who do well in the initial interviews are invited for an on-site interview.
+Candidates who do well in the [phone screens](../README.md) are invited for an on-site interview. In 'special' cases&mdash;_e.g._, due to travel distance and expense&mdash;this is done remotely rather than strictly "on-site."
 
 This is team members' **best and last opportunity** to form a **strong opinion** as to
 **whether or not** they **want to work with the candidate**.
@@ -14,7 +14,7 @@ for both the **team and candidate**. The result can be **life-changing** for bot
 
 ## Please...
 
-- **read** the candidate's Trello card and any linked documents &mdash; you might find something you want to ask about!
+- **read** the information and comments on the candidate in [Greenhouse](https://app.greenhouse.io)&mdash; you might find something you want to ask the candidate about!
 - **talk** with the candidate if/when given the opportunity
 - **help** the candidate if/when needed during their on-site challenge
 - **ask** meaningful questions &mdash; even if you may not be in the final de-brief, the candidate's response to your question
@@ -38,6 +38,19 @@ it's (hopefully!) new and stressful to them
 ## When in doubt
 
 **Remember** when **you were a candidate** and do what **you would want/hope** the team to do with/for you.
+
+
+## Challenges
+
+- [Chess](https://github.com/wizeline/wizeline-on-site/tree/master/chess)
+- [Comments App](comments-app-challenge.md)
+- [TinyURL](tiny-url-challenge.md)
+
+
+### Adding new Challenges
+
+To add a new on-site challenge use [this template](challenge.template.md) replacing the quoted text with the  challenge specific information.
+
 
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
