@@ -13,7 +13,7 @@ Write a method that for a given input string, reverse all the characters inside 
 ```
 
 ## Observations
-- How to solve it? Either recursion or using a stack.
+- How to solve it? Two possible solutions for this problem are using recursion or using a stack.
 
 ## Possible Solutions
 ```python
