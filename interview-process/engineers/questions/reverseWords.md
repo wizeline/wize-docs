@@ -12,6 +12,14 @@ Write a method that for a given input, reverse all words. *Avoid the use of buil
 // Write a method that for a given input, reverse all words. Avoid the use of built-in string functions
 ```
 
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/personal/mine/coding/questions/303486/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
 ## Test cases
 ```
 'Hello world Wizeline' => 'Wizeline world Hello'

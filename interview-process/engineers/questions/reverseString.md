@@ -17,7 +17,15 @@ function reverse(str) {
 }
 ```
 
-Sample solution
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/personal/mine/coding/questions/289110/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
+## Sample solution
 ``` javascript
 function reverse(str) {
   // In javascript, strings are immutable. Copying is required.

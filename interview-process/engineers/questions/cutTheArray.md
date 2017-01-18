@@ -14,6 +14,14 @@
 // The function must return a list with the amount of elements greater than 0 on each iteration
 ```
 
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/hackerrank/coding/questions/157954/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
 ## Test cases
 
 ```

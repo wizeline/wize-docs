@@ -14,6 +14,14 @@
 // ("bat", "beat")  => false
 ```
 
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/hackerrank/coding/questions/292185/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
 ## Observations
 - 20 mins FOR AN EXPERIENCED, 40 mins FOR ROOKIE
 - Basically implement something similar string.substring without using this function or any other similar function (string.find, string.contains, etc).

@@ -17,6 +17,14 @@
 // The function must receive an integer number N
 ```
 
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/hackerrank/coding/questions/141300/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
 ## Test cases
 
 Example:

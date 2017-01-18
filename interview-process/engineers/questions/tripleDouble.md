@@ -14,6 +14,14 @@ place in the first parameter and also a straight double of the same number on th
 // place in the first parameter and also a straight double of the same number on the second parameter.
 ```
 
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/hackerrank/coding/questions/303704/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
 ## Test cases
 ```
 tripleDouble(451999277, 41177722899) => 1

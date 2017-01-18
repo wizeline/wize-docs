@@ -21,6 +21,18 @@
 
 ```
 
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/personal/mine/coding/questions/288822/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
+HackerRank has their own
+[version](https://www.hackerrank.com/x/library/hackerrank/coding/questions/141294/view)
+involving both IPv4 and IPv6 addresses.
+
 ## Problem considerations
 An IP version 4 is formed by 4 parts: A.B.C.D and each part must have a value between 0-255.
 

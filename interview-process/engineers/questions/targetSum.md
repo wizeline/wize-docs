@@ -13,6 +13,14 @@ Write an algorithm to check if the sum of any two numbers in an array/list match
 // and return their indexes in an array.
 ```
 
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/hackerrank/coding/questions/111168/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
 ## Problem considerations
 
 Commonly there are three approaches to the problem:

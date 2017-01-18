@@ -25,6 +25,14 @@ Based on [this hackerrank problem](https://www.hackerrank.com/challenges/stockma
 // Return the maximum profit which can be obtained for the test case.
 ```
 
+### HackerRank
+This problem is also
+[available](https://www.hackerrank.com/x/library/hackerrank/coding/questions/141297/view)
+in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews.
+
 ## Problem considerations
 A candidate may take a while to actually write the code, but from early on they should be able to explain to the interviewer how they plan to approach the problem and how they plan to code the proposed solution
 

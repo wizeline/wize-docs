@@ -6,6 +6,17 @@
 
 Here is table describing the name of the problem, its difficulty and the expected time. Inside each problem you can add more details to the problems.
 
+As you add problems here, please&hellip;
+
+1. locate them in the HackerRank library for use in
+[Tests](https://www.hackerrank.com/x/tests) and
+[CodePair](https://www.hackerrank.com/x/interviews/mypads)
+interviews
+2. if you cannot locate the problem in the HackerRank library,
+please create it as a custom problem there, including a link to
+its page here
+3. include a link to the HackerRank version in the problem's file here
+
 | Name                               | (Expected) Difficulty | Expected time
 | ----                               | --------------------- | -------------
 | [FizzBuzz](fizzbuzz.md)            | Easy                  | 5 min
