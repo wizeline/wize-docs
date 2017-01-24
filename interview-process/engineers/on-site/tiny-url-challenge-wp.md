@@ -13,6 +13,7 @@ All the criteria in the challenge apply except for those parts that appear ~~cro
 
 - Ask the candidate to have his/her own PHP development environment ready.
 - Be sure to mention the need for a MySql database.
+- Let the candidate know the on-site challenge will include creating an API and a wordpress plugin.
 
 ## Overview [⬆️](tiny-url-challenge.md#overview)
 
