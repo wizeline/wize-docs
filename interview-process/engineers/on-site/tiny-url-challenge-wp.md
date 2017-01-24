@@ -15,6 +15,8 @@ All the criteria in the challenge apply except for those parts that appear ~~cro
 - Be sure to mention the need for a MySql database.
 - Let the candidate know the on-site challenge will include creating an API and a wordpress plugin.
 
+    > Please be prepared to develop an API and a wordpress plugin. We encourage you to install the tools you think you are going to need before arriving to the on-site.
+
 ## Overview [⬆️](tiny-url-challenge.md#overview)
 
 - Implement the tiny url generator as an API.
