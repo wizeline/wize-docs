@@ -5,6 +5,7 @@ This document should help you talk about why do we have Engineering Managers (EM
 
 ## The Role of the Engineering Manager
 An Engineering Manager at Wizeline is someone that excels at supporting a team of engineers. He makes sure that the team:
+
 1. Has the tools they need to do their job. 
 2. Is performing to the best of their abilities.
 3. Is making sound technical decisions.
@@ -18,6 +19,7 @@ Engineers have an ally when it comes to growing their careers, providing them wi
 
 ## The Benefits to our Customers
 By effectively attracting, training and keeping the best talent; we make sure that our customers are working with world class engineers. On top of that, the engineering managers will interact with our customers to support them in:
+
 1. Making sure the engineers understand the domain of the problem they are solving.
 2. Empower them to ask questions and be proactive when it comes to finding solutions.
 3. Making sure that teams are properly staffed.
