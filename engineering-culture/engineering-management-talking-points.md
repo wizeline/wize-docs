@@ -27,3 +27,5 @@ By effectively attracting, training and keeping the best talent; we make sure th
 5. Keeping a tight feedback loop between our customers and our engineers.
 6. Strengthening relationships with our customers’ teams and ours.
 7. Avoiding knowledge silos and making sure that we spread the knowledge as much as possible. This will allow to have a dynamic team that is always engaged and challenged.
+8. Keeping the team performant.
+9. Making sure the team employs software development best practices.
