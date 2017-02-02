@@ -11,7 +11,7 @@ An Engineering Manager at Wizeline is someone that excels at supporting a team o
 3. Is performing to the best of their abilities.
 4. Is making sound technical decisions.
 5. Is autonomous and can make quick informed decisions.
-6. Is made by the best talent; aiding in our interview process to select only the best people.
+6. Has the best talent by actively participating in the recruiting and interviewing process.
 7. Continues their growth. Helping team members define and pursue a career path within the company.
 
 ## The Benefits to the Culture
@@ -28,6 +28,6 @@ By effectively attracting, training and keeping the best talent; we make sure th
 4. Working with our delivery team to make sure we have solid practices when it comes to releasing software.
 5. Keeping a tight feedback loop between our customers and our engineers.
 6. Strengthening relationships with our customers’ teams and ours.
-7. Avoiding knowledge silos and making sure that we spread knowledge as much as possible. This will allow to have a dynamic team that is always engaged and challenged.
+7. Avoiding knowledge silos and making sure that we spread knowledge as much as possible. This will allow us to have a dynamic team that is always engaged and challenged.
 8. Keeping the team performant.
 9. Making sure the team employs software development best practices.
