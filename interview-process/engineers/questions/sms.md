@@ -6,7 +6,7 @@
 
 # SMS Messages
 
-There are two clients, A & B [Reference](https://drive.google.com/file/d/0B_a-BE7ZT6k4RUo2VUFUaXBnaHM/view?usp=sharing)
+There are two clients, A & B [(You can share this image)](https://drive.google.com/file/d/0B_a-BE7ZT6k4RUo2VUFUaXBnaHM/view?usp=sharing)
 and we want to share a file between them. File content is not relevant. 
 
 - Client A has two methods: send & send_sms.
