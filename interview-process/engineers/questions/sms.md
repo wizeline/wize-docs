@@ -10,12 +10,12 @@ There are two clients, A & B [(You can share this image)](https://drive.google.c
 and we want to share a file between them. File content is not relevant. 
 
 - Client A has two methods: send & send_sms.
+- Client B has two methods: receive & receive_sms.
 
 TASK: Implement send & receive
 
 ## Problem considerations
 
-- Client B has two methods: receive & receive_sms.
 - `send_sms` & `receive_sms` are already provided by an API.
 - Messages must contain no more than 160 characters.
 - Messages must only contain ASCII printable characters.
