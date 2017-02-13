@@ -21,7 +21,7 @@ via e-mail so you can decide if/when you wish to participate!
 - [Engineering Ladder](engineering-ladder/README.md)
 - [Development practices](development/README.md)
 - [Interviewing/Hiring](interview-process/README.md)
-- Onboarding - [Services-GDL](onboarding/services-gdl.md)
+- Onboarding - [Engineering-GDL](onboarding/README.md)
 
 ### Repo _vs_ Wiki
 
