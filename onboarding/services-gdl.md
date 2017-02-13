@@ -1,4 +1,4 @@
-# Services Onboarding in GDL
+# Engineering Onboarding in GDL
 
 ## Executive Summary
 
@@ -37,7 +37,7 @@ Newly-hired communicators, designers, developers, and project managers  join the
 				</li><li>
 					receive help and coaching on those skills, tools and practices to achieve at least a “minimal level set”
 				</li><li>
-					receive assistance, coaching, guidance, _etc._, from more “established” employees
+					receive assistance, coaching, guidance, <em>etc.</em>, from more “established” employees
 				</li>
 			</ul>
 		</td>
@@ -85,13 +85,13 @@ To simplify both first day setup and move-out (see [Transition](#transition), be
 
 The goal of each onboarding week is to ensure that the new-hires in the cohort are ready to join their initial team/pod/project and the company as a whole.
 
-Once candidates accept their offers and confirm their starting dates, the staffing process begins; it ends with each candidate's project assignment. For details, please refer to the Wizeline Staffing Process document; what is important for onboarding is the set of skills, tools, technologies needed by those destination teams/pods/projects.
+Once candidates accept their offers and confirm their starting dates, the staffing process begins; it ends with each candidate's project assignment. For details, please refer to the [Wizeline Staffing Process](https://goo.gl/cY9VIO) document; what is important for onboarding is the set of skills, tools, technologies needed by those destination teams/pods/projects.
 
-The onboarding team uses that list of ‘target’ skills/tools/technologies to determine which Internal Project(s) are best suited for that week’s cohort. At present, we have this list from late 2016; as the number of active projects grows and their needs change, we will need a more dynamic and responsive method of tracking this information.
+The onboarding team uses that list of ‘target’ skills/tools/technologies to determine which [Internal Project(s)](https://docs.google.com/document/d/1fVNU8hYarb-KgP5O5koll5lMcXMDjbAnkGXnmjVGsaQ/edit#heading=h.xr6r05os2xc3) are best suited for that week’s cohort. At present, we have [this list](https://goo.gl/CuZVPl) from late 2016; as the number of active projects grows and their needs change, we will need a more dynamic and responsive method of tracking this information.
 
 Next, the onboarding team works with the identified Internal Projects’ “owner(s)” to move items both valuable to the project(s) and relevant to the onboarding goals to the top of the backlog(s). This is a weekly activity, taking into account both upcoming cohorts and the in-progress cohorts’ expected progress.
 
-If the Internal Projects’ “owner(s)” are new to the onboarding process, those more experienced with the process help orient them to the process, educational goals and methods, _etc._
+If the Internal Projects’ “owner(s)” are new to the onboarding process, those more experienced with the process help orient them to the process, educational goals and methods, _etc._ (see [Notes for Project “Owners” / “Champions”](#notes-for-project-owners--champions), below).
 
 The final planning step is to determine what additional resources the cohort will need to be successful with their tasks during the onboarding weeks. At a minimum, Owners/Stakeholders for the Internal Project(s) will need to be available to answer questions, discuss requirements and alternatives, _etc._ Additionally, onboarding cohorts may require additional skills beyond those present in the cohort &mdash; _e.g._,
 
