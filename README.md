@@ -25,13 +25,17 @@ via e-mail so you can decide if/when you wish to participate!
 
 ### Repo _vs_ Wiki
 
+In short, you can think of them as
+
+- **I Think&hellip;** &rArr; wiki
+- **We Agree&hellip;** &rArr; repo
+
 Based, in part, on this
 [presentation](https://www.youtube.com/watch?v=YIpNpptGX6Q)
 and its
 [slides](https://speakerdeck.com/rkbodenner/changing-the-laws-of-engineering-with-github-pull-requests-velocity-santa-clara-2015),
 things in the **repo** are cultural 'norms', standards, and practices;
-things which deserve and require discussion and agreement to change &mdash;
-'Law', if you like.
+things which deserve and require discussion and agreement to change.
 
 In contrast, the [**wiki**](https://github.com/wizeservices/wize-docs/wiki)
 is a great place to collect and share things which do not require/deserve
