@@ -7,14 +7,14 @@
  &mdash; 'everything else'
  &mdash; _e.g._, resources, suggestions, _etc_.
 
-| To...                                                             | Create a branch and Pull Request | Create an Issue | Add a Comment | Modify the wiki
-| ----------------------------------------------------------------- | -------------------------------- | :-------------: | :-----------: | :-------------:
-| propose a change to "**We Agree&hellip;**" item(s)                | against `master`
-| propose a change to someone else's proposal                       | against their PR's branch
-| suggest some kind of change is needed                             |                                  | X
-| disagree                                                          |                                  |                 | explaining _what_ and/or _why_
-| agree                                                             |                                  |                 | or simply a [reaction](https://help.github.com/articles/about-discussions-in-issues-and-pull-requests/) will do?
-| add, suggest, or remove something that does not need to be "**We Agree&hellip;**" |                                  |                 |               | X
+| To...                                                                             | Create a branch and Pull Request | Create an Issue | Add a Comment | Modify the wiki
+| --------------------------------------------------------------------------------- | -------------------------------- | :-------------: | :-----------: | :-------------:
+| propose a change to "**We Agree&hellip;**" item(s)                                | against `master`
+| propose a change to someone else's proposal                                       | against their PR's branch
+| suggest some kind of change is needed                                             |                                  | X
+| disagree                                                                          |                  |               | explaining _what_ and/or _why_
+| agree                                                                             |                  |               | or simply a [reaction](https://help.github.com/articles/about-discussions-in-issues-and-pull-requests/) will do?
+| add, suggest, or remove something that does not need to be "**We Agree&hellip;**" |                  |               |                                 | X
 
 #### Please...
 - merge a PR to `master` only when it appears that...
