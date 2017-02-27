@@ -1,24 +1,23 @@
 [Home](../../README.md) |
 [Interview Process](../README.md)
 
-# Engineers Interview Process
+# Interview Process: Engineers
 
-- [Interview Questions](questions/README.md)
-- [Interview Scripts](scripts/README.md)
+## Overview
 
-# On-site
+Here is the maximal process for an engineer:
 
-- [README](on-site/README.md)
+1. Recruiter Pre-screen
+2. Coding challenge
+3. 2-3 technical & cultural 'phone screens'
 
-## Challenges
+  Generally done via Google Hangout or similar
 
-- [TinyURL](on-site/tiny-url-challenge.md)
-- [Comments App](on-site/comments-app-challenge.md)
+  - [Interview Questions](questions/README.md)
+  - [Interview Scripts](scripts/README.md)
 
-
-### Adding new Challenges
-
-To add a new on-site challenge use [this template](on-site/challenge.template.md) replacing the quoted text with the  challenge specific information.
+4. [On-site](on-site/README.md)
+5. Extend offer
 
 
 [Home](../../README.md) |

@@ -11,60 +11,33 @@ This is a *guide* for presenting the challenge to the candidate, *not* a documen
 
 > Describe in one sentence the challenge. If possible link to a similar app.
 
-## Requirements
+## Initial Requirements
 
 > List the minimum app requirements, what the candidate should focus on solving.
 
-## Bonus Points
+### Notes
 
-> List other tasks the candidate could do to *if* he finishes the previous list, such as using git and deploying the app. 
+> Notes/reminders to the interviewer for presenting the challenge
 
-## Design Discussion
+### Example Instructions
 
-- Discuss the appropriate tools, frameworks, _etc_., to implement the server backend. 
-- Talk through the system design:
+> _e.g._, for e-mailing to the candidate
 
-> List here what are the challenge specific design considerations such as database design.
 
-## Presentation Questions
+## During the First Presentation
 
-### General
+### Some Things to Look At / Ask About
 
-- Why did you choose this framework/library?
-- What features of this framework/library are most important to you?
+> - Basic functionality
+> - Cases easily/commonly overlooked
 
-### Challenge Specific
+### Ideas for New/Changed Requirements
 
-> List here important questions the candidate should answer on the presentation.
+> - **Fix any bugs or deficiencies identified during the first presentation**
+> - Challenge-specific items that interview teams might ask the candidate to add/change for the 2nd presentation &mdash; especially those that can spark "interesting" design/trade-off conversations
 
-# Recommendations for the On-site Coaches
-
-- Before the candidate starts solving the challenge, ensure you:
-
-1. Give the Wifi password to the candidate.
-2. Explain the challenge to the candidate.
-3. Make the following recommendations:
-
-    - To use any tools, languages, frameworks, or databases they like.
-    - Search on the web for any resources they need.
-    - Ask any team members for help.
-    - Not to invest much time on any given problem before asking for help.
-
-- Check on the candidate every 45 minutes and ask the following questions:
-    - How is it going?
-    - What is working yet?
-    - Is there anything you need?
-
-- Observe the following:
-  - Does it seem like they'll finish the challenge? At least in some part?
-  - Are they stuck on something and, perhaps, shy to ask for help?
-  - How do they handle interruptions, unsolicited interactions, _etc_?
-
-- Make sure they know how much time is left; offer additional time if it might help.
-  _e.g._, if _almost done_ with a last feature or detail, delay lunch by 15-30 minutes.
-- Offer the candidate snacks, water, coffee, _etc._
 
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
-[Engineers](../README.md)
+[Engineers](../README.md) |
 [On-site](README.md)
