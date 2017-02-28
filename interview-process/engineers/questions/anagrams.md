@@ -122,7 +122,7 @@ end
 ### PHP (two approaches I've seen)
 ```php
 function printAnagrams($words) { // print function could use foreach instead of array_map, disregard mine.
-    $all_anagrams = anagramms($words);
+    $all_anagrams = anagrams($words);
     $lines = array_map(function ($anagram_set) {
         $anagram_set = array_unique($anagram_set);
         return implode(' - ', $anagram_set);
@@ -134,7 +134,7 @@ function printAnagrams($words) { // print function could use foreach instead of 
 
 Standard, hashing the **words**, just like JS or Ruby above
 ```php
-function anagramms($words) {
+function anagrams($words) {
     $anagrams_map = [];
     foreach($words as $word) {
         $sorted_letters = str_split(trim($word)); // split the word into letters
@@ -150,10 +150,10 @@ function anagramms($words) {
 
 OR Using the **number of letters** as the hashing key:
 ```php
-function anagramms($words) {
+function anagrams($words) {
     $anagrams_map = [];
     foreach ($words as $word) {
-        $letters = count_chars($word, 1); // using 0 will generate a huge mostly empty array all letters in the Alphabet.
+        $letters = count_chars($word, 1 /* mode: chars (byte-values) with a frequency greater than zero  */); // using 0 will generate a huge mostly empty array all letters in the Alphabet.
         
         $hash = md5(json_encode($letters)); // or serialize json_encode is not available on HR
         $anagrams_map[$hash][] = $word;
