@@ -119,6 +119,54 @@ def print_anagrams(words)
 end
 ```
 
+### PHP (two approaches I've seen)
+```php
+function printAnagrams($words) { // print function could use foreach instead of array_map, disregard mine.
+    $all_anagrams = anagramms($words);
+    $lines = array_map(function ($anagram_set) {
+        $anagram_set = array_unique($anagram_set);
+        return implode(' - ', $anagram_set);
+    }, $all_anagrams);
+    $lines = implode("\n", $lines);
+    echo $lines;
+}
+```
+
+Standard, hashing the **words**, just like JS or Ruby above
+```php
+function anagramms($words) {
+    $anagrams_map = [];
+    foreach($words as $word) {
+        $sorted_letters = str_split(trim($word)); // split the word into letters
+        sort($sorted_letters); // then sort the letters. Common mistake would be to do this in the line above. Sort returns a boolean. It mutates the passed array.
+        
+        $hash = implode('', $sorted_letters); // Use the sorted word as hash key.
+        $anagrams_map[$hash][] = $word; // You could check that the word does already exist in this step. I do it while printing it's actually faster.
+    }
+    
+    return $anagrams_map;
+}
+```
+
+OR Using the **number of letters** as the hashing key:
+```php
+function anagramms($words) {
+    $anagrams_map = [];
+    foreach ($words as $word) {
+        $letters = count_chars($word, 1); // using 0 will generate a huge mostly empty array all letters in the Alphabet.
+        
+        $hash = md5(json_encode($letters)); // or serialize json_encode is not available on HR
+        $anagrams_map[$hash][] = $word;
+    }
+    
+    return $anagrams_map;
+}
+```
+
+The second one is slightly faster (tried it with an array size 65536).
+
+
+
 [Home](../../../README.md) |
 [Interview Process](../../README.md) |
 [Engineers](../README.md) |
