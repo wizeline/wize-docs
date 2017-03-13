@@ -2,11 +2,13 @@
 
 ## Executive Summary
 
-Newly-hired software engineers and project managers work on [internal projects](#internal-projects) for their first 2 weeks to learn culture, best practices, and leader/mentorship while ensuring a minimal level of knowledge and skills with tools/technologies relevant to the new-hires’ first assignments (_e.g._, MacOS, Git, GitHub, Jira, Confluence, NodeJS, _etc._). Secondary benefits (hopefully) include&hellip;
+Newly-hired software engineers and project managers work on [internal projects](#internal-projects) for their first 2 weeks to learn culture, best practices, and leader/mentorship while ensuring a minimal level of knowledge and skills with tools/technologies relevant to the new-hires’ first assignments (_e.g._, MacOS, Git, GitHub, Jira, Confluence, NodeJS, React, _etc._). Secondary benefits (hopefully) include&hellip;
 
 - ever-more-valuable internal tools
 - immediate socialization of the new-hires beyond their initial assignment team
 - (more) rapid recognition and “acceptance” of new-hires for their contributions to the internal tools
+- opportunities for existing employees to get experience mentoring, coaching, leading, _etc_.
+- teaching and demonstrating the culture, values, and practices we **want** the team to have
 
 ## Sections
 
