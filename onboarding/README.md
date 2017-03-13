@@ -199,7 +199,7 @@ All along the way, the coaches / teachers / mentors ask what level of knowledge 
 
 ### Suggested / Expected Meetings
 
-For each week of involvement:
+Assuming normal 5-day work weeks, each week of involvement includes meetings over 6 work days (Monday to Monday):
 
 <table>
 	<tr>
@@ -245,6 +245,8 @@ For each week of involvement:
 		<td colspan=2>           &check;          </td>
 	</tr>
 </table>
+
+(scroll horizontally if/as needed to see the whole schedule)
 
 #### Onboarding Kick-off
 
