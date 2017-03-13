@@ -12,12 +12,26 @@ Newly-hired software engineers and project managers work on [internal projects](
 
 ## Sections
 
-- [The Big Picture](#the-big-picture); [Exclusions](#exclusions)
+- [The Big Picture](#the-big-picture)
+  - [Exclusions](#exclusions)
+  - [Roles](#roles)
+     - [Coach](#coach)
+     - [Coordinator](#coordinator)
+     - [Product Owner](#product-owner)
+     - [Project Manager / Agile Coach](#project-manager--agile-coach)
 - [Planning](#planning)
   - [Physical](#physical)
   - [Activity](#activity)
   - ["Internal Projects?"](#internal-projects)
-- [Execution](#execution); [Basic Syllabus](#basic-syllabus)
+- [Execution](#execution)
+  - [Basic Syllabus](#basic-syllabus)
+  - [Suggested / Expected Meetings](#suggested--expected-meetings)
+     - [Onboarding Kick-off](#onboarding-kick-off)
+     - [Per Project Sprint Planning / Kick-off](#per-project-sprint-planning--kick-off)
+     - [Daily Standup](#daily-standup)
+     - [Plan](#plan)
+     - [Preparation & Demo](#preparation--demo)
+     - [Retrospective](#retrospective)
 - [(Re-)Initialization](#re-initialization)
 - [Transition](#transition)
 - [Iteration and Evolution](#iteration-and-evolution)
@@ -57,6 +71,33 @@ Newly-hired communicators, designers, developers, and project managers  join the
 While this process is driven, in part, by destination team/pod/project needs, it is not meant to handle all such needs. Team/pod/project-leads and project managers are expected to handle needs specific to that team/pod/project and/or client.
 
 For example, Dow Jones projects require team members to have VPN access; the project manager and/or pod lead continue to be responsible for requesting the new team member’s VPN access sufficiently in advance for it to be ready and available by the time the new team member actually starts on that project after the onboarding experience.
+
+### Roles
+
+#### Coach
+
+An experienced employee with specific skills and experience relevant to at least some of the onboarding new-hires' position &mdash; for example, QA engineer, iOS developer, Project Manager, web developer, _etc_.
+
+During any given week, each "type" of new-hire in the cohort must have at least one Coach willing and able to help the new-hires work on the project(s) and ensure they have at least "baseline" skill with tools, techniques, practices, _etc_., appropriate to that "type."
+
+Beyond the new-hire cohorts, the onboarding process involves requires a variety of related and cooperating roles. A given person may perform several roles during some week, but it is unlikely (and discouraged) that the onboarding "team" ever be one single individual.
+
+This section is intended to introduce the roles and their functions; later sections will provide more detail and context.
+
+#### Coordinator
+
+Provide organizational and logistical support for onboarding-level (_i.e._, not project-specific) meetings and activities.
+
+#### Product Owner
+
+Each project used during onboarding must have at least one Owner who holds the "vision" for the project. Consistent with common "agile" practices, this Product Owner
+
+- Helps the development team understand project/feature intent and purpose
+- Provides User Stories and negotiates their details with the team
+
+#### Project Manager / Agile Coach
+
+Generally an existing Project Manager (PjM) employee. When the new-hire cohort includes a new Project Manager, however, that new-hire assumes this role with the coaching and guidance of an existing PjM.
 
 ## Planning
 
@@ -149,12 +190,115 @@ After the HR orientation, _etc._, the initial “technical onboarding” session
 	- Google Drive
 	- [wize-docs](../README.md) GitHub repo & wiki
 	- _etc._
-- Specific work items &mdash; user stories and/or bugs &mdash; on the selected [project(s)](https://goo.gl/07IbM8)
+- Specific work items &mdash; User Stories and/or bugs &mdash; on the selected [project(s)](https://goo.gl/07IbM8)
 
 All along the way, the coaches / teachers / mentors ask what level of knowledge and familiarity the new-hires have with the various topics, how to do it on MacOS, _etc._ When one or more new-hires need specific help, the onboarding team provides the information needed in this preferred order:
 
 - Other new-hires &mdash; whether “junior” or “senior” &mdash;  with “supervision” to ensure that the coaching is consistent with Wizeline practices and procedures
 - Onboarding staff directly
+
+### Suggested / Expected Meetings
+
+For each week of involvement:
+
+<table>
+	<tr>
+		<th           rowspan=2/>
+		<th colspan=2>           Mon. PM          </th>
+		<th colspan=2>           Tue.             </th>
+		<th>                     Wed.             </th>
+		<th colspan=2>           Thr.             </th>
+		<th colspan=2>           Fri.             </th>
+		<th           rowspan=6/>
+		<th>                     Mon. AM          </th>
+	</tr><tr>
+		<th>                     Kick-off         </th>
+		<th colspan=2>           Sprint Planning  </th>
+		<th>                     Standup?         </th>
+		<th>                     Standup          </th>
+		<th>                     Standup          </th>
+		<th>                     Plan             </th>
+		<th>                     Standup          </th>
+		<th>                     Prep & Demo      </th>
+		<th>                     Retrospective    </th>
+	</tr><tr align=center>
+		<th>                     Coordinator      </th>
+		<td>                     &check;          </td>
+		<td colspan=5>           (optional)       </td>
+		<td           rowspan=3> &check;          </td>
+		<td           rowspan=2> (optional)       </td>
+		<td>                     &check;          </td>
+		<td           rowspan=4> &check;          </td>
+	</tr><tr align=center>
+		<th>                     Product Owner(s) </th>
+		<td colspan=3 rowspan=2> &check;          </td>
+		<td colspan=3>           (optional)       </td>
+		<td           rowspan=2> (preferred)      </td>
+	</tr><tr align=center>
+		<th>                     Coach(es)        </th>
+		<td colspan=3>           (preferred)      </td>
+		<td>                     (preferred)      </td>
+	</tr><tr align=center>
+		<th>                     New-hires        </th>
+		<td colspan=6>           &check;          </td>
+		<td/>
+		<td colspan=2>           &check;          </td>
+	</tr>
+</table>
+
+#### Onboarding Kick-off
+
+- Explain onboarding purpose, structure, _etc_.
+- For each project
+  - High-level introduction
+  - Demonstrate current state
+  - Briefly express sprint goals / "theme"
+- Ensure basic computer setup
+- Ensure access to JIRA, GitHub, _etc_.
+- Slack
+  - Basic introduction
+  - Ensure membership in 'basic' channels
+
+#### Per Project Sprint Planning / Kick-off
+
+This meeting may be either Monday afternoon (_e.g._, part of or following the Onboarding Kick-off) or Tuesday morning (in lieu of that day's Standup), according to schedules and availability.
+
+- "Normal" Sprint planning
+  - Flesh out story(ies)
+  - As appropriate, define and assign Tasks
+- Project-specific tools & environment setup
+
+#### Daily Standup
+
+- Run by the [Project Manager / Agile Coach](#project-manager--agile-coach)
+- Focused on the Team &mdash; Yesterday / Today / Blockers
+- Coaches are encouraged to attend, but more to observe and inform their coaching than participate
+- [Product Owner(s)](#product-owner) may attend, but should expect only to observe rather than participate
+
+#### Plan
+
+Ideally, the Staffing Manager has provided basic information about the next week's new-hires &mdash; at least name and initial assignment &mdash; _before_ this meeting so that appropriate project(s) and coaches have already been identified.
+
+- Staffing Manager provides information on next week's new-hires
+  - Experience summary
+  - Concerns expressed during interview process
+- Orient new Coaches
+- Select User Story(ies) from the project backlog(s)
+
+
+#### Preparation & Demo
+
+A quick "technical rehearsal" before the Demo.
+
+The Demonstration:
+
+- Led by the [Project Manager / Agile Coach](#project-manager--agile-coach) new-hire(s), if there are any
+- Briefly explain the onboarding framework
+- Explain and demonstrate each project's progress
+
+#### Retrospective
+
+"What went well?" / "What can we improve?" focused more on overall onboarding rather than the specific project(s).
 
 ## (Re-)Initialization
 
