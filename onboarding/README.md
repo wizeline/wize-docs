@@ -207,8 +207,8 @@ Assuming normal 5-day work weeks, each week of involvement includes meetings ove
 		<th colspan=2>           Mon. PM          </th>
 		<th colspan=2>           Tue.             </th>
 		<th>                     Wed.             </th>
-		<th colspan=2>           Thr.             </th>
-		<th colspan=2>           Fri.             </th>
+		<th>                     Thr.             </th>
+		<th colspan=3>           Fri.             </th>
 		<th           rowspan=6/>
 		<th>                     Mon. AM          </th>
 	</tr><tr>
@@ -217,32 +217,30 @@ Assuming normal 5-day work weeks, each week of involvement includes meetings ove
 		<th>                     Standup?         </th>
 		<th>                     Standup          </th>
 		<th>                     Standup          </th>
-		<th>                     Plan             </th>
 		<th>                     Standup          </th>
+		<th>                     Plan             </th>
 		<th>                     Prep & Demo      </th>
 		<th>                     Retrospective    </th>
 	</tr><tr align=center>
 		<th>                     Coordinator      </th>
 		<td>                     &check;          </td>
-		<td colspan=5>           (optional)       </td>
+		<td colspan=6>           (optional)       </td>
 		<td           rowspan=3> &check;          </td>
-		<td           rowspan=2> (optional)       </td>
 		<td>                     &check;          </td>
 		<td           rowspan=4> &check;          </td>
 	</tr><tr align=center>
 		<th>                     Product Owner(s) </th>
 		<td colspan=3 rowspan=2> &check;          </td>
-		<td colspan=3>           (optional)       </td>
+		<td colspan=4>           (optional)       </td>
 		<td           rowspan=2> (preferred)      </td>
 	</tr><tr align=center>
 		<th>                     Coach(es)        </th>
-		<td colspan=3>           (preferred)      </td>
-		<td>                     (preferred)      </td>
+		<td colspan=4>           (preferred)      </td>
 	</tr><tr align=center>
 		<th>                     New-hires        </th>
-		<td colspan=6>           &check;          </td>
+		<td colspan=7>           &check;          </td>
 		<td/>
-		<td colspan=2>           &check;          </td>
+		<td>                     &check;          </td>
 	</tr>
 </table>
 
@@ -279,13 +277,14 @@ This meeting may be either Monday afternoon (_e.g._, part of or following the On
 
 #### Plan
 
-Ideally, the Staffing Manager has provided basic information about the next week's new-hires &mdash; at least name and initial assignment &mdash; _before_ this meeting so that appropriate project(s) and coaches have already been identified.
+Ideally, the Staffing Manager has provided basic information about the next week's new-hires &mdash; at least name and initial assignment &mdash; enough _before_ this meeting so that appropriate project(s) and Coaches can be identified and attend this meeting.
 
 - Staffing Manager provides information on next week's new-hires
   - Experience summary
   - Concerns expressed during interview process
-- Orient new Coaches
-- Select User Story(ies) from the project backlog(s)
+- Orient new Coaches if/as needed
+- Coaches and Product Owner(s) select User Story(ies) from the project backlog(s)
+- Discuss needs, risks, _etc._
 
 
 #### Preparation & Demo
