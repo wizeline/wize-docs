@@ -22,23 +22,16 @@ in the HackerRank library for use in
 [CodePair](https://www.hackerrank.com/x/interviews/mypads)
 interviews.
 
-## Inputs - test cases
-- kayAk
-- yaml yaMl
-- Never odd or even
-- No x in Nixon
-- ab
-- a
-- Sample
-
-## Output
-- kayAk = true
-- yaml yaMl = true
-- Never odd or even = true
-- No x in Nixon = true
-- ab = false
-- a = true
-- Sample = false
+## Test cases
+```
+"kayAk"             => true  # is a palindrome
+"yaml yaMl"         => true  # every non-space character has an even number of instances
+"Never odd or even" => true  # is a palindrome
+"No x in Nixon"     => true  # is a palindrome
+"ab"                => false # more than 1 letter has an odd number of instances
+"a"                 => true  # only 1 letter has an odd number of instances
+"Sample"            => false # more than 1 letter has an odd number of instances
+```
 
 ## Observations
 - How to solve it? Ordering characters in ascending/descending order, then using a stack to push characters findings if a character is duplicated then pop it out. The main idea is to evaluate that:
