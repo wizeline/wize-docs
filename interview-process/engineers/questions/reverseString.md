@@ -43,8 +43,8 @@ function reverse(str) {
 
 ## Test cases
 ```
-'' => ''
-'A laborer' => 'rerobal A'
+""          => ""
+"A laborer" => "rerobal A"
 ```
 
 Including edge/corner cases:
