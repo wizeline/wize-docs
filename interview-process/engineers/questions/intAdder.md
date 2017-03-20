@@ -26,8 +26,8 @@ interviews.
 
 ## Test cases
 ```
-integerAdder([1, 0], [5]) => [1, 5]
-integerAdder([2, 5], [2, 5]) => [5, 0]
+[1, 0],    [5] => [1, 5]  # 10 +  5 = 15 -- no carry
+[2, 6], [3, 4] => [6, 0]  # 26 + 34 = 60 --    carry
 ```
 
 [Home](../../../README.md) |
