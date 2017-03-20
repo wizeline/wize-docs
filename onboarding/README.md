@@ -74,15 +74,15 @@ For example, Dow Jones projects require team members to have VPN access; the pro
 
 ### Roles
 
+Beyond the new-hire cohorts, the onboarding process involves requires a variety of related and cooperating roles. A given person may perform several roles during some week, but it is unlikely (and discouraged) that the onboarding "team" ever be one single individual.
+
+This section is intended to introduce the roles and their functions; later sections will provide more detail and context.
+
 #### Coach
 
 An experienced employee with specific skills and experience relevant to at least some of the onboarding new-hires' position &mdash; for example, QA engineer, iOS developer, Project Manager, web developer, _etc_.
 
 During any given week, each "type" of new-hire in the cohort must have at least one Coach willing and able to help the new-hires work on the project(s) and ensure they have at least "baseline" skill with tools, techniques, practices, _etc_., appropriate to that "type."
-
-Beyond the new-hire cohorts, the onboarding process involves requires a variety of related and cooperating roles. A given person may perform several roles during some week, but it is unlikely (and discouraged) that the onboarding "team" ever be one single individual.
-
-This section is intended to introduce the roles and their functions; later sections will provide more detail and context.
 
 #### Coordinator
 
