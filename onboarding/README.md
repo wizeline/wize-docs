@@ -2,13 +2,13 @@
 
 ## Executive Summary
 
-Newly-hired software engineers and project managers work on [internal projects](#internal-projects) for their first 2 weeks to learn culture, best practices, and leader/mentorship while ensuring a minimal level of knowledge and skills with tools/technologies relevant to the new-hires’ first assignments (_e.g._, MacOS, Git, GitHub, Jira, Confluence, NodeJS, React, _etc._). Secondary benefits (hopefully) include&hellip;
+Newly-hired software engineers and project managers work on [internal projects](#internal-projects) for their first 2 weeks to learn culture, best practices, and leader/mentorship while ensuring a minimal level of knowledge and skills with tools/technologies relevant to the new-hires’ first assignments (_e.g._, MacOS, Git, GitHub, Jira, Confluence, NodeJS, React, _etc._). Secondary benefits (hopefully) include
 
-- ever-more-valuable internal tools
-- immediate socialization of the new-hires beyond their initial assignment team
-- (more) rapid recognition and “acceptance” of new-hires for their contributions to the internal tools
-- opportunities for existing employees to get experience mentoring, coaching, leading, _etc_.
-- teaching and demonstrating the culture, values, and practices we **want** the team to have
+- Ever-more-valuable internal tools
+- Immediate socialization of the new-hires beyond their initial assignment team
+- (More) rapid recognition and “acceptance” of new-hires for their contributions to the internal tools
+- Opportunities for existing employees to get experience mentoring, coaching, leading, _etc_.
+- Teaching and demonstrating the culture, values, and practices we **want** the team to have
 
 ## Sections
 
@@ -50,19 +50,19 @@ Newly-hired communicators, designers, developers, and project managers  join the
 		<td colspan=2>
 			<ul>
 				<li>
-					work on bugs/features on internal projects using skills, tools, and practices relevant to their first post-onboarding assignment
+					Work on bugs/features on internal projects using skills, tools, and practices relevant to their first post-onboarding assignment
 				</li><li>
-					receive help and coaching on those skills, tools and practices to achieve at least a “minimal level set”
+					Receive help and coaching on those skills, tools and practices to achieve at least a “minimal level set”
 				</li><li>
-					receive assistance, coaching, guidance, <em>etc.</em>, from more “established” employees
+					Receive assistance, coaching, guidance, <em>etc.</em>, from more “established” employees
 				</li>
 			</ul>
 		</td>
 	</tr><tr>
 		<td>
-			receive some help and coaching from the "senior" new-hires in their 2nd week
+			Receive some help and coaching from the "senior" new-hires in their 2nd week
 		</td><td>
-			help coach and train the first-week cohort
+			Help coach and train the first-week cohort
 		</td>
 	</tr>
 </table>
@@ -184,8 +184,8 @@ After the HR orientation, _etc._, the initial “technical onboarding” session
 - Introduction to the project(s)
 - Access to project materials &mdash; _e.g._,
   - Jira and/or GitHub
-	  - create account if needed
-     - access to the Wizeline organization
+	  - Create account if needed
+     - Access to the Wizeline organization
      - ssh keys, 2-Factor Authorization, _etc._
 - Slack
 	- Onboarding dev team(s)
@@ -340,8 +340,8 @@ Feedback sources:
 - Participants &mdash; during and for weeks (months?) after their onboarding process<br>
   Did the program prepare you for&hellip;
 
-   - your initial team/pod/project?
-   - company culture, _etc_?
+   - Your initial team/pod/project?
+   - Company culture, _etc_?
 
   What did we get “wrong” &mdash; _e.g._, what did you have to “unlearn” later?<br>
   What did we “miss” (that is not “too” specific to your initial team/pod/project)?
