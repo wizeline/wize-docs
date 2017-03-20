@@ -171,7 +171,7 @@ These projects’ “owners” are expected to maintain a “backlog” of desir
 - HR provides orientation information and support
 - New-hires who will participate in this onboarding program are placed in the “new-hires” area (when available; see [Planning - Physical](#physical), above; their orientation sets the expectation of moving to be with/near their initial assignment team after the 2-week onboarding process
 - They do not receive "their" monitors until they complete their onboarding process and move to their initial team/assignment area (see [Transition](#transition), below)
-- Initial meetings with the previous cohort, “(internal) project/product owner(s),” _etc._, are scheduled
+- Initial meetings with the previous cohort, “(internal) project/[product owner(s)](#product-owner),” _etc._, are scheduled
 - “Classroom” sessions on specific skills, tools, technologies, _etc._, are be scheduled and held as needed
 
 ### Basic Syllabus
@@ -197,7 +197,7 @@ After the HR orientation, _etc._, the initial “technical onboarding” session
 	- _etc._
 - Specific work items &mdash; User Stories and/or bugs &mdash; on the selected [project(s)](https://goo.gl/07IbM8)
 
-All along the way, the coaches / teachers / mentors ask what level of knowledge and familiarity the new-hires have with the various topics, how to do it on MacOS, _etc._ When one or more new-hires need specific help, the onboarding team provides the information needed in this preferred order:
+All along the way, the [Coaches](#coach) ask what level of knowledge and familiarity the new-hires have with the various topics, how to do it on MacOS, _etc._ When one or more new-hires need specific help, the onboarding team provides the information needed in this preferred order:
 
 - Other new-hires &mdash; whether “junior” or “senior” &mdash;  with “supervision” to ensure that the coaching is consistent with Wizeline practices and procedures
 - Onboarding staff directly
@@ -208,50 +208,50 @@ Assuming normal 5-day work weeks, each week of involvement includes meetings ove
 
 <table>
 	<tr>
-		<th           rowspan=2/>
-		<th colspan=2>           Mon. PM          </th>
-		<th colspan=2>           Tue.             </th>
-		<th>                     Wed.             </th>
-		<th>                     Thr.             </th>
-		<th colspan=3>           Fri.             </th>
+		<th           rowspan=2> <a href="#roles">                                 Role            </a>    </th>
+		<th colspan=2>                                                             Mon. PM                 </th>
+		<th colspan=2>                                                             Tue.                    </th>
+		<th>                                                                       Wed.                    </th>
+		<th>                                                                       Thr.                    </th>
+		<th colspan=3>                                                             Fri.                    </th>
 		<th           rowspan=7/>
-		<th>                     Mon. AM          </th>
+		<th>                                                                       Mon. AM                 </th>
 	</tr><tr>
-		<th>                     Kick-off         </th>
-		<th colspan=2>           Sprint Planning  </th>
-		<th>                     Standup?         </th>
-		<th>                     Standup          </th>
-		<th>                     Standup          </th>
-		<th>                     Standup          </th>
-		<th>                     Plan             </th>
-		<th>                     Prep & Demo      </th>
-		<th>                     Retrospective    </th>
+		<th>                     <a href="#onboarding-kick-off">                   Kick-off        </a>    </th>
+		<th colspan=2>           <a href="#per-project-sprint-planning--kick-off"> Sprint Planning </a>    </th>
+		<th>                     <a href="#daily-standup">                         Standup         </a>(?) </th>
+		<th>                     <a href="#daily-standup">                         Standup         </a>    </th>
+		<th>                     <a href="#daily-standup">                         Standup         </a>    </th>
+		<th>                     <a href="#daily-standup">                         Standup         </a>    </th>
+		<th>                     <a href="#plan">                                  Plan            </a>    </th>
+		<th>                     <a href="#preparation--demo">                     Prep & Demo     </a>    </th>
+		<th>                     <a href="#retrospective">                         Retrospective   </a>    </th>
 	</tr><tr align=center>
-		<th>                     Coordinator      </th>
-		<td>                     &check;          </td>
-		<td colspan=6>           (optional)       </td>
-		<td           rowspan=3> &check;          </td>
-		<td>                     &check;          </td>
-		<td           rowspan=4> &check;          </td>
+		<th>                     <a href="#coordinator">                           Coordinator     </a>    </th>
+		<td>                                                                       &check;                 </td>
+		<td colspan=6>                                                             (optional)              </td>
+		<td           rowspan=3>                                                   &check;                 </td>
+		<td>                                                                       &check;                 </td>
+		<td           rowspan=4>                                                   &check;                 </td>
 	</tr><tr align=center>
-		<th>                     Product Owner(s) </th>
-		<td colspan=3 rowspan=2> &check;          </td>
-		<td colspan=4>           (optional)       </td>
-		<td           rowspan=2> (preferred)      </td>
+		<th>                     <a href="#product-owner">                         Product Owner   </a>    </th>
+		<td colspan=3 rowspan=2>                                                   &check;                 </td>
+		<td colspan=4>                                                             (optional)              </td>
+		<td           rowspan=2>                                                   (preferred)             </td>
 	</tr><tr align=center>
-		<th>                     Coach(es)        </th>
-		<td colspan=4>           (preferred)      </td>
+		<th>                     <a href="#coach">                                 Coach           </a>    </th>
+		<td colspan=4>                                                             (preferred)             </td>
 	</tr><tr align=center>
-		<th>                     New-hires        </th>
-		<td colspan=7>           &check;          </td>
-		<td rowspan=2/>
-		<td>                     &check;          </td>
+		<th>                                                                       New-hires               </th>
+		<td colspan=7>                                                             &check;                 </td>
+		<td           rowspan=2/>
+		<td>                                                                       &check;                 </td>
 	</tr><tr align=center>
-		<th>                     Volulnteers      </th>
-		<td>                     (optional)       </td>
-		<td colspan=6>           &check;          </td>
-		<td>                     (preferred)      </td>
-		<td>                     (preferred)      </td>
+		<th>                     <a href="#volunteer">                             Volulnteer      </a>    </th>
+		<td>                                                                       (optional)              </td>
+		<td colspan=6>                                                             &check;                 </td>
+		<td>                                                                       (preferred)             </td>
+		<td>                                                                       (preferred)             </td>
 	</tr>
 </table>
 
@@ -283,18 +283,18 @@ This meeting may be either Monday afternoon (_e.g._, part of or following the On
 
 - Run by the [Project Manager / Agile Coach](#project-manager--agile-coach)
 - Focused on the Team &mdash; Yesterday / Today / Blockers
-- Coaches are encouraged to attend, but more to observe and inform their coaching than participate
-- [Product Owner(s)](#product-owner) may attend, but should expect only to observe rather than participate
+- [Coaches](#coach) are encouraged to attend, but more to observe and inform their coaching than participate
+- [Product Owners](#product-owner) may attend, but should expect only to observe rather than participate
 
 #### Plan
 
-Ideally, the Staffing Manager has provided basic information about the next week's new-hires &mdash; at least name and initial assignment &mdash; enough _before_ this meeting so that appropriate project(s) and Coaches can be identified and attend this meeting.
+Ideally, the Staffing Manager has provided basic information about the next week's new-hires &mdash; at least name and initial assignment &mdash; enough _before_ this meeting so that appropriate project(s) and [Coaches](#coach) can be identified and attend this meeting.
 
 - Staffing Manager provides information on next week's new-hires
   - Experience summary
   - Concerns expressed during interview process
-- Orient new Coaches if/as needed
-- Coaches and Product Owner(s) select User Story(ies) from the project backlog(s)
+- Orient new [Coaches](#coach) if/as needed
+- [Coaches](#coach) and [Product Owners](#product-owner) select User Story(ies) from the project backlog(s)
 - Discuss needs, risks, _etc._
 
 
