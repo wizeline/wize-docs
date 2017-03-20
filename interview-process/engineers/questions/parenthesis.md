@@ -20,6 +20,21 @@ in the HackerRank library for use in
 [CodePair](https://www.hackerrank.com/x/interviews/mypads)
 interviews.
 
+## Test cases
+```
+"(bar)"              => "rab"
+"foo(bar)baz"        => "foorabbaz"
+"foo(bar(baz))blim"  => "foo(barzab)blim" => "foobazrabblim"
+""                   => ""
+"()"                 => ""
+"(abc)d(efg)"        => "cbadgfe"
+"foobarbaz"          => "foobarbaz"
+"(())(((())))"       => ""
+"((bar))"            => "bar"
+"wi(ez)(((il)))(en)" => "wizeline"
+"foo()bar"           => "foobar"
+```
+
 ## Observations
 - How to solve it? Two possible solutions for this problem are using recursion or using a stack.
 
@@ -47,19 +62,6 @@ def reverse_text_inside_parens(text):
         raise ValueError('Malformed expression')
 
     return output_so_far
-```
-
-## Test cases
-```javascript
-'' => ''
-'()' => ''
-'(())(((())))' => ''
-'(bar)' => 'rab'
-'((bar))' => 'bar'
-'wi(ez)(((il)))(en)' => 'wizeline'
-'foobarbaz' => 'foobarbaz'
-'foo(bar)baz' => 'foorabbaz'
-'foo(bar(baz))blim' => 'foo(barzab)blim' => 'foobazrabblim'
 ```
 
 [Home](../../../README.md) |
