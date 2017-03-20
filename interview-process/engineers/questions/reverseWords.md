@@ -22,8 +22,8 @@ interviews.
 
 ## Test cases
 ```
-'Hello world Wizeline' => 'Wizeline world Hello'
-'A laborer finds Don Quixote lying near the road and leads him home on his mule' => 'mule his on home him leads and road the near lying Quixote Don fins laborer A'
+"Hello world Wizeline"                                                           => "Wizeline world Hello"
+"A laborer finds Don Quixote lying near the road and leads him home on his mule" => "mule his on home him leads and road the near lying Quixote Don finds laborer A"
 ```
 
 [Home](../../../README.md) |
