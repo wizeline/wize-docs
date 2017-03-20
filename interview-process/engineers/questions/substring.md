@@ -22,6 +22,23 @@ in the HackerRank library for use in
 [CodePair](https://www.hackerrank.com/x/interviews/mypads)
 interviews.
 
+## Test Cases
+
+```
+"bat",           "abate"                                                                       => true
+"bat"            "beat"                                                                        => false
+"first"          "The ford motor company introduce the fierce motor engine for the first time" => true
+"cdefg",         "abcabcdabcdefabcdddefghi                                                     => false
+"aab",           "aaadaabac                                                                    => false
+"a",             ""                                                                            => false
+"",              "abc"                                                                         => true
+"",              "",                                                                           => true
+"theSameString", "theSameString"                                                               => true
+"ab",            "abc"                                                                         => true
+"bc",            "abc"                                                                         => true
+"bat"            "ba"                                                                          => false
+```
+
 ## Observations
 - 20 mins FOR AN EXPERIENCED, 40 mins FOR ROOKIE
 - Basically implement something similar string.substring without using this function or any other similar function (string.find, string.contains, etc).
@@ -29,12 +46,6 @@ interviews.
 
 ## Other test cases
 Once the candidate has a solution, perhaps ask what other kinds of test cases / input they would use. Share these only if the candidate doesn't identify them — especially if the proposed solution wouldn't handle them!
-
-### 'Substring' is longer than the 'superstring'
-
-```
-// ("bat", "ba") => false
-```
 
 ### Non-strings
 
