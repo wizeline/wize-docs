@@ -259,6 +259,8 @@ Assuming normal 5-day work weeks, each week of involvement includes meetings ove
 
 #### Onboarding Kick-off
 
+Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach).
+
 - Explain onboarding purpose, structure, _etc_.
 - For each project
   - High-level introduction
@@ -272,6 +274,8 @@ Assuming normal 5-day work weeks, each week of involvement includes meetings ove
 
 #### Per Project Sprint Planning / Kick-off
 
+Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach).
+
 This meeting may be either Monday afternoon (_e.g._, part of or following the Onboarding Kick-off) or Tuesday morning (in lieu of that day's Standup), according to schedules and availability.
 
 - "Normal" Sprint planning
@@ -281,12 +285,15 @@ This meeting may be either Monday afternoon (_e.g._, part of or following the On
 
 #### Daily Standup
 
-- Run by the [Project Manager / Agile Coach](#project-manager--agile-coach)
+Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach).
+
 - Focused on the Team &mdash; Yesterday / Today / Blockers
 - [Coaches](#coach) are encouraged to attend, but more to observe and inform their coaching than participate
 - [Product Owners](#product-owner) may attend, but should expect only to observe rather than participate
 
 #### Plan
+
+Scheduled and run by the [Coordinator](#coordinator).
 
 Ideally, the Staffing Manager has provided basic information about the next week's new-hires &mdash; at least name and initial assignment &mdash; enough _before_ this meeting so that appropriate project(s) and [Coaches](#coach) can be identified and attend this meeting.
 
@@ -300,15 +307,19 @@ Ideally, the Staffing Manager has provided basic information about the next week
 
 #### Preparation & Demo
 
+Scheduled and facilitated by the [Coordinator](#coordinator).
+
 A quick "technical rehearsal" before the Demo.
 
 The Demonstration:
 
-- Led by the [Project Manager / Agile Coach](#project-manager--agile-coach) new-hire(s), if there are any
+- Generally led by the [Project Manager / Agile Coach](#project-manager--agile-coach)
 - Briefly explain the onboarding framework
 - Explain and demonstrate each project's progress
 
 #### Retrospective
+
+Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach).
 
 "What went well?" / "What can we improve?" focused more on overall onboarding rather than the specific project(s).
 
