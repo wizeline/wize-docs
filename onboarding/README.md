@@ -19,6 +19,7 @@ Newly-hired software engineers and project managers work on [internal projects](
      - [Coordinator](#coordinator)
      - [Product Owner](#product-owner)
      - [Project Manager / Agile Coach](#project-manager--agile-coach)
+     - [Volunteer](#volunteer)
 - [Planning](#planning)
   - [Physical](#physical)
   - [Activity](#activity)
@@ -98,6 +99,10 @@ Each project used during onboarding must have at least one Owner who holds the "
 #### Project Manager / Agile Coach
 
 Generally an existing Project Manager (PjM) employee. When the new-hire cohort includes a new Project Manager, however, that new-hire assumes this role with the coaching and guidance of an existing PjM.
+
+#### Volunteer
+
+An existing (_i.e._, not new-hire) employee who wishes to participate in an onboarding project. Distinct from [Coaches](#coach), A Volunteer's main focus is to gain experience with the tools, languages, _etc_., used for a project and/or help onboarding new-hires make progress with a given project.
 
 ## Planning
 
@@ -209,7 +214,7 @@ Assuming normal 5-day work weeks, each week of involvement includes meetings ove
 		<th>                     Wed.             </th>
 		<th>                     Thr.             </th>
 		<th colspan=3>           Fri.             </th>
-		<th           rowspan=6/>
+		<th           rowspan=7/>
 		<th>                     Mon. AM          </th>
 	</tr><tr>
 		<th>                     Kick-off         </th>
@@ -239,8 +244,14 @@ Assuming normal 5-day work weeks, each week of involvement includes meetings ove
 	</tr><tr align=center>
 		<th>                     New-hires        </th>
 		<td colspan=7>           &check;          </td>
-		<td/>
+		<td rowspan=2/>
 		<td>                     &check;          </td>
+	</tr><tr align=center>
+		<th>                     Volulnteers      </th>
+		<td>                     (optional)       </td>
+		<td colspan=6>           &check;          </td>
+		<td>                     (preferred)      </td>
+		<td>                     (preferred)      </td>
 	</tr>
 </table>
 
