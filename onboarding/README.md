@@ -127,7 +127,7 @@ When space, desks, facilities, _etc_., permit, the onboarding cohorts are placed
 	</tr><tr>
 		<th>Place "B"</th>
 		<td align="center" colspan=2> Cohort <em>n    </em></td>
-		<td align="center">  &hellip; Cohort <em>n + 2</em></td>
+		<td align="center"> Cohort <em>n + 2 </em> &hellip;</td>
 	</tr>
 </table>
 
