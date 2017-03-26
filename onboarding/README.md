@@ -197,7 +197,7 @@ As described [above](#activity), much of the material is tailored to and driven 
 
 After the HR orientation, _etc._, the initial “technical onboarding” session includes
 
-- Overview of this technical onboarding program (purpose, duration, structure, etc.)
+- Overview of this technical onboarding program (purpose, duration, structure, _etc_.)
 - Introduction to the project(s)
 - Access to project materials &mdash; _e.g._,
   - Jira and/or GitHub
