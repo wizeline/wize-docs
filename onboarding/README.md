@@ -255,6 +255,10 @@ Assuming normal 5-day work weeks, each week of involvement includes meetings ove
 
 (scroll horizontally if/as needed to see the whole schedule)
 
+The following sections describe the high-level "themes" of each meeting. With the assumption that some details are too finely grained to merit the discussion and consensus of Pull Requests, the onboarding maintains
+[this document](https://docs.google.com/document/d/11IrRalFY-m_rLTtGh02qBwkPGzOASPkM4cAPG34SETg/edit#heading=h.36kr1bsy38r1).
+This allows the team to propose and test specific changes quickly.
+
 #### Onboarding Kick-off
 
 Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach).
