@@ -240,7 +240,7 @@ Assuming normal 5-day work weeks, each week of involvement includes meetings ove
 		<th>                     <a href="#coach">                                 Coach           </a>    </th>
 		<td colspan=4>                                                             (preferred)             </td>
 	</tr><tr align=center>
-		<th>                                                                       New-hires               </th>
+		<th>                                                                       New-hire                </th>
 		<td colspan=7>                                                             &check;                 </td>
 		<td           rowspan=2/>
 		<td>                                                                       &check;                 </td>
