@@ -85,6 +85,10 @@ An experienced employee with specific skills and experience relevant to at least
 
 During any given week, each "type" of new-hire in the cohort must have at least one Coach willing and able to help the new-hires work on the project(s) and ensure they have at least "baseline" skill with tools, techniques, practices, _etc_., appropriate to that "type."
 
+When the onboarding team needs to identify a new Coach, they rely on appropriate managers &mdash; _e.g._,
+[Engineering Managers](../engineering-culture/engineering-management-talking-points.md),
+Program Managers, _etc_. &mdash; to recommend employees who have already shown competency in both the relevant skill(s) and coaching/mentorship for them within their assigned team(s). Of course, the recommended employee has the final say in whether or not they are willing and able to commit to Coaching for a given week.
+
 #### Coordinator
 
 Provide organizational and logistical support for onboarding-level (_i.e._, not project-specific) meetings and activities.
