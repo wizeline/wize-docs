@@ -37,7 +37,10 @@ Newly-hired software engineers and project managers work on [internal projects](
 - [(Re-)Initialization](#re-initialization)
 - [Transition](#transition)
 - [Iteration and Evolution](#iteration-and-evolution)
-- [Notes for Project “Owners” / “Champions”](#notes-for-project-owners--champions)
+- [Additional Notes](#additional-notes)
+  - [All](#all)
+  - [Coaches](#coaches)
+  - [Product Owners](#product-owners)
 
 ## The Big Picture
 
@@ -90,6 +93,9 @@ When the onboarding team needs to identify a new Coach, they rely on appropriate
 [Engineering Managers](../engineering-culture/engineering-management-talking-points.md),
 Program Managers, _etc_. &mdash; to recommend employees who have already shown competency in both the relevant skill(s) and coaching/mentorship for them within their assigned team(s). Of course, the recommended employee has the final say in whether or not they are willing and able to commit to Coaching for a given week.
 
+See additional [notes](#coaches), below.
+
+
 #### Coordinator
 
 Provide organizational and logistical support for onboarding-level (_i.e._, not project-specific) meetings and activities.
@@ -100,6 +106,8 @@ Each project used during onboarding must have at least one Owner who holds the "
 
 - Helps the development team understand project/feature intent and purpose
 - Provides User Stories and negotiates their details with the team
+
+See additional [notes](#product-owners), below.
 
 #### Project Manager / Agile Coach
 
@@ -150,7 +158,7 @@ The onboarding team uses that list of ‘target’ skills/tools/technologies to 
 
 Next, the onboarding team works with the identified Internal Projects’ “owner(s)” to move items both valuable to the project(s) and relevant to the onboarding goals to the top of the backlog(s). This is a weekly activity, taking into account both upcoming cohorts and the in-progress cohorts’ expected progress.
 
-If the Internal Projects’ “owner(s)” are new to the onboarding process, those more experienced with the process help orient them to the process, educational goals and methods, _etc._ (see [Notes for Project “Owners” / “Champions”](#notes-for-project-owners--champions), below).
+If the Internal Projects’ “owner(s)” are new to the onboarding process, those more experienced with the process help orient them to the process, educational goals and methods, _etc._ (see additional [notes](#product-owners), below).
 
 The final planning step is to determine what additional resources the cohort will need to be successful with their tasks during the onboarding weeks. At a minimum, Owners/Stakeholders for the Internal Project(s) will need to be available to answer questions, discuss requirements and alternatives, _etc._ Additionally, onboarding cohorts may require additional skills beyond those present in the cohort &mdash; _e.g._,
 
@@ -379,16 +387,24 @@ Feedback sources:
   Are new-hires being inculturated “correctly?"<br>
   What onboarding is done by several teams/pods/projects that this program could "centralize?"
 
-## Notes for Project “Owners” / “Champions”
+## Additional Notes
+
+### All 
+
+Make every interaction with the new-hires as “safe” for them to admit ignorance/inexperience as possible. Encourage questions and “reward” them with positive feedback.
+
+### Coaches
+
+- When discussing any given technical aspect of your project or its development, please ask the new-hires how familiar they are. Be prepared to provide education on any given topic &mdash; no matter how eager you are to make progress on the project.
+- Leverage any and all available expertise for teaching/coaching the new-hires: you, other “experienced” employees, one or more of the new-hires themselves, _etc._
+
+### Product Owners
 
 - As noted [above](#internal-projects), Internal Projects should be developed using appropriate tools, frameworks, _etc._, to be successful. However, when several suitable options are available, give preference to items/combinations not already in use by other projects so as to maintain “coverage” of tools, technologies, _etc._, in use in platform and services.
-- Make every interaction with the new-hires as “safe” for them to admit ignorance/inexperience as possible. Encourage questions and “reward” them with positive feedback.
-- When discussing any given technical aspect of your project or its development, please ask the new-hires how familiar they are. Be prepared to provide education on any given topic — no matter how eager you are to make progress on the project.
-- Leverage any and all available expertise for teaching/coaching the new-hires: you, other “experienced” employees, one or more of the new-hires themselves, etc.
 - As much as possible, be more “customer/client” or “Product Owner” and less “architect” or “lead engineer”
    - Explain stories, goals, values, _etc._
    - Be open to new/different ideas, approaches, _etc._
-   - Leave as many opportunities for creative input and decision-making at all levels (_e.g._, from user experience to coding) as possible to create as many opportunities for the new-hires to feel empowered, trusted, respected, invested, _etc._
+   - Leave as many opportunities for creative input and decision-making at all levels (_e.g._, from user experience to architecture coding) as possible to create as many opportunities for the new-hires to feel empowered, trusted, respected, invested, _etc._
 - Think as “widely” and creatively as possible for onboarding & educational opportunities in your project(s)
    - Web
    - Mobile
