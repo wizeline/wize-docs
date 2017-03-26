@@ -22,6 +22,7 @@ Newly-hired software engineers and project managers work on [internal projects](
      - [Volunteer](#volunteer)
 - [Planning](#planning)
   - [Physical](#physical)
+     - [Target-team Exception](#target-team-exception)
   - [Activity](#activity)
   - ["Internal Projects?"](#internal-projects)
 - [Execution](#execution)
@@ -132,6 +133,12 @@ When space, desks, facilities, _etc_., permit, the onboarding cohorts are placed
 </table>
 
 To simplify both first day setup and move-out (see [Transition](#transition), below) we pre-provision this area with monitors.
+
+#### Target-team Exception
+
+On occasion, one or more new-hire(s) may arrive just before their (expected) first assignment project is scheduled to begin. When this happens and existing employees with the same (expected) assignment are available, it may be advantageous to have the existing employees be [Coaches](#coach) and/or [Volunteers](#volunteer) on the onboarding project with the new-hire(s) to give all the opportunity to 'gel' as a team _before_ the (expected) external project begins.
+
+To support this 'gelling' and simplify post-onboarding [transition](#transition), the onboarding team may wish to seat the 'target team' together in their actual team area rather than the usual new-hires/onboarding area described [above](#physical).
 
 ### Activity
 
