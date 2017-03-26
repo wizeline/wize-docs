@@ -152,11 +152,9 @@ The final planning step is to determine what additional resources the cohort wil
 
 A separate initiative is underway to identify and develop ideas for internal projects:
 
-- [\#internal-projects](https://wizeline.slack.com/archives/internal-projects) Slack channel
 - [Google document](https://goo.gl/07IbM8)
 - [Jira Board](https://wizeline.atlassian.net/secure/RapidBoard.jspa?projectKey=WIP&rapidView=28)
 - [Confluence Board](https://wizeline.atlassian.net/wiki/display/WIP)
-- [Trello board](https://trello.com/b/dhDp6GLV/v-team-projects) for tracking assignments & checklists
 
 Existing staff members with ideas and “passion” for these projects serve as “product owners”/“on-site customers” for these projects &mdash; essentially the “clients” for the new-hire teams.
 
