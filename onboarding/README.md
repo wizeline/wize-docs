@@ -1,4 +1,4 @@
-# Engineering Onboarding in GDL
+# Technical Onboarding
 
 ## Executive Summary
 
