@@ -2,12 +2,12 @@
 
 ## Executive Summary
 
-Newly-hired software engineers and project managers work on [internal projects](#internal-projects) for their first 2 weeks to learn culture, best practices, and leader/mentorship while ensuring a minimal level of knowledge and skills with tools/technologies relevant to the new-hires’ first assignments (_e.g._, MacOS, Git, GitHub, Jira, Confluence, NodeJS, React, _etc._). Secondary benefits (hopefully) include
+Newly-hired communicators, designers, developers, and project managers work on [internal projects](#internal-projects) for their first two weeks to learn the culture, best practices, mentorship, and leadership. We ensure a minimal level of knowledge and skills with tools and technologies relevant to the new-hires’ first assignments (e.g., MacOS, Git, GitHub, Jira, Confluence, NodeJS, React, etc.). Secondary benefits include the following:
 
-- Ever-more-valuable internal tools
-- Immediate socialization of the new-hires beyond their initial assignment team
-- (More) rapid recognition and “acceptance” of new-hires for their contributions to the internal tools
-- Opportunities for existing employees to get experience mentoring, coaching, leading, _etc_.
+- Continues improvement of internal tools
+- Immediate socialization of the new-hires beyond their initial team
+- Rapid recognition and acceptance of new-hires for their contributions to the internal tools
+- Opportunities for existing employees to get experience mentoring, coaching, leading, etc.
 - Teaching and demonstrating the culture, values, and practices we **want** the team to have
 
 ## Sections
@@ -44,7 +44,7 @@ Newly-hired software engineers and project managers work on [internal projects](
 
 ## The Big Picture
 
-Newly-hired communicators, designers, developers, and project managers  join the “onboarding” team for two 1-week “sprints.”
+Newly-hired team members join the onboarding team for two one-week sprints. The following table lists what is expected of them during this time.
 
 <table>
 	<tr>
@@ -54,74 +54,75 @@ Newly-hired communicators, designers, developers, and project managers  join the
 		<td colspan=2>
 			<ul>
 				<li>
-					Work on bugs/features on internal projects using skills, tools, and practices relevant to their first post-onboarding assignment
+					Work on bugs/features on internal projects using skills, tools, and practices relevant to their first post-onboarding assignment.
 				</li><li>
-					Receive help and coaching on those skills, tools and practices to achieve at least a “minimal level set”
+					Receive help and coaching on skills, tools, and practices to achieve at least minimal level of understanding.
 				</li><li>
-					Receive assistance, coaching, guidance, <em>etc.</em>, from more “established” employees
+					Receive assistance, coaching, guidance, etc., from preexisting employees.
 				</li>
 			</ul>
 		</td>
 	</tr><tr>
 		<td>
-			Receive some help and coaching from the "senior" new-hires in their 2nd week
+			Receive help and coaching from the new-hires in their 2nd week.
 		</td><td>
-			Help coach and train the first-week cohort
+			Help coach and train the first-week cohort.
 		</td>
 	</tr>
 </table>
 
+
 ### Exclusions
 
-While this process is driven, in part, by destination team/pod/project needs, it is not meant to handle all such needs. Team/pod/project-leads and project managers are expected to handle needs specific to that team/pod/project and/or client.
+While this process is driven, in part, by destination team/pod/project needs, it is not meant to handle all its needs. Managers or leads that receive new team members are expected to handle the specific needs of that team/pod/project and client.
 
-For example, Dow Jones projects require team members to have VPN access; the project manager and/or pod lead continue to be responsible for requesting the new team member’s VPN access sufficiently in advance for it to be ready and available by the time the new team member actually starts on that project after the onboarding experience.
+For example, Dow Jones projects require team members to have VPN access; the project manager or pod lead is responsible for requesting the new team members' VPN access in advance for it to be ready by the time they start on that project after the onboarding weeks.
 
 ### Roles
 
-Beyond the new-hire cohorts, the onboarding process involves requires a variety of related and cooperating roles. A given person may perform several roles during some week, but it is unlikely (and discouraged) that the onboarding "team" ever be one single individual.
+Beyond the new hire cohorts, the onboarding process involves a variety of related and cooperating roles. A given person may perform several roles during some week, but it is unlikely and discouraged that the onboarding team ever be one single individual.
 
-This section is intended to introduce the roles and their functions; later sections will provide more detail and context.
+This section introduces the roles and their functions; later sections provide more details and context.
 
 #### Coach
 
-An experienced employee with specific skills and experience relevant to at least some of the onboarding new-hires' position &mdash; for example, QA engineer, iOS developer, Project Manager, web developer, _etc_.
+An employee with specific skills and experience relevant to at least some of the onboarding new hires' position&mdash;for example, QA engineer, iOS developer, Project Manager, web developer, etc.
 
-During any given week, each "type" of new-hire in the cohort must have at least one Coach willing and able to help the new-hires work on the project(s) and ensure they have at least "baseline" skill with tools, techniques, practices, _etc_., appropriate to that "type."
+During any given week, each type of new hire in the cohort must have at least one coach willing and able to help on their projects. The coach ensures the new hire has at least baseline skill with tools, techniques, practices, etc., appropriate to the type of new hire.
 
-When the onboarding team needs to identify a new Coach, they rely on appropriate managers &mdash; _e.g._,
+When the onboarding team needs to identify a new coach, they rely on appropriate managers&mdash;e.g.,
 [Engineering Managers](../engineering-culture/engineering-management-talking-points.md),
-Program Managers, _etc_. &mdash; to recommend employees who have already shown competency in both the relevant skill(s) and coaching/mentorship for them within their assigned team(s). Of course, the recommended employee has the final say in whether or not they are willing and able to commit to Coaching for a given week.
+Program Managers&mdash;to recommend employees who have already shown competency in both the relevant skills and coaching within their teams. The recommended employee has the final say in whether they are willing and able to commit to coaching for a given week.
 
 See additional [notes](#coaches), below.
 
 
 #### Coordinator
 
-Provide organizational and logistical support for onboarding-level (_i.e._, not project-specific) meetings and activities.
+Provide organizational and logistical support for onboarding level (i.e., not project specific) meetings and activities.
 
 #### Product Owner
 
-Each project used during onboarding must have at least one Owner who holds the "vision" for the project. Consistent with common "agile" practices, this Product Owner
+Each project used on onboarding must have at least one Owner who holds the vision for the project. Consistent with common Agile practices, the Product Owner activities include the following:
 
-- Helps the development team understand project/feature intent and purpose
-- Provides User Stories and negotiates their details with the team
+- Help the development team understand the project or feature intent and purpose.
+- Provide user stories and negotiates their details with the team.
 
 See additional [notes](#product-owners), below.
 
 #### Project Manager / Agile Coach
 
-Generally an existing Project Manager (PjM) employee. When the new-hire cohort includes a new Project Manager, however, that new-hire assumes this role with the coaching and guidance of an existing PjM.
+An existing Project Manager (PjM) employee. However, when the new hire cohort includes a Project Manager, that person assumes this role with the coaching and guidance of an existing PjM.
 
 #### Volunteer
 
-An existing (_i.e._, not new-hire) employee who wishes to participate in an onboarding project. Distinct from [Coaches](#coach), A Volunteer's main focus is to gain experience with the tools, languages, _etc_., used for a project and/or help onboarding new-hires make progress with a given project.
+An existing employee who wishes to participate in an onboarding project. Distinct from [Coaches](#coach), a volunteer's main focus is to gain experience with the tools, languages, etc., used for a project. They also help new hires make progress with a given project.
 
 ## Planning
 
 ### Physical
 
-When space, desks, facilities, _etc_., permit, the onboarding cohorts are placed in a specific work space close to each other. This is to simulate post-onboarding experience and encourage cohesion during the onboarding process. This space is large enough for 2 cohorts so that each can remain in one place for both weeks of its onboarding process, and physically near the other cohorts with which it overlaps:
+When facilities permit, the onboarding cohorts sit in a specific work space close to each other. This is to simulate post-onboarding experience and encourage cohesion during the onboarding process. The space is large enough for two cohorts so that each can remain in one place for both weeks of their onboarding process, and physically near the other cohorts with which it overlaps. The following table describes the place assignment over the weeks.
 
 <table>
 	<tr>
@@ -140,32 +141,32 @@ When space, desks, facilities, _etc_., permit, the onboarding cohorts are placed
 	</tr>
 </table>
 
-To simplify both first day setup and move-out (see [Transition](#transition), below) we pre-provision this area with monitors.
+To simplify both first-day setup and move-out (see [Transition](#transition)) we pre-provision this area with monitors.
 
-#### Target-team Exception
+#### Target Team Exception
 
-On occasion, one or more new-hire(s) may arrive just before their (expected) first assignment project is scheduled to begin. When this happens and existing employees with the same (expected) assignment are available, it may be advantageous to have the existing employees be [Coaches](#coach) and/or [Volunteers](#volunteer) on the onboarding project with the new-hire(s) to give all the opportunity to 'gel' as a team _before_ the (expected) external project begins.
+On occasions, one or more new-hires may arrive just before their first assignment project is scheduled to begin. When this happens, and existing employees with the same assignment are available, it is advantageous to have the existing employees be [Coaches](#coach) or [Volunteers](#volunteer) on the onboarding project. This gives all the opportunity to 'gel' as a team _before_ the assigned project begins.
 
-To support this 'gelling' and simplify post-onboarding [transition](#transition), the onboarding team may wish to seat the 'target team' together in their actual team area rather than the usual new-hires/onboarding area described [above](#physical).
+To support this 'gelling' and simplify post-onboarding [transition](#transition), the onboarding team prefers to seat the 'target team' together in their actual team area rather than the usual [onboarding area](#physical).
 
 ### Activity
 
-The goal of each onboarding week is to ensure that the new-hires in the cohort are ready to join their initial team/pod/project and the company as a whole.
+The goal of each onboarding week is to ensure that the new hires in the cohort are ready to join their initial team/pod/project and the company as a whole.
 
-Once candidates accept their offers and confirm their starting dates, the staffing process begins; it ends with each candidate's project assignment. For details, please refer to the [Wizeline Staffing Process](https://goo.gl/cY9VIO) document; what is important for onboarding is the set of skills, tools, technologies needed by those destination teams/pods/projects.
+Once candidates accept their offers and confirm their starting dates, the staffing process begins; it ends with each candidate's project assignment. For details, please see the [Wizeline Staffing Process](https://goo.gl/cY9VIO) document. The importance for onboarding is the set of skills, tools, technologies needed by those destination teams/pods/projects.
 
-The onboarding team uses that list of ‘target’ skills/tools/technologies to determine which [Internal Project(s)](https://docs.google.com/document/d/1fVNU8hYarb-KgP5O5koll5lMcXMDjbAnkGXnmjVGsaQ/edit#heading=h.xr6r05os2xc3) are best suited for that week’s cohort. At present, we have [this list](https://goo.gl/CuZVPl) from late 2016; as the number of active projects grows and their needs change, we will need a more dynamic and responsive method of tracking this information.
+The onboarding team uses that list of 'target' skills/tools/technologies to determine which [Internal Projects](https://docs.google.com/document/d/1fVNU8hYarb-KgP5O5koll5lMcXMDjbAnkGXnmjVGsaQ/edit#heading=h.xr6r05os2xc3) are best suited for that week’s cohort. The current [list](https://goo.gl/CuZVPl) is from late 2016; as the number of active projects grows and their needs change, we need a more dynamic and responsive method of tracking this information.
 
-Next, the onboarding team works with the identified Internal Projects’ “owner(s)” to move items both valuable to the project(s) and relevant to the onboarding goals to the top of the backlog(s). This is a weekly activity, taking into account both upcoming cohorts and the in-progress cohorts’ expected progress.
+Next, the onboarding team works with the internal projects’ owners to move items both valuable to the projects and relevant to the onboarding goals to the top of the backlogs. This is a weekly activity, taking into account both the upcoming and the in-progress cohorts.
 
-If the Internal Projects’ “owner(s)” are new to the onboarding process, those more experienced with the process help orient them to the process, educational goals and methods, _etc._ (see additional [notes](#product-owners), below).
+If the internal projects’ owners are new to the onboarding process, those more experienced with the process help orient them to the process, educational goals and methods, etc. For additional notes, see [Product Owners](#product-owners).
 
-The final planning step is to determine what additional resources the cohort will need to be successful with their tasks during the onboarding weeks. At a minimum, Owners/Stakeholders for the Internal Project(s) will need to be available to answer questions, discuss requirements and alternatives, _etc._ Additionally, onboarding cohorts may require additional skills beyond those present in the cohort &mdash; _e.g._,
+The final planning step is to determine what additional resources the cohort will need to be successful with their tasks during the onboarding weeks. At a minimum, owners/stakeholders for the internal projects need to be available to answer questions, discuss requirements and alternatives, etc. Additionally, onboarding cohorts may require additional skills beyond those present in the cohort. For example:
 
 - Project management
-- Front-end, back-end, and/or mobile development
-- Visual and/or UX design
-- Documentation / technical communication
+- Front-end, back-end, or mobile development
+- Visual or UX design
+- Documentation or technical communication
 
 ### “Internal Projects?”
 
@@ -175,53 +176,54 @@ A separate initiative is underway to identify and develop ideas for internal pro
 - [Jira Board](https://wizeline.atlassian.net/secure/RapidBoard.jspa?projectKey=WIP&rapidView=28)
 - [Confluence Board](https://wizeline.atlassian.net/wiki/display/WIP)
 
-Existing staff members with ideas and “passion” for these projects serve as “product owners”/“on-site customers” for these projects &mdash; essentially the “clients” for the new-hire teams.
+Existing staff members with ideas and "passion" for these projects serve as product owners for these projects&mdash;essentially, the “clients” for the new hires cohort.
 
-Each of these internal projects should be implemented using the most appropriate tools and technologies, of course. Ideally, “most” tools and technologies used across the Platform and Services teams are represented in the internal projects. To lend value to the projects’ use in the onboarding process, we ask that the process for selecting tools and technologies for not-yet-started projects include this desire for “broad coverage.”
+Each of these internal projects should be implemented using the most appropriate tools and technologies. Ideally, most tools and technologies used across the platform and services teams are represented in the internal projects. To lend value to the projects’ use in the onboarding process, we ask that the process for selecting tools and technologies for not-yet-started projects include this desire for broad coverage.
 
-These projects’ “owners” are expected to maintain a “backlog” of desired features, bug fixes, _etc._, &mdash; _e.g._, GitHub project(s), Jira issues, _etc._ In order to encourage discussion and, perhaps, some amount of participatory “investment” on the part of new-hires, these backlog items should have only “enough” information and detail to begin conversations, but not enough to be simply “recipes” requiring little creative decision-making.
+These projects’ owners are expected to maintain a backlog of desired features, bug fixes, etc. To encourage discussionand participatory “investment” on the part of new hires, these backlog items should have only enough information and detail to begin conversations, but not enough to be simply “recipes” requiring little creative decision-making.
 
 ## Execution
 
-- New cohorts generally begin each Monday
-- Their new MacBooks should be available and ready for setup
-- HR provides orientation information and support
-- New-hires who will participate in this onboarding program are placed in the “new-hires” area (when available; see [Planning - Physical](#physical), above; their orientation sets the expectation of moving to be with/near their initial assignment team after the 2-week onboarding process
-- They do not receive "their" monitors until they complete their onboarding process and move to their initial team/assignment area (see [Transition](#transition), below)
-- Initial meetings with the previous cohort, “(internal) project/[product owner(s)](#product-owner),” _etc._, are scheduled
-- “Classroom” sessions on specific skills, tools, technologies, _etc._, are be scheduled and held as needed
+- New cohorts begin each Monday.
+- Their new MacBooks should be available and ready for setup.
+- HR provides orientation information and support.
+- New hires who will participate in the onboarding program are placed in the new hires area when available; see [Planning - Physical](#physical). 
+- They do not receive their monitors until they complete their onboarding process and move to their initial team/assignment area; see [Transition](#transition).
+- Initial meetings with the previous cohort, [internal project owners](#product-owner), etc., are scheduled.
+- Classroom sessions on specific skills, tools, technologies, etc., are be scheduled and held as needed.
 
 ### Basic Syllabus
 
-As described [above](#activity), much of the material is tailored to and driven by the new-hires’ initial assignments. However, some topics and material are common to all.
+As described [previously](#activity), much of the material is tailored to and driven by the new hires’ initial assignments. However, some topics and material are common to all.
 
-After the HR orientation, _etc._, the initial “technical onboarding” session includes
+After the HR orientation, the initial technical onboarding session includes the following:
 
-- Overview of this technical onboarding program (purpose, duration, structure, _etc_.)
+- Overview of the technical onboarding program (purpose, duration, structure, etc.)
 - Introduction to the project(s)
-- Access to project materials &mdash; _e.g._,
-  - Jira and/or GitHub
+- Access to project materials
+  - Jira and GitHub
 	  - Create account if needed
      - Access to the Wizeline organization
-     - ssh keys, 2-Factor Authorization, _etc._
+     - ssh keys, 2-Factor Authorization, etc.
 - Slack
 	- Onboarding dev team(s)
 	- “Basic” company/office channels
-	- How to preview and, if desired, join other existing channels
-- Other team / engineering / company information &mdash; _e.g._,
+	- How to preview and join other existing channels
+- Other team/engineering/company information
 	- Google Drive
 	- [wize-docs](../README.md) GitHub repo & wiki
-	- _etc._
-- Specific work items &mdash; User Stories and/or bugs &mdash; on the selected [project(s)](https://goo.gl/07IbM8)
+- Specific work items on the selected [project(s)](https://goo.gl/07IbM8)
+	- User Stories 
+	- Bugs
 
-All along the way, the [Coaches](#coach) ask what level of knowledge and familiarity the new-hires have with the various topics, how to do it on MacOS, _etc._ When one or more new-hires need specific help, the onboarding team provides the information needed in this preferred order:
+All along the way, the [Coaches](#coach) ask what level of knowledge and familiarity the new hires have with the various topics. When one or more new hires need specific help, the onboarding team provides the information needed in this preferred order:
 
-- Other new-hires &mdash; whether “junior” or “senior” &mdash;  with “supervision” to ensure that the coaching is consistent with Wizeline practices and procedures
-- Onboarding staff directly
+1. Other new hires&mdash;whether junior or senior&mdash;with supervision to ensure that the coaching is consistent with Wizeline practices and procedures.
+2. Onboarding staff directly.
 
 ### Suggested / Expected Meetings
 
-Assuming normal 5-day work weeks, each week of involvement includes meetings over 6 work days (Monday to Monday):
+Assuming normal 5-day work weeks, each week of involvement includes meetings over 6 work days, Monday to Monday:
 
 <table>
 	<tr>
@@ -272,77 +274,70 @@ Assuming normal 5-day work weeks, each week of involvement includes meetings ove
 	</tr>
 </table>
 
-(scroll horizontally if/as needed to see the whole schedule)
+**Note**:scroll horizontally as needed to see the whole schedule
 
-The following sections describe the high-level "themes" of each meeting. With the assumption that some details are too finely grained to merit the discussion and consensus of Pull Requests, the onboarding maintains
-[this document](https://docs.google.com/document/d/11IrRalFY-m_rLTtGh02qBwkPGzOASPkM4cAPG34SETg/edit#heading=h.36kr1bsy38r1).
-This allows the team to propose and test specific changes quickly.
+The following sections describe the high-level topics of each meeting. The onboarding staff maintains
+[this document](https://docs.google.com/document/d/11IrRalFY-m_rLTtGh02qBwkPGzOASPkM4cAPG34SETg/edit#heading=h.36kr1bsy38r1) to propose and test specific changes quickly.
 
 #### Onboarding Kick-off
 
-Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach).
+Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach). The agenda includes:
 
-- Explain onboarding purpose, structure, _etc_.
+- Explain onboarding purpose, structure, etc.
 - For each project
   - High-level introduction
   - Demonstrate current state
-  - Briefly express sprint goals / "theme"
+  - Express sprint goals briefly
 - Ensure basic computer setup
-- Ensure access to JIRA, GitHub, _etc_.
+- Ensure access to JIRA, GitHub, etc.
 - Slack
   - Basic introduction
-  - Ensure membership in 'basic' channels
+  - Ensure membership in "basic" channels
 
 #### Per Project Sprint Planning / Kick-off
 
-Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach).
+Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach). This meeting may be either Monday afternoon, e.g., following the Onboarding Kick-off, or Tuesday morning, instead of that day's Standup. The agenda includes:
 
-This meeting may be either Monday afternoon (_e.g._, part of or following the Onboarding Kick-off) or Tuesday morning (in lieu of that day's Standup), according to schedules and availability.
-
-- "Normal" Sprint planning
+- Sprint planning
   - Flesh out story(ies)
   - As appropriate, define and assign Tasks
 - Project-specific tools & environment setup
 
 #### Daily Standup
 
-Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach).
+Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach). The highlights include:
 
-- Focused on the Team &mdash; Yesterday / Today / Blockers
-- [Coaches](#coach) are encouraged to attend, but more to observe and inform their coaching than participate
-- [Product Owners](#product-owner) may attend, but should expect only to observe rather than participate
+- Focus on the Team: Yesterday/Today/Blockers.
+- [Coaches](#coach) are encouraged to attend, but more to observe and inform their coaching than to participate.
+- [Product Owners](#product-owner) may attend but should expect only to observe rather than participate.
 
 #### Plan
 
-Scheduled and run by the [Coordinator](#coordinator).
+Scheduled and run by the [Coordinator](#coordinator). Ideally, the Staffing Manager provides basic information about the next week's new hires _before_ this meeting so that appropriate projects and [Coaches](#coach) can be identified and attend this meeting. The agenda includes:
 
-Ideally, the Staffing Manager has provided basic information about the next week's new-hires &mdash; at least name and initial assignment &mdash; enough _before_ this meeting so that appropriate project(s) and [Coaches](#coach) can be identified and attend this meeting.
-
-- Staffing Manager provides information on next week's new-hires
+- Staffing Manager provides information on next week's new hires
   - Experience summary
   - Concerns expressed during interview process
-- Orient new [Coaches](#coach) if/as needed
-- [Coaches](#coach) and [Product Owners](#product-owner) select User Story(ies) from the project backlog(s)
-- Discuss needs, risks, _etc._
+- Orient new [Coaches](#coach) as needed
+- [Coaches](#coach) and [product owners](#product-owner) select user stories from the project backlog
+- Discuss needs, risks, etc.
 
 
-#### Preparation & Demo
+#### Preparation and Demo
 
-Scheduled and facilitated by the [Coordinator](#coordinator).
-
-A quick "technical rehearsal" before the Demo.
-
-The Demonstration:
+Scheduled and facilitated by the [Coordinator](#coordinator). A quick technical rehearsal before the Demo. The highlights include:
 
 - Generally led by the [Project Manager / Agile Coach](#project-manager--agile-coach)
-- Briefly explain the onboarding framework
+- Explain the onboarding framework briefly
 - Explain and demonstrate each project's progress
 
 #### Retrospective
 
-Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach).
+Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach). It is focused on overall onboarding rather than the specific projects. The main questions to discuss are the following:
 
-"What went well?" / "What can we improve?" focused more on overall onboarding rather than the specific project(s).
+- What went well?
+- What can we improve?
+- What do we do? 
 
 ## (Re-)Initialization
 
@@ -355,57 +350,52 @@ On occasion, there may be weeks when there is no new cohort (_e.g._, all technic
 
 ## Transition
 
-Just prior to each week’s TGIF in GDL, the combined new-hire cohorts demonstrate their **visible progress** on the Internal Project(s) to interested parties &mdash; whether physically in GDL or via Hangout.
+Just before each week’s TGIF, the combined new hire cohorts demonstrate their **visible progress** on the internal projects to interested parties &mdash; whether physically or via Hangout.
 
-Each week’s new-hires are publicly introduced to the rest of the GDL team during TGIF.
+Each week’s new hires are publicly introduced to the rest of the team during TGIF.
 
-Members of the “senior” (_i.e._, 2nd-week) cohort move their MacBook and personal effects (leaving the monitor) out of the “onboarding teams area” to their initial team/assignment area. They also receive their monitors at this time. All this so that their space will be available for the new “junior” cohort that will begin the following week&hellip;
+Members of the senior cohort, i.e., 2nd-week, move their MacBook and personal effects (leaving the temporary monitor) to their initial team/assignment area. They also receive their monitors at this time. All this so that their space will be available for the new junior cohort that begins the following week&hellip;
 
 ![The Circle of Life](images/circle-of-life.jpg)
 
 ## Iteration and Evolution
 
-As the company grows and the needs and culture change, the onboarding process must change, too. Continuous feedback from various sources are key to keeping the program focused on improving and producing the correct baseline experiences.
+As the company grows and the needs and culture change, the onboarding process must change too. Continuous feedback from various sources is key to keeping the program focused on improving and producing the correct baseline experiences.
 
 Feedback sources:
 
-- Participants &mdash; during and for weeks (months?) after their onboarding process<br>
-  Did the program prepare you for&hellip;
+- Participants&mdash;during and for weeks after their onboarding process
+   - Did the program prepare you for your initial team/pod/project?
+   - Did you learn and adjust to the company culture?
+   - What did we get wrong? e.g., what did you have to “unlearn” later?
+   - What did we miss?
 
-   - Your initial team/pod/project?
-   - Company culture, _etc_?
-
-  What did we get “wrong” &mdash; _e.g._, what did you have to “unlearn” later?<br>
-  What did we “miss” (that is not “too” specific to your initial team/pod/project)?
-
-- Pod/team/project leads & Project managers
-
-  Are new-hires adequately prepared for team/pod/project-specific onboarding after their 2-week process?
+- Pod/team/project leads and project managers
+	- Are new hires adequately prepared for team/pod/project-specific onboarding after their 2-week process?
 
 - Engineering managers
-
-  Are new-hires being inculturated “correctly?"<br>
-  What onboarding is done by several teams/pods/projects that this program could "centralize?"
+	- Are new hires being enculturated correctly?
+	- What onboarding is done by several teams/pods/projects that this program could centralize?
 
 ## Additional Notes
 
 ### All 
 
-Make every interaction with the new-hires as “safe” for them to admit ignorance/inexperience as possible. Encourage questions and “reward” them with positive feedback.
+Make every interaction with the new hires as safe as possible for them to admit ignorance or inexperience. Encourage questions and reward them with positive feedback.
 
 ### Coaches
 
-- When discussing any given technical aspect of your project or its development, please ask the new-hires how familiar they are. Be prepared to provide education on any given topic &mdash; no matter how eager you are to make progress on the project.
-- Leverage any and all available expertise for teaching/coaching the new-hires: you, other “experienced” employees, one or more of the new-hires themselves, _etc._
+- When discussing any given technical aspect of your project or its development, please ask the new hires how familiar they are. Be prepared to provide education on any given topic no matter how eager you are to make progress on the project.
+- Leverage any and all available expertise for coaching the new hires.
 
 ### Product Owners
 
-- As noted [above](#internal-projects), Internal Projects should be developed using appropriate tools, frameworks, _etc._, to be successful. However, when several suitable options are available, give preference to items/combinations not already in use by other projects so as to maintain “coverage” of tools, technologies, _etc._, in use in platform and services.
-- As much as possible, be more “customer/client” or “Product Owner” and less “architect” or “lead engineer”
-   - Explain stories, goals, values, _etc._
-   - Be open to new/different ideas, approaches, _etc._
-   - Leave as many opportunities for creative input and decision-making at all levels (_e.g._, from user experience to architecture coding) as possible to create as many opportunities for the new-hires to feel empowered, trusted, respected, invested, _etc._
-- Think as “widely” and creatively as possible for onboarding & educational opportunities in your project(s)
+- As noted [before](#internal-projects), internal projects should be developed using appropriate tools, frameworks, etc. However, when several suitable options are available, give preference to combinations not already in use by other projects. This is to maintain coverage of tools and technologies in use in platform and services.
+- Be more “client” or “product owner” and less “architect” or “lead engineer.”
+   - Explain stories, goals, values, etc.
+   - Be open to new/different ideas, approaches, etc.
+   - Leave opportunities for creative input and decision-making at all levels, e.g., from user experience to architecture coding. Create opportunities for the new hires to feel empowered, trusted, respected, invested, etc.
+- Think widely and creatively for onboarding and educational opportunities in your projects
    - Web
    - Mobile
    - Design
