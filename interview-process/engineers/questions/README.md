@@ -30,7 +30,7 @@ its page here
 | [TripleDouble](tripleDouble.md)    | Easy                  | 25 min
 | [Target Sum](targetSum.md)         | Easy                  | 25 min
 | [Cut the array](cutTheArray.md)    | Easy                  | 30 min
-|
+|                                    |                       |                               
 | [Brackets](brackets.md)            | Medium                | 25 min
 | [Queue](queue.md)                  | Medium                | 30 min
 | [Ugly Numbers](uglyNumbers.md)     | Medium                | 30 min
@@ -38,7 +38,7 @@ its page here
 | [Stock Maximize](stockMaximize.md) | Medium                | 30 min
 | [Integer Adder](intAdder.md)       | Medium                | 35 min
 | [Substring](substring.md)          | Medium                | 40 min
-|
+|                                    |                       |                               
 | [Matrix product](matrixProduct.md) | Hard                  | 40 min
 | [Parenthesis](parenthesis.md)      | Hard                  | 40 min
 
