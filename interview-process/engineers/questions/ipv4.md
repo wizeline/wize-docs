@@ -42,22 +42,29 @@ An IP version 4 is formed by 4 parts: A.B.C.D and each part must have a value be
 - Plus points if he does not use REGEX
 - The point is to validate simple code instructions if the candidate uses regex ask him to do the problem without them.
 
-## Other test cases
-Once the candidate has a solution, perhaps ask what other kinds of test cases / input
-they would use. Share these only if the candidate doesn't identify them &mdash; _especially_ if the proposed solution wouldn't handle them!
+## Test Cases
 
 ```
-"123.10.231.0"    => true
-"1.2.3.4.5"       => false
-"256.0.0.0"       => false
-"123.-10.231.0"   => false
-"a.b.c.d"         => false
-""                => false
-
-// non-strings if the language has dynamic typing -- e.g., JavaScript, Python, Ruby, etc.
-0  => false
-[] => false
-etc.
+"0.0.0.0"         => true
+"0.1.2.3"         => true
+"255.255.255.255" => true
+"256.256.256.256" => false  # 256 is not valid
+"0.0.0"           => false  # too few  parts
+"1.2.3.4.5"       => false  # too many parts
+""                => false  # HackerRank converts to nil/null/Nothing for some languages
+"1.2.3.a"         => false  # non-numeric part
+"123.-10.231.0"   => false  # negative part
+"22.22.25a.30"    => false  # non-numeric at end of a part ("25a)
+"10.20.30.."      => false  # empty final   part
+"...255"          => false  # empty leading parts
+"12,34,56,78"     => false  # incorrect separator
+"1.2.999.3.4"     => false  # too many parts & 1 too large; correct number of valid parts
+"1.2.3.4."        => false  # trailing separator -- some languages' split() ignores it
+"5.6.7.8. "       => false  # trailing separator and space
+"1.2.3.4,5"       => false  # non-numeric within a part ("4,5")
+"1.2.3.4:5"       => false  # non-numeric within a part ("4:5") -- don't look for specific non-numeric characters
+"1.2.a.3.4"       => false  # too many parts & 1 with non-numeric; correct number of valid parts
+"10.20.30.40-"    => false  # part with trailing integer-legal character ("-")
 ```
 
 [Home](../../../README.md) |

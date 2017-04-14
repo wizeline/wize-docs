@@ -22,10 +22,14 @@ interviews.
 
 ## Test cases
 ```
-'abcdefghija' => b
-'hello' => h
-'Java' => J
-'simplest' => i
+"abcdefghija" => "b"
+"hello"       => "h"
+"Java"        => "J"
+"simplest"    => "i"
+""            => ""
+"aa"          => ""
+"abba"        => ""
+"z"           => "z"
 ```
 
 ## Solutions

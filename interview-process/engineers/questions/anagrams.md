@@ -36,6 +36,20 @@ in the HackerRank library for use in
 [CodePair](https://www.hackerrank.com/x/interviews/mypads)
 interviews.
 
+The (singular) test input is pre-loaded in the CodePair session's Stdin tab.
+The candidate and/or interviewer must check the output "manually."
+
+Because of the "Order does not matter" stipulation, using this problem with HackerRank
+requires the use of a
+[Custom Checker](http://support.hackerrank.com/hc/en-us/articles/223080547-Creating-a-custom-checker).
+
+As of 6 Feb 2017, however, HackerRank does not support problems with Custom Checkers in CodePair sessions
+
+- According to a HackerRank support person via support chat
+- Despite [this page](http://support.hackerrank.com/hc/en-us/articles/219875428-How-do-I-create-questions-for-CodePair-) saying, in part
+
+  > CodePair uses the same questions available in tests.
+
 ## Problem considerations
 An anagram is a type of word play, the result of rearranging the letters of a word or phrase to produce a new word or phrase, using all the original letters exactly once.
 
@@ -53,6 +67,48 @@ Lines may be printed in any order; the anagrams within each line may be printed 
 
 then simply print each array `join`()ed with `" - "`.
 
+## Test Case
+
+### Input
+
+19 Words:
+
+```
+AMOR
+XISELA
+JAMON
+ROMA
+OMAR
+MORA
+MIRAR
+ESPONJA
+RAMO
+JAPONES
+RIMAR
+ARMO
+MOJAN
+MARO
+ORAM
+XISELA
+MIMAR
+MONJA
+ALEXIS
+```
+
+**Notes**
+
+- `XISELA` is repeated to test if the solution (incorrectly) eliminates duplicates
+- `MIRAR` and `RIMAR` are anagrams; `MIMAR` has the same _letters_, but is _not_ an anagram of them
+
+### Possible Output
+```
+AMOR - ROMA - OMAR - MORA - RAMO - ARMO - MARO - ORAM
+XISELA - ALEXIS - XISELA
+JAMON - MOJAN - MONJA
+MIRAR - RIMAR
+ESPONJA - JAPONES
+MIMAR
+```
 
 ## Possible Solutions
 
