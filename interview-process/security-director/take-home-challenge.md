@@ -17,4 +17,4 @@ Your homework is as follows:
 5. In a slide deck, present these vulnerabilities to the team and the tools/procedures you used to find them.
 6. Be ready at the presentation to answer questions from the team regarding the vulnerabilities you found and the way to address them. 
 
-Please contact security-interviews@wizeline.com if you have any questions on how to proceed with these homework.
+Please contact <security-interviews@wizeline.com> if you have any questions on how to proceed with these homework.
