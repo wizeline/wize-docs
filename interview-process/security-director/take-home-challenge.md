@@ -8,7 +8,7 @@ In order to do that, we require that you do some homework in preparation for you
 Your homework is as follows:
 1. Visit app.wizeline.com
 2. Create an account and inspect the application.
-3. Find three or more security vulnerabilities in the applicaiton. For this, you can use any tool you need and go into any of the services that power this application.
+3. Find three or more security vulnerabilities in the application. For this, you can use any tool you need and go into any of the services that power this application.
 4. Take note of the vulnerabilities and be ready to present them on your next interview. At the minimum, your vulnerability report should include: 
   * Severity: You can use your own scale here.
   * Likelihood: The probability of the threat being exploited.
