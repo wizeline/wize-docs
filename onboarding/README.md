@@ -29,10 +29,12 @@ Newly-hired communicators, designers, developers, and project managers work on [
   - [Basic Syllabus](#basic-syllabus)
   - [Suggested / Expected Meetings](#suggested--expected-meetings)
      - [Onboarding Kick-off](#onboarding-kick-off)
-     - [Per Project Sprint Planning / Kick-off](#per-project-sprint-planning--kick-off)
-     - [Daily Standup](#daily-standup)
+     - [Per Project: Introduction](#per-project-introduction)
+     - [Per Project: Sprint Planning](#per-project-sprint-planning)
+     - [Per Project: Daily Standup](#per-project-daily-standup)
+     - [Public Speaking](#public-speaking)
      - [Plan](#plan)
-     - [Preparation & Demo](#preparation--demo)
+     - [Preparation and Demo](#preparation-and-demo)
      - [Retrospective](#retrospective)
 - [(Re-)Initialization](#re-initialization)
 - [Transition](#transition)
@@ -224,56 +226,9 @@ All along the way, the [Coaches](#coach) ask what level of knowledge and familia
 
 Assuming normal 5-day work weeks, each week of involvement includes meetings over 6 work days, Monday to Monday:
 
-<table>
-	<tr>
-		<th           rowspan=2> <a href="#roles">                                 Role            </a>    </th>
-		<th colspan=2>                                                             Mon. PM                 </th>
-		<th colspan=2>                                                             Tue.                    </th>
-		<th>                                                                       Wed.                    </th>
-		<th>                                                                       Thr.                    </th>
-		<th colspan=3>                                                             Fri.                    </th>
-		<th           rowspan=7/>
-		<th>                                                                       Mon. AM                 </th>
-	</tr><tr>
-		<th>                     <a href="#onboarding-kick-off">                   Kick-off        </a>    </th>
-		<th colspan=2>           <a href="#per-project-sprint-planning--kick-off"> Sprint Planning </a>    </th>
-		<th>                     <a href="#daily-standup">                         Standup         </a>(?) </th>
-		<th>                     <a href="#daily-standup">                         Standup         </a>    </th>
-		<th>                     <a href="#daily-standup">                         Standup         </a>    </th>
-		<th>                     <a href="#daily-standup">                         Standup         </a>    </th>
-		<th>                     <a href="#plan">                                  Plan            </a>    </th>
-		<th>                     <a href="#preparation--demo">                     Prep & Demo     </a>    </th>
-		<th>                     <a href="#retrospective">                         Retrospective   </a>    </th>
-	</tr><tr align=center>
-		<th>                     <a href="#coordinator">                           Coordinator     </a>    </th>
-		<td>                                                                       &check;                 </td>
-		<td colspan=6>                                                             (optional)              </td>
-		<td           rowspan=3>                                                   &check;                 </td>
-		<td>                                                                       &check;                 </td>
-		<td           rowspan=4>                                                   &check;                 </td>
-	</tr><tr align=center>
-		<th>                     <a href="#product-owner">                         Product Owner   </a>    </th>
-		<td colspan=3 rowspan=2>                                                   &check;                 </td>
-		<td colspan=4>                                                             (optional)              </td>
-		<td           rowspan=2>                                                   (preferred)             </td>
-	</tr><tr align=center>
-		<th>                     <a href="#coach">                                 Coach           </a>    </th>
-		<td colspan=4>                                                             (preferred)             </td>
-	</tr><tr align=center>
-		<th>                                                                       New-hire                </th>
-		<td colspan=7>                                                             &check;                 </td>
-		<td           rowspan=2/>
-		<td>                                                                       &check;                 </td>
-	</tr><tr align=center>
-		<th>                     <a href="#volunteer">                             Volulnteer      </a>    </th>
-		<td>                                                                       (optional)              </td>
-		<td colspan=6>                                                             &check;                 </td>
-		<td>                                                                       (preferred)             </td>
-		<td>                                                                       (preferred)             </td>
-	</tr>
-</table>
+[![weekly meetings](images/meetings.png)](https://docs.google.com/spreadsheets/d/1EefECY0NvzYJRfFIPggqvRYSjSpgF92Kr1ST_cGHLPI/edit#gid=340771416)
 
-**Note**:scroll horizontally as needed to see the whole schedule
+(Click the image to see the original spreadsheet.)
 
 The following sections describe the high-level topics of each meeting. The onboarding staff maintains
 [this document](https://docs.google.com/document/d/11IrRalFY-m_rLTtGh02qBwkPGzOASPkM4cAPG34SETg/edit#heading=h.36kr1bsy38r1) to propose and test specific changes quickly.
@@ -282,33 +237,41 @@ The following sections describe the high-level topics of each meeting. The onboa
 
 Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach). The agenda includes:
 
-- Explain onboarding purpose, structure, etc.
-- For each project
-  - High-level introduction
-  - Demonstrate current state
-  - Express sprint goals briefly
+- Explain onboarding purpose, structure, roles, etc.
 - Ensure basic computer setup
-- Ensure access to JIRA, GitHub, etc.
-- Slack
-  - Basic introduction
-  - Ensure membership in "basic" channels
+  - Ensure web access to JIRA, GitHub, etc.
+  - Slack
+     - Basic introduction
+     - Ensure membership in "basic" channels
+- For each project: High-level introduction & demo (as able)
 
-#### Per Project Sprint Planning / Kick-off
+#### Per Project: Introduction
 
-Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach). This meeting may be either Monday afternoon, e.g., following the Onboarding Kick-off, or Tuesday morning, instead of that day's Standup. The agenda includes:
+More "detailed" introduction, context, vision, demo, etc., for new team members by the [Product Owner](#produt-owner) so that new project members (generally 1st week new hires and [volunteers](#volunteer)) have some useful context for the [Sprint Planning](#per-project-sprint-planning).
+
+#### Per Project: Sprint Planning
+
+Run by the [Project Manager / Agile Coach](#project-manager--agile-coach). This meeting may be either Monday afternoon, e.g., following the Onboarding Kick-off, or Tuesday morning, instead of that day's [Daily Standup](#per-project-daily-standup). The agenda includes:
 
 - Sprint planning
   - Flesh out story(ies)
   - As appropriate, define and assign Tasks
 - Project-specific tools & environment setup
 
-#### Daily Standup
+#### Per Project: Daily Standup
 
 Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile-coach). The highlights include:
 
 - Focus on the Team: Yesterday/Today/Blockers.
 - [Coaches](#coach) are encouraged to attend, but more to observe and inform their coaching than to participate.
 - [Product Owners](#product-owner) may attend but should expect only to observe rather than participate.
+
+#### Public Speaking
+
+Scheduled and presented by the [Communication Coach](#coach).
+
+- Basic presentation and verbal communication skills
+- Some points specific to the [Demo](#preparation-and-demo)
 
 #### Plan
 
