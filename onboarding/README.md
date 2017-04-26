@@ -96,7 +96,6 @@ Program Managers&mdash;to recommend employees who have already shown competency 
 
 See additional [notes](#coaches), below.
 
-
 #### Coordinator
 
 Provide organizational and logistical support for onboarding level (i.e., not project specific) meetings and activities.
@@ -337,15 +336,15 @@ Scheduled and run by the [Project Manager / Agile Coach](#project-manager--agile
 
 - What went well?
 - What can we improve?
-- What do we do? 
+- What do we do?
 
 ## (Re-)Initialization
 
 The first cohort through this process received more coaching and training support from existing employees during their first week, rather than a prior cohort (9 - 13 Jan., 2017).
 
-On occasion, there may be weeks when there is no new cohort (_e.g._, all technical new-hires must join their assigned team/pod/project immediately; no technical new-hires; _etc._).
+On occasion, there may be weeks when there is no new cohort (e.g., all technical new-hires must join their assigned team/pod/project immediately; no technical new-hires; etc.).
 
-- The previous cohort completes their 2nd week as able (_e.g._, perhaps some members join their first assignments after only 1 onboarding week)
+- The previous cohort completes their 2nd week as able (e.g., perhaps some members join their first assignments after only 1 onboarding week)
 - When a new cohort is available, they will start as if in the initial cohort without 2nd week “seniors” as explained above
 
 ## Transition
