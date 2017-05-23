@@ -34,7 +34,7 @@ The Wizeline team should create a simple application (NodeJs or Ruby on Rails), 
 6. Implement monitoring.
 7. Implement zero-downtime deployments.
 8. Implement stress test
-9. Deploy the app somewhere (AWS, Digital Ocean, Linode, whatever). Heroku doesn't count becuase is cheating.
+9. Deploy the app somewhere (AWS, Digital Ocean, Linode, whatever). Heroku doesn't count because is cheating.
 
 [Home](../../README.md) |
 [Interview Process](../README.md) |
