@@ -1,4 +1,4 @@
-[Home](../../../README.md) |
+[Home](../../../README.md)           |
 [Interview Process](../../README.md) |
 [Engineers](../README.md)
 
@@ -52,10 +52,8 @@ During their actual interview:
          - their code
          - how they managed their time and worked on the project within their personal constraints (_i.e._, the "work journal" mentioned above and commit/checkin log)
   - the interview team
-     - asks questions focused on the project and process
-
+     - asks questions focused on the project and process  
          _i.e._, save "broader," "tell us about yourself," "soft skills," _etc_., questions for the 2nd presentation (below)
-       
      - decides on new/changed requirements (generally based on the state of the project, its design choices, _etc_.) and presents them to the candidate
      - allows the candidate 10-15 minutes solo thinking time if that is the candidate's preference
    - team and candidate discuss ideas and designs for the new requirements, with the team acting as a combination of both client/stakeholder and the candidate's team
@@ -67,8 +65,7 @@ During their actual interview:
      - _e.g._, "how is it going?" "do you need anything?" _etc_.
      - are they stuck on something and, perhaps, afraid(?) to ask for help?
      - how do they handle interruptions, unsolicited interactions, _etc_?
- - make sure they know how much time is left; offer additional time if it might help
-
+ - make sure they know how much time is left; offer additional time if it might help  
      _e.g._, if _almost done_ with a last feature or detail, delay lunch by 15-30 minutes
 
 - 60 min. final presentation:
@@ -107,19 +104,14 @@ for both the **team and candidate**. The result can be **life-changing** for bot
 
 ### Especially during the Candidate's Presentation
 
-- **be present** &mdash; _e.g._, avoid focusing on your phone, laptop, other work, Slack, _etc_.
-
+- **be present** &mdash; _e.g._, avoid focusing on your phone, laptop, other work, Slack, _etc_.  
   "_if you can't be in the room, don't be in the room_"
-
 - **respect** the candidate's time, effort, and pressure &mdash; even if you have seen it hundreds of times before,
 the project is (hopefully!) new to them, and, perhaps, stressful
 - **move on** &mdash; don't spend too much time on any one question or issue
-- **learn** what the candidate does/not know
-
-  many candidates do not want/like to say, "I don't know."
-
+- **learn** what the candidate does/not know  
+  many candidates do not want/like to say, "I don't know."  
   If/when they do, please
-
   - **understand** how difficult it may have been for the candidate to admit that
   - **assume** you have **found the limit** of their knowledge on this topic
   - **resist** the urge to show what else you know about the topic
@@ -129,6 +121,6 @@ the project is (hopefully!) new to them, and, perhaps, stressful
 **Remember** when **you were a candidate** and do what **you would want/hope** the team to do with/for you.
 
 
-[Home](../../../README.md) |
+[Home](../../../README.md)           |
 [Interview Process](../../README.md) |
 [Engineers](../README.md)
