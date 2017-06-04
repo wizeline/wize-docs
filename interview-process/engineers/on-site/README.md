@@ -9,6 +9,16 @@ Candidates who do well in the [phone screens](../README.md) are invited for an o
 This is team members' **best and last opportunity** to form a **strong opinion** as to
 **whether or not** they **want to work with the candidate**.
 
+## Sections
+
+- [Challenges](#challenges)
+- [Flow](#flow)
+  - [2-part](#2-part)
+  - [4-hour](#4-hour)
+- [Considerations](#considerations)
+- [Please](#please)
+- [When in doubt](#when-in-doubt)
+
 ## Challenges
 
 - [Chess](chess.md)
