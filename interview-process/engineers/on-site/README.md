@@ -15,6 +15,7 @@ This is team members' **best and last opportunity** to form a **strong opinion**
 - [Flow](#flow)
   - [2-part](#2-part)
   - [4-hour](#4-hour)
+  - [Debrief](#debrief)
 - [Considerations](#considerations)
 - [Please](#please)
 - [When in doubt](#when-in-doubt)
@@ -94,6 +95,22 @@ If the candidate indicates they are unwilling and/or unable to prepare a project
 - a 45-60 minute presentation during which
   - the candidate demonstrates their project, discusses their design and code, _etc_.
   - the team asks questions about and beyond the project
+
+### Debrief
+
+No matter which format is used, the interviewing team meets in the debrief to reach consensus and make a recommendation. Someone from the recruiting group will invite at least one member of the interviewing team to fill out the Scorecard for the on-site interview.
+
+#### Suggestions for Scorecard Notes
+
+- No-/hire recommendation
+- PROs and CONs
+- List the interviewing team
+- Detailed notes on the project, observations, etc., including strengths and areas of concern  
+  Even if the team recommends making an offer, these details&mdash;especially concerns&mdash;may be useful for things like staffing decisions and onboarding coaching later.
+
+#### Review Prior Interview Notes
+
+Finally, give interviewers an opportunity to give each other positive and constructive feedback on the notes from their technical interviews. Through this, different groups of interviewers can reinforce desired practices, and request changes to undesired ones.
 
 ## Considerations
 
