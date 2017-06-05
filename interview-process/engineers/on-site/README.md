@@ -15,6 +15,7 @@ This is team members' **best and last opportunity** to form a **strong opinion**
 - [Flow](#flow)
   - [2-part](#2-part)
   - [4-hour](#4-hour)
+  - [Collect Project Materials](#collect-project-materials)
   - [Debrief](#debrief)
 - [Considerations](#considerations)
 - [Please](#please)
@@ -95,6 +96,12 @@ If the candidate indicates they are unwilling and/or unable to prepare a project
 - a 45-60 minute presentation during which
   - the candidate demonstrates their project, discusses their design and code, _etc_.
   - the team asks questions about and beyond the project
+
+### Collect Project Materials
+
+At the end of the day, ask the candidate to provide all project materials (e.g., electronic notes, raw source code, SCCS repositories, presentation materials, etc.). Upload them to the candidate's Details as additional documents.
+
+Do this for all candidates, but this may be particularly valuable for candidates who do not receive an offer during a given process: if they return for further interviews in the future, these materials can be part of a baseline for determining the candidate's improvement.
 
 ### Debrief
 
