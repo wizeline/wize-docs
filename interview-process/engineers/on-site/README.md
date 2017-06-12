@@ -1,4 +1,4 @@
-[Home](../../../README.md) |
+[Home](../../../README.md)           |
 [Interview Process](../../README.md) |
 [Engineers](../README.md)
 
@@ -8,6 +8,18 @@ Candidates who do well in the [phone screens](../README.md) are invited for an o
 
 This is team members' **best and last opportunity** to form a **strong opinion** as to
 **whether or not** they **want to work with the candidate**.
+
+## Sections
+
+- [Challenges](#challenges)
+- [Flow](#flow)
+  - [2-part](#2-part)
+  - [4-hour](#4-hour)
+  - [Collect Project Materials](#collect-project-materials)
+  - [Debrief](#debrief)
+- [Considerations](#considerations)
+- [Please](#please)
+- [When in doubt](#when-in-doubt)
 
 ## Challenges
 
@@ -52,10 +64,8 @@ During their actual interview:
          - their code
          - how they managed their time and worked on the project within their personal constraints (_i.e._, the "work journal" mentioned above and commit/checkin log)
   - the interview team
-     - asks questions focused on the project and process
-
+     - asks questions focused on the project and process  
          _i.e._, save "broader," "tell us about yourself," "soft skills," _etc_., questions for the 2nd presentation (below)
-       
      - decides on new/changed requirements (generally based on the state of the project, its design choices, _etc_.) and presents them to the candidate
      - allows the candidate 10-15 minutes solo thinking time if that is the candidate's preference
    - team and candidate discuss ideas and designs for the new requirements, with the team acting as a combination of both client/stakeholder and the candidate's team
@@ -67,8 +77,7 @@ During their actual interview:
      - _e.g._, "how is it going?" "do you need anything?" _etc_.
      - are they stuck on something and, perhaps, afraid(?) to ask for help?
      - how do they handle interruptions, unsolicited interactions, _etc_?
- - make sure they know how much time is left; offer additional time if it might help
-
+ - make sure they know how much time is left; offer additional time if it might help  
      _e.g._, if _almost done_ with a last feature or detail, delay lunch by 15-30 minutes
 
 - 60 min. final presentation:
@@ -87,6 +96,28 @@ If the candidate indicates they are unwilling and/or unable to prepare a project
 - a 45-60 minute presentation during which
   - the candidate demonstrates their project, discusses their design and code, _etc_.
   - the team asks questions about and beyond the project
+
+### Collect Project Materials
+
+At the end of the day, ask the candidate to provide all project materials (e.g., electronic notes, raw source code, SCCS repositories, presentation materials, etc.). Upload them to the candidate's Details as additional documents.
+
+Do this for all candidates, but this may be particularly valuable for candidates who do not receive an offer during a given process: if they return for further interviews in the future, these materials can be part of a baseline for determining the candidate's improvement.
+
+### Debrief
+
+No matter which format is used, the interviewing team meets in the debrief to reach consensus and make a recommendation. Someone from the recruiting group will invite at least one member of the interviewing team to fill out the Scorecard for the on-site interview.
+
+#### Suggestions for Scorecard Notes
+
+- No-/hire recommendation
+- PROs and CONs
+- List the interviewing team
+- Detailed notes on the project, observations, etc., including strengths and areas of concern  
+  Even if the team recommends making an offer, these details&mdash;especially concerns&mdash;may be useful for things like staffing decisions and onboarding coaching later.
+
+#### Review Prior Interview Notes
+
+Finally, give interviewers an opportunity to give each other positive and constructive feedback on the notes from their technical interviews. Through this, different groups of interviewers can reinforce desired practices, and request changes to undesired ones.
 
 ## Considerations
 
@@ -107,19 +138,14 @@ for both the **team and candidate**. The result can be **life-changing** for bot
 
 ### Especially during the Candidate's Presentation
 
-- **be present** &mdash; _e.g._, avoid focusing on your phone, laptop, other work, Slack, _etc_.
-
+- **be present** &mdash; _e.g._, avoid focusing on your phone, laptop, other work, Slack, _etc_.  
   "_if you can't be in the room, don't be in the room_"
-
 - **respect** the candidate's time, effort, and pressure &mdash; even if you have seen it hundreds of times before,
 the project is (hopefully!) new to them, and, perhaps, stressful
 - **move on** &mdash; don't spend too much time on any one question or issue
-- **learn** what the candidate does/not know
-
-  many candidates do not want/like to say, "I don't know."
-
+- **learn** what the candidate does/not know  
+  many candidates do not want/like to say, "I don't know."  
   If/when they do, please
-
   - **understand** how difficult it may have been for the candidate to admit that
   - **assume** you have **found the limit** of their knowledge on this topic
   - **resist** the urge to show what else you know about the topic
@@ -129,6 +155,6 @@ the project is (hopefully!) new to them, and, perhaps, stressful
 **Remember** when **you were a candidate** and do what **you would want/hope** the team to do with/for you.
 
 
-[Home](../../../README.md) |
+[Home](../../../README.md)           |
 [Interview Process](../../README.md) |
 [Engineers](../README.md)
