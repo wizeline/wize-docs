@@ -24,6 +24,7 @@ This is team members' **best and last opportunity** to form a **strong opinion**
 ## Challenges
 
 - [Chess](chess.md)
+- [Meeting Calendar](meeting-calendar.md)
 - [TinyURL](tiny-url-challenge.md)
 
 ### Have an Idea for a New One?
