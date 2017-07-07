@@ -25,6 +25,7 @@ This is team members' **best and last opportunity** to form a **strong opinion**
 
 - [Chess](chess.md)
 - [TinyURL](tiny-url-challenge.md)
+- [Markdown Parser](markdown.md)
 
 ### Have an Idea for a New One?
 
