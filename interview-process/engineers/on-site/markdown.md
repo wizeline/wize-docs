@@ -68,7 +68,7 @@ The desktop app (command-line or GUI) should be able to receive a markdown input
 e.g., for adding on during [2-part](README.md#2-part) flows or "Bonus points" during [4-hour](README.md#4-hour) processes.
 
 - **Fix any bugs or deficiencies identified during the presentation**
-- Add more rules and assess how easy is to add more rules extending from the existing ones
+- Add more rules and assess how easy it is to add more rules extending from the existing ones
 - Add rules not entirely related to the ones already implemented. See [Relation between rules](#relation-between-rules)
 
 ## Relation between rules
