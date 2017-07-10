@@ -30,7 +30,7 @@ Based on the Markdown specification [here](https://daringfireball.net/projects/m
 ### [2-part onsite](https://github.com/wizeline/wize-docs/blob/master/interview-process/engineers/on-site/README.md#2-part)
 
 - Candidate will get 5 rules to start with. Depending on the rules chosen, we will add more and try to see 2 things: how easy it is to add more rules (extending from the ones already written) and add more that are not related.
-- The 5 rules will be chosen based on the [Relation between rules](#relation-between-rules) & following the next rules:
+- The 5 rules will be chosen based on the [Relation between rules](#relation-between-rules) & following the next guidelines:
   - 3 rules from Group 1
   - 1 rule from Group 2 
   - 1 rule from Group 3 or 4
@@ -38,7 +38,7 @@ Based on the Markdown specification [here](https://daringfireball.net/projects/m
 ### [4-hour onsite](https://github.com/wizeline/wize-docs/blob/master/interview-process/engineers/on-site/README.md#4-hour)
 
 - Candidate will get 3 rules to implement. They will be able to add more rules if they have time.
-- The 3 rules will be chosen based on the [Relation between rules](#relation-between-rules) & following the next rules:
+- The 3 rules will be chosen based on the [Relation between rules](#relation-between-rules) & following the next guidelines:
   - 2 rules from Group 1
   - 1 rule from Group 2 or 3
 - If the candidate adds more rules, those will be considered BONUS points.
