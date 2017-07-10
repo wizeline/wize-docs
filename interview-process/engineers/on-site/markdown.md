@@ -7,7 +7,7 @@
 
 ## Overview
 
-Based on the [markdown specification here](https://daringfireball.net/projects/markdown/syntax/) and the [Markdown cheatsheet here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) the candidate has to build an app that converts a markdown input to HTML.
+Based on the Markdown specification [here](https://daringfireball.net/projects/markdown/syntax/) or [here](http://spec.commonmark.org/0.27/) and the [Markdown cheatsheet here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) the candidate has to build an app that transforms a markdown input to HTML.
 
 ## Initial Requirements
 
@@ -23,16 +23,25 @@ Based on the [markdown specification here](https://daringfireball.net/projects/m
   - Images
   - Tables
   - Horizontal Rule
-- The output has to be HTML whether in a file in case of the console app or on the screen for the web app.
+- Expected output:
+  - HTML as text for desktop/command line applications
+  - Browser preview for web applications
 
 ### [2-part onsite](https://github.com/wizeline/wize-docs/blob/master/interview-process/engineers/on-site/README.md#2-part)
 
-- Candidate will get 5 rules to start with. Depending on the rules chosen, we will add more and try to see 2 things: how easy is to add more rules (extending from the ones already written) and add more that are not related.
+- Candidate will get 5 rules to start with. Depending on the rules chosen, we will add more and try to see 2 things: how easy it is to add more rules (extending from the ones already written) and add more that are not related.
+- The 5 rules will be chosen based on the [Relation between rules](#relation-between-rules) & following the next rules:
+  - 3 rules from Group 1
+  - 1 rule from Group 2 
+  - 1 rule from Group 3 or 4
 
 ### [4-hour onsite](https://github.com/wizeline/wize-docs/blob/master/interview-process/engineers/on-site/README.md#4-hour)
 
-- Candidate will get 3 rules to implement. They will be able add more rules if they have time.
-- Adding more rules will be considered as BONUS points.
+- Candidate will get 3 rules to implement. They will be able to add more rules if they have time.
+- The 3 rules will be chosen based on the [Relation between rules](#relation-between-rules) & following the next rules:
+  - 2 rules from Group 1
+  - 1 rule from Group 2 or 3
+- If the candidate adds more rules, those will be considered BONUS points.
 
 #### Exclusions/Restrictions
 
@@ -41,16 +50,18 @@ Based on the [markdown specification here](https://daringfireball.net/projects/m
 
 #### Deliverables
 
-Use any languages that you like and present it any from you like
+To the candidate: is encouraged to use any programming language you feel comfortable with and present it in any way you like.
+
+*IMPORTANT:*Since we are trying to mature this process, the proposal is to go with the desktop app since the UI or API may take more time.
 
 ##### Desktop app
-The desktop app (command-line or GUI) should be able to receive a markdown input and generate a html output
+The desktop app (command-line or GUI) should be able to receive a markdown input and generate an html output in any form (file or in the console).
 
-##### Web app
-The web app should get an html input in any form and generate a html output. The candidate may choose 2 things here:
-- Build a very simple UI to load the markdown input and show the html output
-or
-- Build an API
+##### ~Web app~
+~The web app should get an html input in any form and generate an html output. The candidate may choose 2 things here:~
+- ~Build a very simple UI to load the markdown input and show the html output~
+~or~
+- ~Build an API~
 
 ## Ideas for New/Changed Requirements
 
