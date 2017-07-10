@@ -43,10 +43,10 @@ Based on the [markdown specification here](https://daringfireball.net/projects/m
 
 Use any languages that you like and present it any from you like
 
-Desktop
+##### Desktop app
 The desktop app (command-line or GUI) should be able to receive a markdown input and generate a html output
 
-Web
+##### Web app
 The web app should get an html input in any form and generate a html output. The candidate may choose 2 things here:
 - Build a very simple UI to load the markdown input and show the html output
 or
@@ -63,7 +63,8 @@ e.g., for adding on during [2-part](README.md#2-part) flows or "Bonus points" du
 ## Relation between rules
 
 #### Group 1: Starts with 1 or more characters. Sometimes it ends with the same or nothing. Whatever is inside or after the character is the actual text.
-- Headers
+- Headers starting with a hash
+- Headers with the underline syntax
 - Blockquotes
 - Line breaks
 - Horizontal Rule
@@ -71,14 +72,14 @@ e.g., for adding on during [2-part](README.md#2-part) flows or "Bonus points" du
 - Code block
 - Inline code
 
-#### Group 2 - This is mostly a group that uses most of the logic in group 1. This is composed by a merged of 2 group-1 rules
+#### Group 2: This is mostly a group that uses most of the logic in group 1. This is composed by a merged of 2 group-1 rules
 - Links
 - Images
 
-#### Group 3
+#### Group 3:
 - Ordered/unordered lists
 
-#### Group 4
+#### Group 4:
 - Tables
 
 [Home](../../../README.md)            |
