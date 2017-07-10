@@ -58,7 +58,7 @@ e.g., for adding on during [2-part](README.md#2-part) flows or "Bonus points" du
 
 - **Fix any bugs or deficiencies identified during the presentation**
 - Add more rules and assess how easy is to add more rules extending from the existing ones
-- Add rules not entirely related to the ones already implemented
+- Add rules not entirely related to the ones already implemented. See [Relation between rules](#relation-between-rules)
 
 ## Relation between rules
 
