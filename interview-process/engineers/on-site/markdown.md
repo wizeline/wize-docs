@@ -88,10 +88,10 @@ e.g., for adding on during [2-part](README.md#2-part) flows or "Bonus points" du
 - Images
 
 #### Group 3:
-- Ordered/unordered lists
+Ordered/unordered lists
 
 #### Group 4:
-- Tables
+Tables
 
 [Home](../../../README.md)            |
 [Interview Process](../../README.md)  |
