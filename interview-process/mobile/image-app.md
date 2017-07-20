@@ -39,6 +39,8 @@ Create an application that displayed images from our wrapper imgur API
   https://wzimgur.herokuapp.com/image/kaq3pry \
   -H 'authorization: bearer your-token' \
   -H 'cache-control: no-cache' `
+
+
 | Thumbnail Suffix | Thumbnail Name   | Thumbnail Size | Keeps Image Proportions |
 |------------------|------------------|----------------|-------------------------|
 | s                | Small Square     | 90x90          | No                      |
@@ -47,6 +49,7 @@ Create an application that displayed images from our wrapper imgur API
 | m                | Medium Thumbnail | 320x320        | Yes                     |
 | l                | Large Thumbnail  | 640x640        | Yes                     |
 | h                | Huge Thumbnail   | 1024x1024      | Yes                     |
+
 
 - Add a new Image
   * GET `/thumbnail?imageId={id}&size={thumbSuffix}`
@@ -65,3 +68,19 @@ Create an application that displayed images from our wrapper imgur API
 
 - Add Image screen
 ![add](add-image.png)
+
+## Google Docs
+- [Onsite](https://drive.google.com/open?id=1n_9_eU0T8oU6h0NRTinK2BKU34QLNu1EQ0qIoQVBfBc)
+- [Remote](https://drive.google.com/open?id=1NkOV6R0e2x7mAb1BhLS0QZDEi9L9y5ciIr5GuV-GxjI)
+
+# Recommendations for the Coaches
+- Before the candidate starts solving the challenge, ensure you:
+  - Explain the challenge to the candidate.
+  - Suggest them to test the APIs
+  - Discuss to pick and focus on the right points that can be completed on time
+- During the challenge, you can make the the following recommendations:
+  - To use any tools, languages, frameworks, or databases they like.
+  - Search on the web for any resources they need.
+  - Ask any team members for help.
+  - Not to invest much time on any given problem before asking for help.
+- After the challenge, you need to make sure they submit a runnable project at that moment, and offer them another chance to re-submit within 12 hours
