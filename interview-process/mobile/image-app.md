@@ -25,20 +25,22 @@ Create an application that displayed images from our wrapper imgur API
 - Base URL `https://wzimgur.herokuapp.com`
 - Login
   * POST `/login`
-  * Sample `curl -vs -X POST https://wzimgur.herokuapp.com/login -F username=wizeline`
+  * Sample
+  ```
+  curl -vs -X POST https://wzimgur.herokuapp.com/login -F username=wizeline
+  ```
 - Get Images
   * GET `/image`
-  * Sample `curl -X GET \
-  https://wzimgur.herokuapp.com/image \
-  -H 'authorization: bearer your-token' \
-  -H 'cache-control: no-cache'
-`
+  * Sample
+  ```
+  curl -X GET https://wzimgur.herokuapp.com/image -H 'authorization: bearer your-token'
+  ```
 - Get Thumbnail by ImageId
   * GET `/image/{imageId}`
-  * Sample `curl -X GET \
-  https://wzimgur.herokuapp.com/image/kaq3pry \
-  -H 'authorization: bearer your-token' \
-  -H 'cache-control: no-cache' `
+  * Sample
+  ```
+  curl -X GET https://wzimgur.herokuapp.com/image/kaq3pry -H 'authorization: bearer your-token'
+  ```
 
 
 | Thumbnail Suffix | Thumbnail Name   | Thumbnail Size | Keeps Image Proportions |
@@ -52,21 +54,29 @@ Create an application that displayed images from our wrapper imgur API
 
 
 - Add a new Image
-  * GET `/thumbnail?imageId={id}&size={thumbSuffix}`
-  * Sample `curl -X GET \
-  'https://wzimgur.herokuapp.com/thumbnail?imageId=JOpbgQ3&size=h' \
-  -H 'cache-control: no-cache'
-`
+  * POST `/image`
+  * Fields
+    * file: image file
+    * title: image’s title
+    * description: image’s description
+  * Sample
+  ```
+  curl -X POST https://wzimgur.herokuapp.com/image/ -H 'authorization: bearer your-token' -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' -F file=@/test/image.png -F title='test title' -F description='test description'
+  ```
 
 ## UI Mockups
 - Home screen
+
 ![index](index.png)
+
 ![index](index2.png)
 
 - Image Detail screen
+
 ![detail](full-screen-image-v2.png)
 
 - Add Image screen
+
 ![add](add-image.png)
 
 ## Google Docs

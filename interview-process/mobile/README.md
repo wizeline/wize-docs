@@ -9,8 +9,7 @@
 ## Mobile Challenges
 - [Image App](image-app.md)
 
+## Mobile Interview Questions (TBD)
 
 [Home](../../README.md) |
 [Interview Process](../README.md)
-
-## Mobile Interview Questions (TBD)
