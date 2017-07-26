@@ -38,9 +38,10 @@ An IP version 4 is formed by 4 parts: A.B.C.D and each part must have a value be
 
 ## Observations
 - This is an easy problem and if it's not done by 15 minutes you may dismiss the candidate or put another problem.
-- If he resolves this in more that 15 min you *MUST* add another problem (if there's still time)
-- Plus points if he does not use REGEX
+- If they resolve this in more than 15 min you *MUST* add another problem (if there's still time)
+- Plus points if they do not use REGEX
 - The point is to validate simple code instructions if the candidate uses regex ask him to do the problem without them.
+- PHP has [`filter_var()`](https://php.net/manual/en/function.filter-var.php). With [`FILTER_FLAG_IPV4`](https://php.net/manual/en/filter.filters.validate.php), it handles lots of edge cases. If a candidate uses this, reward their resourcefulness, but ask them to discover and handle the edge cases in their own code.
 
 ## Test Cases
 
