@@ -41,7 +41,7 @@ involving both IPv4 and IPv6 addresses.
 
 
 ## Observations
-- Regular expressions can be a good tool for specific parts of the pboem (e.g., capturing each octet), but discourage them for validating the legal numeric ranges
+- Regular expressions can be a good tool for specific parts of the problem (e.g., capturing each octet), but discourage them for validating the legal numeric ranges
   - Even the most RegEx experienced engineers will struggle to get it right
   - Allowing a candidate to find a regex via web search won't provide much information relevant to evaluating the candidate
   - If the candidate insists on devising their own, require them to explain it
