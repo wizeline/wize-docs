@@ -117,7 +117,7 @@ Use the following established conventions for writing commit messages.
 6. Wrap the body at 72 characters
 7. Use the body to explain what and why vs. how
 
-To achieve this workflow when writing a commit message, avoid using the `message` flag for the `git` command and use the `commit` method alone to open up our default text editor.
+To achieve this workflow when writing a commit message, avoid using the `message` flag for the `git` command and use the `commit` method alone to open up your default text editor.
 
 **Incorrect use**
 
@@ -148,6 +148,7 @@ But if you are already using Vim:
 - You might like [fugitive](https://github.com/tpope/vim-fugitive) &mdash; it helps you follow those line-length limits (and has _lots_ of [other great features](http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/), too)
 - If you use fugitive, you might as well get it via [Janus](https://github.com/carlhuda/janus), along with all the goodies it brings.
 
+For more information about commit messages, read [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/).
 
 ## Pull Requests
 
