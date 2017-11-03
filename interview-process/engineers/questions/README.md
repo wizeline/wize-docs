@@ -33,7 +33,7 @@ its page here
 |                                    |                       |                               
 | [Brackets](brackets.md)            | Medium                | 25 min
 | [Queue](queue.md)                  | Medium                | 30 min
-| [Ugly Numbers](uglyNumbers.md)     | Medium                | 30 min
+| [Wize Numbers](uglyNumbers.md)     | Medium                | 30 min
 | [Reverse Words](reverseWords.md)   | Medium                | 30 min
 | [Stock Maximize](stockMaximize.md) | Medium                | 30 min
 | [Integer Adder](intAdder.md)       | Medium                | 35 min
