@@ -7,25 +7,23 @@
 
 ## Interviewer Statement
 ```
-// Anagrams are words with exactly the same letters in different order
-// e.g., AMOR, ROMA, and MORA
+// An anagram is a word formed by rearranging the letters of another word using all the original letters. 
+// For example, 'DONE' becomes 'NODE'.
 //
-// Write a function that...
-// - receives an Array of words
-// - prints the words found in the Array
+// Write a function that:
+// - receives an array of words
+// - prints the words found in the array
 //   - each set of anagrams on a line
 //   - separate words with ' - '
 //
-// e.g.,
+// Example input:
+// ['LASER', 'MODERN', 'LIVE', 'TINSEL', 'VEIL', 'SILENT', 'EVIL', 'ENLIST', 'REALS', 'VILE', 'RODMEN', 'NORMED', 'LISTEN', 'EARLS']
 //
-// Given:
-// ['AMOR', 'XISELA', 'JAMON', 'ROMA', 'OMAR', 'MORA', 'ESPONJA', 'RAMO', 'JAPONES', 'ARMO', 'MOJAN', 'MARO', 'ORAM', 'MONJA', 'ALEXIS']
-//
-// Print:
-// AMOR - ROMA - OMAR - MORA - RAMO - ARMO - MARO - ORAM
-// MONJA - JAMON - MOJAN
-// ESPONJA - JAPONES
-// ALEXIS - XISELA
+// Example output:
+// LASER - REALS - EARLS
+// MODERN - RODMEN - NORMED
+// LIVE - VEIL - EVIL - VILE
+// TINSEL - SILENT - ENLIST - LISTEN
 ```
 
 ### HackerRank
@@ -59,8 +57,8 @@ Lines may be printed in any order; the anagrams within each line may be printed 
 - This problem is to test data structures, the best solution is using a hash map and the key is the word reordered alphabetically. Example:
 ```javascript
 {
-  'AMOR' : ['AMOR', 'ROMA', 'MORA' ...],
-  'AJMNO': ['JAMON', 'MONJA'],
+  'AELRS': ['LASER', 'REALS', ...],
+  'EILV' : ['LIVE', 'VEIL', ...],
   ...
 }
 ```
@@ -71,43 +69,43 @@ then simply print each array `join`()ed with `" - "`.
 
 ### Input
 
-19 Words:
+18 Words:
 
 ```
-AMOR
-XISELA
-JAMON
-ROMA
-OMAR
-MORA
-MIRAR
-ESPONJA
-RAMO
-JAPONES
-RIMAR
-ARMO
-MOJAN
-MARO
-ORAM
-XISELA
-MIMAR
-MONJA
-ALEXIS
+LASER
+MODERN
+RAISER
+REALS
+LIVE
+TINSEL
+VEIL
+ARISES
+SILENT
+EVIL
+ENLIST
+EARLS
+VILE
+RODMEN
+NORMED
+LISTEN
+REALS
+SIERRA
 ```
 
 **Notes**
 
-- `XISELA` is repeated to test if the solution (incorrectly) eliminates duplicates
-- `MIRAR` and `RIMAR` are anagrams; `MIMAR` has the same _letters_, but is _not_ an anagram of them
+- `REALS` is repeated to verify that the solution doesn't eliminate duplicates
+- `RAISER` and `SIERRA` are anagrams; `ARISES` has the same _letters_, but is _not_ an anagram of them
 
 ### Possible Output
+
 ```
-AMOR - ROMA - OMAR - MORA - RAMO - ARMO - MARO - ORAM
-XISELA - ALEXIS - XISELA
-JAMON - MOJAN - MONJA
-MIRAR - RIMAR
-ESPONJA - JAPONES
-MIMAR
+LASER - REALS - EARLS -  REALS
+MODERN - RODMEN - NORMED
+RAISER - SIERRA
+LIVE - VEIL - EVIL - VILE
+TINSEL - SILENT - ENLIST - LISTEN
+ARISES
 ```
 
 ## Possible Solutions
@@ -131,7 +129,7 @@ const anagrams = (words) => {
   });
 }
 
-const wordsArray = ['AMOR', 'XISELA', 'JAMON', 'ROMA', 'OMAR', 'MORA', 'ESPONJA', 'RAMO', 'JAPONES', 'ARMO', 'MOJAN', 'MARO', 'ORAM', 'MONJA', 'ALEXIS'];
+const wordsArray = ['LASER', 'MODERN', 'LIVE', 'TINSEL', 'VEIL', 'SILENT', 'EVIL', 'ENLIST', 'REALS', 'VILE', 'RODMEN', 'NORMED', 'LISTEN', 'EARLS'];
 
 anagrams(wordsArray);
 ```
@@ -155,7 +153,7 @@ const anagrams = (words) => {
   });
 }
 
-const wordsArray = ['AMOR', 'XISELA', 'JAMON', 'ROMA', 'OMAR', 'MORA', 'ESPONJA', 'RAMO', 'JAPONES', 'ARMO', 'MOJAN', 'MARO', 'ORAM', 'MONJA', 'ALEXIS'];
+const wordsArray = ['LASER', 'MODERN', 'LIVE', 'TINSEL', 'VEIL', 'SILENT', 'EVIL', 'ENLIST', 'REALS', 'VILE', 'RODMEN', 'NORMED', 'LISTEN', 'EARLS'];
 
 anagrams(wordsArray);
 ```
