@@ -232,7 +232,7 @@ Each project or repository should have:
 The Merge Masters should be identified in the repository's `CONTRIBUTING`.  If a repository has
 only a Primary and a Interim becomes necessary, a project's team may decide
 that simply _advertising_ the Interim via Slack, e-mail, _etc_., will suffice
-rather than requiring updating the `CONTRIBUTING`.
+rather than updating the `CONTRIBUTING`.
 
 ## Git Tactics
 
