@@ -196,6 +196,74 @@ Let the candidate to tell about his/her experience with redundant disks
 
 Hardware/Software based arrays, explain advantages of them, etc.
 
+
+### How to review an SSL certificate file in PEM format
+~~~
+openssl -in cert.pem -noout -text
+~~~
+
+### You have an SSL certificate in DER format, but AWS requires PEM formats, what do you need to do to upload that certificate to IAM?
+~~~
+Convert the certificate using openssl command from DER to PEM
+~~~
+
+### How do you verify an SSL certificate of a Website is expired
+~~~
+use CURL, WGET and check the SSL expiration date
+open the browser and see if the expiration message is shown.
+~~~
+
+### What do I need to do to create a new SSL certificate?
+~~~
+Use ACM and follow the current AWS process
+use openssl to create a new CSR (Certificate signing request), send your CSR to an authorized CA, onc it's
+signed it can be used
+~~~
+
+### Could you tell me know can I create an AMI of a running instance?
+~~~
+Go to AWS console, right click on the instance and take snapshot
+~~~
+
+
+### I want to create an AMI every month, what's the best approach to do this?
+~~~
+Create an automated tasks that runs every month, use tools such as:
+Jenkins
+packer
+awscli create-image
+~~~
+
+
+### I have an Auto Scaling Group using a Launch Configuration that has spot instances, the spot price has increased in the region and all the AZ and all your instances are now destroyed, what do you need to do to recover them back?
+~~~
+Create a copy of the launch config, assign a higher value for the spot instances, another approach is to remove the AZ from the ASG to avoid using that what is more expensive
+~~~
+
+### What happens if I restart a docker image?
+~~~
+The process will stop and start again
+Won't lose any saved file within the container
+~~~
+
+### What happens if I run docker image?
+~~~
+A new container will be launched
+~~~
+
+### You run a docker container that has an website with nginx, but your users can't see it, what do you need to check?
+~~~
+The container is running and the ports are exposed
+Your SG has permissions to access the port
+~~~
+
+
+
+
+
+
+
+
 ### List at least 30 commmands used in the cli
 
 |Column1     |Column2     |Column3     |Column4     |Column5     |Column6     |Column7     |Column8     |
