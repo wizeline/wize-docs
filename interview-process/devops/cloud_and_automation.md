@@ -92,6 +92,10 @@ A. Using a DB cache e.g. redis, memcached.
 
 A. Load balancer
 
-**9_** Besides form a load balancer what other approach can you user to distribute load.
+**9_** How DNS load balancing works?
+
+A. Round Robin multi A-Record resolution
+
+**10_** Besides form a load balancer what other approach can you user to distribute load.
 
 A. Queues e.g. rabbitmq, sqs, or DNS load-balancing
