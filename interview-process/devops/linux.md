@@ -26,6 +26,12 @@ use CURL, WGET and check the SSL expiration date
 open the browser and see if the expiration message is shown.
 ~~~
 
+### \[Difficulty: Easy\] How to tell how much memory my system has?
+
+~~~
+free, look for total memory cache/available
+~~~
+
 ### \[Difficulty: Medium\] Explain the following behavior
 
 ~~~
@@ -119,13 +125,6 @@ uptime
 vmstat
 ~~~
 
-
-### \[Difficulty: Medium\] How to tell how much memory my system has?
-
-~~~
-free, look for total memory cache/available
-~~~
-
 ### \[Difficulty: Medium\] What is the difference of /proc and /sys FS
 
 ~~~
@@ -141,6 +140,14 @@ openssl -in cert.pem -noout -text
 ### \[Difficulty: Medium\] You have an SSL certificate in DER format, but AWS requires PEM formats, what do you need to do to upload that certificate to IAM?
 ~~~
 Convert the certificate using openssl command from DER to PEM
+~~~
+
+### \[Difficulty: Medium\] What causes and how to solve the following message
+Too Many open files
+
+~~~
+# increase shell open files, add to your bash profle
+ulimit -n XXXX
 ~~~
 
 ### \[Difficulty: Advanced\] How to increase the number of inodes of a filesystem?
@@ -186,13 +193,7 @@ resize2fs /dev/vg_sys/lv_myLV
 ~~~
 
 
-### \[Difficulty: Advanced\] What causes and how to solve the following message
-Too Many open files
 
-~~~
-# increase shell open files, add to your bash profle
-ulimit -n XXXX
-~~~
 
 ### \[Difficulty: Advanced\] How to change kernel parameters?
 
@@ -234,118 +235,3 @@ Hardware/Software based arrays, explain advantages of them, etc.
 |tar         |tee         |test        |time        |tree        |true        |ulimit      |umount      |
 |uname       |unset       |unxz        |vi          |visudo      |watch       |which       |while       |
 |who         |whoami      |xargs       |xz          |
-
-
-
-# Programming Skills (~30 min)
-
-Background:
-- Known languages
-- Experience with languages
-- Stuff built
-
-Example solution to the CIDR mask convert.
-~~~
-#Create a function that converts CIDRs numbers to Subnet Mask IP format and viceversa.
-#
-#Subnet Mask is very similar to an IP address and it's defined by 4 octets with values of the MSB on.
-#A CIDR Subnet mask notation defines a subnet (Classless InterDomain Routing) based on the number of bits that are on.
-
-
-#e.g. 255.255.0.0 must return /16
-#16 must return 255.255.0.0 /1 <==> /32 CIDR
-#
-# 255.0.0.0 ===> 1111 1111.0000 0000.0000 0000.0000 0000 ==> /8
-# /10 ===> 1111 1111.1100 0000.0000 0000.0000 0000 ===> 255.192.0.0
-
-# class to convert from cidr to mask and th eother way
-class CidrMask
-  def cidr_to_mask(x)
-    in_int = 0xFF_FF_FF_FF - (2**(32 - x) - 1)
-    s = in_int.zero? ? '00000000' : in_int.to_s(16)
-    m = s.match(/(.{2})(.{2})(.{2})(.{2})/)
-    m.captures.map { |e| e.to_i(16) }.join('.')
-  end
-
-  def build_lookup_table
-    @lookup_table = (0..32).collect { |i| [i.to_s, cidr_to_mask(i)] }
-  end
-
-  def convert(value)
-    s_value = value.to_s
-    build_lookup_table unless @lookup_table
-    @lookup_table.each do |r|
-      return r[1] if s_value == r[0]
-      return r[0] if s_value == r[1]
-    end
-    "Invalid value #{value}!"
-  end
-end
-
-# Tests
-cm = CidrMask.new
-
-# Valid
-[0, 1, 16, 21, 32].each do |x|
-  puts cm.convert(x)
-end
-# Valid
-['0.0.0.0', '128.0.0.0', '255.255.0.0',
- '255.255.248.0', '255.255.255.255'].each do |x|
-  puts cm.convert(x)
-end
-# Invalid
-[-1, 33].each do |x|
-  puts cm.convert(x)
-end
-# Invalid
-['0.0.0.0.0', '255.255.255', '11.0.0.0'].each do |x|
-  puts cm.convert(x)
-end
-~~~
-
-
-
-# Cloud Infrastructure and automation
-
-### \[Difficulty: Easy\] What do I need to do to create a new SSL certificate?
-~~~
-Use ACM and follow the current AWS process
-use openssl to create a new CSR (Certificate signing request), send your CSR to an authorized CA, onc it's
-signed it can be used
-~~~
-
-### \[Difficulty: Easy\] Could you tell me know can I create an AMI of a running instance?
-~~~
-Go to AWS console, right click on the instance and take snapshot
-~~~
-
-### \[Difficulty: Easy\] I want to create an AMI every month, what's the best approach to do this?
-~~~
-Create an automated tasks that runs every month, use tools such as:
-Jenkins
-packer
-awscli create-image
-~~~
-
-### I have an Auto Scaling Group using a Launch Configuration that has spot instances, the spot price has increased in the region and all the AZ and all your instances are now destroyed, what do you need to do to recover them back?
-~~~
-Create a copy of the launch config, assign a higher value for the spot instances, another approach is to remove the AZ from the ASG to avoid using that what is more expensive
-~~~
-
-### What happens if I restart a docker image?
-~~~
-The process will stop and start again
-Won't lose any saved file within the container
-~~~
-
-### What happens if I run docker image?
-~~~
-A new container will be launched
-~~~
-
-### You run a docker container that has an website with nginx, but your users can't see it, what do you need to check?
-~~~
-The container is running and the ports are exposed
-Your SG has permissions to access the port
-~~~

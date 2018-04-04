@@ -22,7 +22,7 @@ see engineers/questions/easy/ipv4.md
 
 ### CIDR mask convert:
 ~~~
-#Create a function that converts CIDRs numbers to Subnet Mask IP format and viceversa.
+#Create a function that converts CIDRs numbers to Subnet Mask IP format and vice-versa.
 #
 #Subnet Mask is very similar to an IP address and it's defined by 4 octets with values of the MSB on.
 #A CIDR Subnet mask notation defines a subnet (Classless InterDomain Routing) based on the number of bits that are on.
@@ -34,7 +34,7 @@ see engineers/questions/easy/ipv4.md
 # 255.0.0.0 ===> 1111 1111.0000 0000.0000 0000.0000 0000 ==> /8
 # /10 ===> 1111 1111.1100 0000.0000 0000.0000 0000 ===> 255.192.0.0
 
-# class to convert from cidr to mask and th eother way
+# class to convert from CIDR to mask and the other way
 class CidrMask
   def cidr_to_mask(x)
     in_int = 0xFF_FF_FF_FF - (2**(32 - x) - 1)
