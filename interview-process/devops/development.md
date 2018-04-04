@@ -1,26 +1,22 @@
 # Programming Skills (~30 min)
 
 ### Background questions:
+
 - Known languages
 - Experience with languages
 - Stuff built
 
-3 levels of complexity:
-- algorithms
-- software design:
-    - patterns
-    - abstraction
-- software architecture:
-    - language selection
-    - components
-    - paradigms
-    - patterns
+### 3 levels of complexity
 
-### IPv4 validator
+#### algorithms
+
+Concerned with the implementation of small elements. e.g. methods internals.
+
+**IPv4 validator**
 
 see engineers/questions/easy/ipv4.md
 
-### CIDR mask convert:
+**CIDR mask convert**
 ~~~
 #Create a function that converts CIDRs numbers to Subnet Mask IP format and vice-versa.
 #
@@ -79,3 +75,32 @@ end
   puts cm.convert(x)
 end
 ~~~
+
+
+#### software design
+
+Concerned with modules and components internals
+
+Topics:
+-   patterns
+-   components internals
+-   abstraction
+
+**Questions:**
+
+TBD
+
+#### software architecture ()
+
+Concerned with the whole system and strategy
+
+Topics:
+-   language selection
+-   components interactions
+-   paradigms
+-   frameworks
+-   architectural patterns: e.g. MVC, 3-tier layered design
+
+**Questions:**
+
+TBD

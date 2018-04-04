@@ -20,23 +20,23 @@ packer
 awscli create-image
 ~~~
 
-### I have an Auto Scaling Group using a Launch Configuration that has spot instances, the spot price has increased in the region and all the AZ and all your instances are now destroyed, what do you need to do to recover them back?
+### \[Difficulty: Easy\] I have an Auto Scaling Group using a Launch Configuration that has spot instances, the spot price has increased in the region and all the AZ and all your instances are now destroyed, what do you need to do to recover them back?
 ~~~
 Create a copy of the launch config, assign a higher value for the spot instances, another approach is to remove the AZ from the ASG to avoid using that what is more expensive
 ~~~
 
-### What happens if I restart a docker image?
+### \[Difficulty: Easy\] What happens if I restart a docker image?
 ~~~
 The process will stop and start again
 Won't lose any saved file within the container
 ~~~
 
-### What happens if I run docker image?
+### \[Difficulty: Easy\] What happens if I run docker image?
 ~~~
 A new container will be launched
 ~~~
 
-### You run a docker container that has an website with nginx, but your users can't see it, what do you need to check?
+### \[Difficulty: Easy\] You run a docker container that has an website with nginx, but your users can't see it, what do you need to check?
 ~~~
 The container is running and the ports are exposed
 Your SG has permissions to access the port
@@ -57,33 +57,41 @@ The developers have been running this locally:
 
 #### Questions:
 
-How would you setup your infrastructure to deploy this?
+**1_** How would you setup your infrastructure to deploy this?
+
 A.
 
-How do you make it HA?
+**2_** How do you make it HA?
+
 A. Using multiple replicas in different AZ. You may have even more redundancy
 using multi region or multi cloud.
 
-How do you build a CICD pipeline?
+**3_** How do you build a CICD pipeline?
+
 A.
 
-Suppose the users increase 10^5 times. What changes would you need to do to
+**4_** Suppose the users increase 10^5 times. What changes would you need to do to
 continue running the services.
 
-Web Backends has increased considerably in size, code complexity and resource
+**5_** Web Backends has increased considerably in size, code complexity and resource
 utilization. You are already using instances type `m4.4xlarge`. What
 recommendation and designs changes would you give to the developers.
+
 A. Use a micro-services approach.
 
-Suppose you used a micro-services approach and now have 10 services. How do you
+**6_** Suppose you used a micro-services approach and now have 10 services. How do you
 handle failure isolation and failure from cascading.
+
 A. retries strategy. Circuit breakers. Queues.
 
-Your database is having performance problems. What solution would you use?
+**7_** Your database is having performance problems. What solution would you use?
+
 A. Using a DB cache e.g. redis, memcached.
 
-What can you use to evenly distribute workload.
+**8_** What can you use to evenly distribute workload.
+
 A. Load balancer
 
-Besides form a load balancer what other approach can you user to distribute load.
+**9_** Besides form a load balancer what other approach can you user to distribute load.
+
 A. Queues e.g. rabbitmq, sqs, or DNS load-balancing
