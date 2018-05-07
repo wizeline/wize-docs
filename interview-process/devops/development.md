@@ -1,5 +1,7 @@
 # Programming Skills (~30 min)
 
+[codepad.remoteinterview.io](https://codepad.remoteinterview.io/)
+
 ### Background questions:
 
 - Known languages
@@ -16,8 +18,60 @@ Concerned with the implementation of small elements. e.g. methods internals.
 
 see engineers/questions/easy/ipv4.md
 
-**CIDR mask convert**
+~~~ruby
+# Create a function that validates an IPv4 address,
+# function receives an string and returns a boolean
+#
+# A valid IP address is composed by 4 octets values 0-255
+# Valid IP ranges are: 0.0.0.0 to 255.255.255.255
+
+# Extend the function to validate if the IP is public or private.
+# For an easier solution, private Ips are 127.x.y.z and 192.168.x.y
+
+
+
+# 0.0.0.0  true
+# 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 false
+# 256.0.0.1 false
+# 127.0.0.999 false
+# a.b.c.d false
+# . false
+# 1.2.3 false
+# 192.168.1.1 true
+# 192.168.-0.1 false
+# None false
+# 127.0.01.999 false
+# 123.123 false
+# 123.123.123.123.123 false
+# 1234124.123123123.1231231.12312321 false
+
+# Example solution (ruby)
+def ipv4?(ip)
+  (ip.to_s.match(/^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/i)&.captures ||
+  [256]).map{ |e| e.to_i < 256 }.inject{ |x, y| x && y }
+end
+
+valid = ["0.0.0.0", "192.168.1.1"]
+valid.each { |e| puts ipv4?(e) }
+
+invalid = ["0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",
+"256.0.0.1",
+"127.0.0.999",
+"a.b.c.d",
+".",
+"1.2.3",
+"192.168.-0.1",
+"None",
+"127.0.01.999",
+"123.123",
+"123.123.123.123.123",
+"1234124.123123123.1231231.12312321"]
+invalid.each { |e| puts ipv4?(e) }
 ~~~
+
+**CIDR mask convert**
+
+~~~ruby
 #Create a function that converts CIDRs numbers to Subnet Mask IP format and vice-versa.
 #
 #Subnet Mask is very similar to an IP address and it's defined by 4 octets with values of the MSB on.
@@ -25,32 +79,28 @@ see engineers/questions/easy/ipv4.md
 
 
 #e.g. 255.255.0.0 must return /16
-#16 must return 255.255.0.0 /1 <==> /32 CIDR
+#16 must return 255.255.0.0
 #
 # 255.0.0.0 ===> 1111 1111.0000 0000.0000 0000.0000 0000 ==> /8
 # /10 ===> 1111 1111.1100 0000.0000 0000.0000 0000 ===> 255.192.0.0
 
-# class to convert from CIDR to mask and the other way
+# Example solution (ruby)
 class CidrMask
   def cidr_to_mask(x)
-    in_int = 0xFF_FF_FF_FF - (2**(32 - x) - 1)
-    s = in_int.zero? ? '00000000' : in_int.to_s(16)
-    m = s.match(/(.{2})(.{2})(.{2})(.{2})/)
-    m.captures.map { |e| e.to_i(16) }.join('.')
+    ('1' * x + '0' * (32 - x)).match(/(.{8})(.{8})(.{8})(.{8})/).captures
+                              .map { |e| e.to_i(2) }.join('.')
   end
 
   def build_lookup_table
-    @lookup_table = (0..32).collect { |i| [i.to_s, cidr_to_mask(i)] }
+    @lookup_table = (1..32).inject({}) do |ha, i|
+      ctm = cidr_to_mask(i)
+      ha.merge(i.to_s => ctm, ctm => i.to_s)
+    end
   end
 
   def convert(value)
-    s_value = value.to_s
     build_lookup_table unless @lookup_table
-    @lookup_table.each do |r|
-      return r[1] if s_value == r[0]
-      return r[0] if s_value == r[1]
-    end
-    "Invalid value #{value}!"
+    @lookup_table[value.to_s] || "Invalid value #{value}!"
   end
 end
 
@@ -58,20 +108,20 @@ end
 cm = CidrMask.new
 
 # Valid
-[0, 1, 16, 21, 32].each do |x|
+[1, 16, 21, 32].each do |x|
   puts cm.convert(x)
 end
 # Valid
-['0.0.0.0', '128.0.0.0', '255.255.0.0',
+['128.0.0.0', '255.255.0.0',
  '255.255.248.0', '255.255.255.255'].each do |x|
   puts cm.convert(x)
 end
 # Invalid
-[-1, 33].each do |x|
+[0, -1, 33].each do |x|
   puts cm.convert(x)
 end
 # Invalid
-['0.0.0.0.0', '255.255.255', '11.0.0.0'].each do |x|
+['0.0.0.0', '0.0.0.0.0', '255.255.255', '11.0.0.0'].each do |x|
   puts cm.convert(x)
 end
 ~~~
