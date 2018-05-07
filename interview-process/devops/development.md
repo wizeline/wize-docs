@@ -99,9 +99,8 @@ class CidrMask
   end
 
   def convert(value)
-    s_value = value.to_s
     build_lookup_table unless @lookup_table
-    @lookup_table[s_value] || "Invalid value #{value}!"
+    @lookup_table[value.to_s] || "Invalid value #{value}!"
   end
 end
 
