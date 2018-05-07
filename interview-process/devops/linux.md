@@ -76,7 +76,7 @@ Filesystem           Size  Used Avail Use% Mounted on
 /dev/mapper/loop2p1  6.8M  6.2M   18K 100% /myfile
 ~~~
 
-Space is not reclamed!!, WTF?
+Space is not reclaimed!!, WTF?
 
 
 Solution:
@@ -148,6 +148,7 @@ Too Many open files
 ~~~
 # increase shell open files, add to your bash profle
 ulimit -n XXXX
+limits.conf - configuration file for the pam_limits module
 ~~~
 
 ### \[Difficulty: Advanced\] How to increase the number of inodes of a filesystem?
