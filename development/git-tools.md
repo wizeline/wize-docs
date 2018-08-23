@@ -1,6 +1,8 @@
 [Home](../README.md) |
 [Development Standards/Practices](README.md)
 
+<!-- Maintainer: isabel, https://wizeline.slack.com/team/U08NMK9UJ -->
+
 # Git Tools
 
 These are tools you can use for version control besides the `git` command. 
@@ -45,6 +47,3 @@ These are tools you can use for version control besides the `git` command.
 
 [Home](../README.md) |
 [Development Standards/Practices](README.md)
-
-
-
