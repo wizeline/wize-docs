@@ -21,7 +21,7 @@ The Technical Interview include a challenge that consists of a video call with t
 
 - The [suggested questions](https://gist.github.com/lojals/bf4066db6efe1b3bc7f91854fc33caae) for the interview.
 - The animation challenge folder contains the challenge for this stage. 
-	- [Swift challenge]((FirstInterviewAnimation.zip))
+	- [Swift challenge](FirstInterviewAnimation.zip)
 	- [Objective-C challenge](https://drive.google.com/file/d/1eNWWFjaE3KF5GBeEJ6sg_AYrqQNDA5Kc/view?usp=sharing)
 
 ### 3. Remote Challenge
