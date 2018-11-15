@@ -3,6 +3,10 @@ Open Source Thursday
 
 At Wizeline we use open source all the time. We love it so much that some Wizeliners like to contribute to open source projects as much as they can. That is why we gather every Thursday to share our contributions to the open source world.
 
+Everyone is welcome to Open Source Thursday. Even if you are just curious about contributing to open source. We want to foster more contribution and by inviting more new comers we will achieve our goal.
+
+Let's do more for open source!
+
 **Open Source Thursday** (OST for short) stands as a group of Wizeliners that are enthusiastic about anythig open source.
 
 How does OST work? 
