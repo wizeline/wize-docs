@@ -7,7 +7,7 @@ Everyone is welcome to Open Source Thursday. Even if you are just curious about 
 
 Let's do more for open source!
 
-**Open Source Thursday** (OST for short) stands as a group of Wizeliners that are enthusiastic about anythig open source.
+**Open Source Thursday** (OST for short) stands as a group of Wizeliners that are enthusiastic about anything open source.
 
 How does OST work? 
 ------------------
