@@ -22,6 +22,7 @@ If you want to find a partner or a team add your name to the folloiwing list:
    Name    | Slack | Github | Programming Languages |Interests 
 --------|------|----------|-----------|---------
  Vidal Gonzalez | vidal | [vidalon](https://github.com/vidalon) | Python, Javascript | Tool Development, Web, Infrastructure, DevOps 
+ Joaquin Bravo | jackbravo | [jackbravo](https://github.com/jackbravo | PHP, Python, Js | Web, Data Science, DevOps
 
 Getting started
 ------------------
