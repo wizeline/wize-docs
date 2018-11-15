@@ -16,7 +16,7 @@ Finding companion
 If you want to find a partner or a team add your name to the folloiwing list:
 
    Name    | Slack Handle | Programming Languages |Interests 
---------|-----------|--------|---------|----------
+-----------|--------------|-----------------------|---------
  Vidal Gonzalez | vidalon | Python, Javascript | Tool Development, Web, Infrastructure, DevOps 
 
 Getting started
