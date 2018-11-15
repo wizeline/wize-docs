@@ -26,7 +26,11 @@ If you want to find a partner or a team add your name to the folloiwing list:
 Getting started
 ------------------
 Here are some great resouces to get you started:
-- https://up-for-grabs.net/
-- https://opensource.guide/how-to-contribute/
+- [Bounty Source](https://www.bountysource.com/)
+- [First Timers Only](https://www.firsttimersonly.com/)
+- [Github issues with good first issue](https://github.com/search?l=&q=label%3A%22good+first+issue%22&state=open&type=Issues)
+- [Github issues with hacktoberfest](https://github.com/search?q=label%3Ahacktoberfest+state%3Aopen+type%3Aissue&type=Issues)
+- [Github issues with help-wanted](https://github.com/search?q=label%3Ahelp-wanted+state%3Aopen+type%3Aissue&type=Issues)
+- [Up for Graps](https://up-for-grabs.net/#/)
 
 Hop over to our slack channel: [#open-source-thursday](https://wizeline.slack.com/messages/CCUCATLT1/)
