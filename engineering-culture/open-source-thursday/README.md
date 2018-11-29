@@ -24,6 +24,7 @@ If you want to find a partner or a team add your name to the folloiwing list:
  Vidal Gonzalez | vidal | [vidalon](https://github.com/vidalon) | Python, Javascript | Tool Development, Web, Infrastructure, DevOps 
  Joaquin Bravo | jackbravo | [jackbravo](https://github.com/jackbravo) | PHP, Python, Js | Web, Data Science, DevOps
  Juan José González | jj | [juanjosegzl](https://gitlab.com/juanjosegzl) | Python, Js | Web, Pygame
+ Oswaldo Herrera | ozz | [wdonet](https://github.com/wdonet) | Python, Js, Rust | Web, Infrastructure, Data Science, embedded systems
 
 Getting started
 ------------------
