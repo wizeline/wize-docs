@@ -72,11 +72,10 @@ invalid.each { |e| puts ipv4?(e) }
 **CIDR mask convert**
 
 ~~~ruby
-#Create a function that converts CIDRs numbers to Subnet Mask IP format and vice-versa.
+# Create two functions that converts CIDRs numbers to Subnet Mask IP format and vice-versa.
 #
-#Subnet Mask is very similar to an IP address and it's defined by 4 octets with values of the MSB on.
-#A CIDR Subnet mask notation defines a subnet (Classless InterDomain Routing) based on the number of bits that are on.
-
+# Subnet Mask is very similar to an IP address and it's defined by 4 octets with values of the MSB on.
+# A CIDR Subnet mask notation defines a subnet (Classless InterDomain Routing) based on the number of bits that are on.
 
 #e.g. 255.255.0.0 must return /16
 #16 must return 255.255.0.0
@@ -85,6 +84,7 @@ invalid.each { |e| puts ipv4?(e) }
 # /10 ===> 1111 1111.1100 0000.0000 0000.0000 0000 ===> 255.192.0.0
 
 # Example solution (ruby)
+
 class CidrMask
   def cidr_to_mask(x)
     ('1' * x + '0' * (32 - x)).match(/(.{8})(.{8})(.{8})(.{8})/).captures

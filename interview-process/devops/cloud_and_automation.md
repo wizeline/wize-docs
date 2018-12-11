@@ -84,6 +84,10 @@ handle failure isolation and failure from cascading.
 
 A. retries strategy. Circuit breakers. Queues.
 
+**6_1** What type of database would you use for x or y application?
+
+
+
 **7_** Your database is having performance problems. What solution would you use?
 
 A. Using a DB cache e.g. redis, memcached.
@@ -99,3 +103,5 @@ A. Round Robin multi A-Record resolution
 **10_** Besides form a load balancer what other approach can you user to distribute load.
 
 A. Queues e.g. rabbitmq, sqs, or DNS load-balancing
+
+**10_** what general security recommendations or advice would you give to the team?
