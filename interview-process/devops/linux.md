@@ -42,7 +42,7 @@ Filesystem           Size  Used Avail Use% Mounted on
 /dev/mapper/loop2p1  6.8M  152K  6.1M   3% /myfile
 ~~~
 
-Solution: The server ran out of file-descriptors
+Solution: The server ran out of file-descriptors (Inodes)
 
 ~~~
 [root@localhost myfile]# df -hPi .
@@ -192,8 +192,6 @@ resize2fs /dev/mapper/vg_sys_lv_myLV
 # or
 resize2fs /dev/vg_sys/lv_myLV
 ~~~
-
-
 
 
 ### \[Difficulty: Advanced\] How to change kernel parameters?
