@@ -44,10 +44,11 @@ group3/lead-foo
 Grouping Tokens are the ones in front of the branch name. Use one of the next defined tokens to group the branches.
 
 * `feat`  - Feature, I'm adding or expanding
-* `bug` - Bug fix, experiment or monkey patch
+* `bug` - Bug fix, experiment, or monkey patch
 * `test` - Integration of tests
+* `doc` - README or documentation only updates
+* `chore` - tasks that have no production code change
 * `junk` - Throwaway branch for experiments
-* `doc` - README and/or documentation only
 
 #### Issue Tracker Number
 
@@ -174,12 +175,12 @@ If a PR is not completed, add the tag `[WIP]` at the beginning of its title.
 The PR description template is written in Markdown to match the format from GitHub.
 
 ```markdown
-<!-- PR title format: `<Feat|Bug|Test|Junk|Doc> - <tracker-number> - <Short description>` -->
+<!-- PR title format: `<Feat|Bug|Test|Doc|Chore|Junk> - <tracker-number> - <Short description>` -->
 <!-- Fill out this PR template to make it easier for reviewers to understand your code. Remove this comment and any unnecessary section. -->
 
 #### What does this PR do?
 
-<!-- Briefly synthesize the feature, bug, or fix -->
+<!-- Briefly synthesize the feature, fix, or chore -->
 
 #### Where should the reviewer start?
 
@@ -187,23 +188,23 @@ The PR description template is written in Markdown to match the format from GitH
 
 #### How should this be manually tested?
 
-<!-- List the steps to reproduce, corroborate, or tests to run. Write this section clear enough so that external users can also follow it and test the fix. -->
+<!-- List the steps to reproduce, corroborate, or tests to run. Write this section clear enough so that external developers can also follow it and test the feature or fix. -->
 
 #### Any background context you want to provide?
 
-<!-- Any information regarding the PR that the reviewers should know. -->
+<!-- Add any information regarding the PR that the reviewers should know, if necessary. -->
 
 #### What are the relevant tickets?
 
-<!-- Link to issues, related PR, JIRA issues, etc. -->
+<!-- Link to issues, related PRs, JIRA issues, etc. -->
 
 #### Screenshots
 
-<!-- Before and after screenshots of the feature, if available. -->
+<!-- Add before and after screenshots or recording of the feature, if available. -->
 
 #### Questions
 
-<!-- For another developer or reviewer, if available. -->
+<!-- List questions or concerns directed to the reviewers, if necessary. -->
 
 #### Checklist
 
