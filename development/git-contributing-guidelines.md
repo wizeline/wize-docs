@@ -43,12 +43,12 @@ group3/lead-foo
 
 Grouping Tokens are the ones in front of the branch name. Use one of the next defined tokens to group the branches.
 
-* `feat`  - Feature, I'm adding or expanding
-* `bug` - Bug fix, experiment, or monkey patch
-* `test` - Integration of tests
-* `doc` - README or documentation only updates
-* `chore` - tasks that have no production code change
-* `junk` - Throwaway branch for experiments
+* `feat` for creating or improving a feature.
+* `bug` for fixing a bug in an existing feature.
+* `test` for adding tests or improving test coverage.
+* `chore` for updating tasks that have no production code change.
+* `doc` for improving READMEs or other Markdown documents.
+* `junk` for experimental features that not to be merged.
 
 #### Issue Tracker Number
 
