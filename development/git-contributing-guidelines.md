@@ -180,7 +180,7 @@ The PR description template is written in Markdown to match the format from GitH
 
 #### What does this PR do?
 
-<!-- Briefly synthesize the feature, fix, or chore -->
+<!-- Briefly synthesize the feature, fix, or chore. -->
 
 #### Where should the reviewer start?
 
