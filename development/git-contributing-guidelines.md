@@ -48,7 +48,7 @@ Grouping Tokens are the ones in front of the branch name. Use one of the next de
 * `test` for adding tests or improving test coverage.
 * `chore` for updating tasks that have no production code change.
 * `doc` for improving READMEs or other Markdown documents.
-* `junk` for experimental features that not to be merged.
+* `junk` for experimental features not to be merged.
 
 #### Issue Tracker Number
 
