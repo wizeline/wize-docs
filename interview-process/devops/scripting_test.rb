@@ -26,4 +26,20 @@ puts csv_string
 # EOF
 # cat example.csv
 
+# Python version
+# import csv
 
+# csv_file = 'example.csv'
+# csv_fields = ['name', 'email', 'cellphone']
+# csv_rows = [
+#   ['saul', 'saul@wizeline.com', '11111111'],
+#   ['leon', 'leon@wizeline.com', '22222222'],
+#   ['carlos', 'carlos@wizeline.com', '33333333']
+# ]
+
+# with open(csv_file, 'w') as fdesc:
+#     csv_writer = csv.DictWriter(fdesc, fieldnames=csv_fields)
+#     csv_writer.writeheader()
+#     for row in csv_rows:
+#         csv_values = dict(zip(csv_fields, row))
+#         csv_writer.writerow(csv_values)
