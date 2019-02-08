@@ -4,11 +4,12 @@
 
 # Engineering Ladder
 
-Information and documents related to the Engineering Ladder will be held on this page.
+Information and documents related to the Engineering Ladder are held on this page.
 
-| Name
-| ----
-| [Pod Leads](pod-leads.md)
+| Name |
+| ---- |
+| [Pod Leads](pod-leads.md) |
+| [Tech Lead](tech-lead.md) |
 
 [Home](../README.md) |
 [Engineering Ladder](README.md)
