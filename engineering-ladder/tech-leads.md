@@ -5,7 +5,6 @@
 - Provides Project technical leadership and guidance.
 - Leads a small POD and sets direction.
 - Helps the team to solve technical and code problems.
-- Onboards new Engineers in to the project.
 - Owner of product quality best practices.
 
 ## Technical
