@@ -1,5 +1,9 @@
 # Tech Lead
 
+> An effective Tech Lead establishes a technical vision with the development team and works with developers to turn it into reality. Along the way, a Tech Lead takes on traits that other roles may have, such as a Team Lead, Architect or Software Engineering Manager but they remain hands-on with code. - [patkua@work](https://www.thekua.com/atwork/2014/11/the-definition-of-a-tech-lead/).
+
+Being responsible doesn't mean she should do it all, but just make sure that it happens, promoting ownership and career growth among team members. All the suggested tasks bellow could be performed by any team member.
+
 ## Project
 
 - Provides Project technical leadership and guidance.
