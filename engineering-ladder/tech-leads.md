@@ -35,7 +35,7 @@ Being responsible doesn't mean she should do it all, but just make sure that it 
 
 ## Practices
 
-- Promotes best practices within the Team based on the Wizeline Way.
+- Promotes best practices within the Team taking into account Wizeline's manifesto.
 - Leadership & Management
 - Provides Technical Leadership on a daily basis to the team members.
 - Promotes a healthy environment within the team.
