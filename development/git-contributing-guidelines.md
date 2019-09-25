@@ -24,6 +24,10 @@ If you are new to git there are many great resources to lear the basics:
 
 Branches keep the code organized. Following the convention _branch-per-feature_, create a new branch whether you are developing and pushing a WIP, feature, bug fix, or an experiment.
 
+Additional Resources:
+- [Git Under the Hood Slides](https://docs.google.com/presentation/d/1H6Ouu6oysziDkZq-YXXXSgLP5iATctiiTD9QUUn1Vt4)
+
+
 ### Branch Naming Conventions
 
 Git branches must follow the next conventions when working or developing over them.
