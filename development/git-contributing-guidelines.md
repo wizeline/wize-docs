@@ -6,10 +6,19 @@
 Follow these guidelines to contribute to a repository,  whether is a code update, commit message, branch, issue, pull request, or git tactics.
 
 ### Table of Contents
+- [Git Basics](#git-basics)
 - [Branching Model](#branching-model)
 - [Commit Messages](#commit-messages)
 - [Pull Requests](#pull-requests)
 - [Git Tactics](#git-tactics)
+
+## Git Basics
+
+If you are new to git there are many great resources to lear the basics:
+- PluralSight's [Git Real](https://www.pluralsight.com/courses/code-school-git-real) and [Git Real 2](https://www.pluralsight.com/courses/code-school-git-real-2) courses
+- [Node School](https://nodeschool.io/)'s self-paced [`git-it`](https://github.com/jlord/git-it-electron) workshop
+- [Git Workflow Slides](https://docs.google.com/presentation/d/1PnPuFMqx5t5NWUiwxyQX0aY1mBGnmWl1CzmRm9pDH48)
+
 
 ## Branching Model
 
