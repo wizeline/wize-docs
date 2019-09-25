@@ -28,6 +28,7 @@ These are tools you can use for version control besides the `git` command.
 * [Git Kraken](https://www.gitkraken.com/)
 * [Magit](https://magit.vc/)
 * [Sourcetree](https://www.sourcetreeapp.com/)
+* [gitk](https://git-scm.com/docs/gitk) - Available in Homebrew version of `git`: `brew install git`
 
 ## Visual Tools for `git diff`
 
