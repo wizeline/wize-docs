@@ -94,6 +94,14 @@ line separating the summary from the body is critical, unless you omit
 the body entirely; tools like rebase can get confused if you run the
 two together.
 
+Since the diff of the commit already describes "what" changed, this detailed
+explanatory text should describe "why" the change was made.  As a project ages
+it is often useful to use `git blame` or review the history of the file to see
+why the code is designed the way it is.  At the moment you are creating a
+commit, you know more about "why" you are making that decision than you will in
+the future, so while adding this context might seem obvious now it is often
+useful down the road.
+
 Write your commit message in the imperative: "Fix bug" and not "Fixed bug"
 or "Fixes bug."  This convention matches up with commit messages generated
 by commands like git merge and git revert.
