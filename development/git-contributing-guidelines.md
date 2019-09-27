@@ -30,7 +30,7 @@ Additional Resources:
 
 ### Branch Naming Conventions
 
-Git branches must follow the next conventions when working or developing over them.
+The following rules are a common convention for naming Git branches:
 
 1. Start the branch name with a [_Grouping Token_](#grouping-tokens)
 2. Add the [_Issue Tracker Number_](#issue-tracker-number) after the Grouping Token, if available
