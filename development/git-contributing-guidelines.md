@@ -14,7 +14,7 @@ Follow these guidelines to contribute to a repository,  whether is a code update
 
 ## Git Basics
 
-If you are new to git there are many great resources to lear the basics:
+If you are new to git there are many great resources to learn the basics:
 - PluralSight's [Git Real](https://www.pluralsight.com/courses/code-school-git-real) and [Git Real 2](https://www.pluralsight.com/courses/code-school-git-real-2) courses
 - [Node School](https://nodeschool.io/)'s self-paced [`git-it`](https://github.com/jlord/git-it-electron) workshop
 - [Git Under the Hood Slides](https://docs.google.com/presentation/d/1H6Ouu6oysziDkZq-YXXXSgLP5iATctiiTD9QUUn1Vt4)
