@@ -17,7 +17,7 @@ Follow these guidelines to contribute to a repository,  whether is a code update
 If you are new to git there are many great resources to lear the basics:
 - PluralSight's [Git Real](https://www.pluralsight.com/courses/code-school-git-real) and [Git Real 2](https://www.pluralsight.com/courses/code-school-git-real-2) courses
 - [Node School](https://nodeschool.io/)'s self-paced [`git-it`](https://github.com/jlord/git-it-electron) workshop
-- [Git Workflow Slides](https://docs.google.com/presentation/d/1PnPuFMqx5t5NWUiwxyQX0aY1mBGnmWl1CzmRm9pDH48)
+- [Git Under the Hood Slides](https://docs.google.com/presentation/d/1H6Ouu6oysziDkZq-YXXXSgLP5iATctiiTD9QUUn1Vt4)
 
 
 ## Branching Model
@@ -25,7 +25,7 @@ If you are new to git there are many great resources to lear the basics:
 Branches keep the code organized. Following the convention _branch-per-feature_, create a new branch whether you are developing and pushing a WIP, feature, bug fix, or an experiment.
 
 Additional Resources:
-- [Git Under the Hood Slides](https://docs.google.com/presentation/d/1H6Ouu6oysziDkZq-YXXXSgLP5iATctiiTD9QUUn1Vt4)
+- [Git Workflow Slides](https://docs.google.com/presentation/d/1PnPuFMqx5t5NWUiwxyQX0aY1mBGnmWl1CzmRm9pDH48)
 
 
 ### Branch Naming Conventions
