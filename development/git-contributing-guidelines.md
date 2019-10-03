@@ -6,18 +6,31 @@
 Follow these guidelines to contribute to a repository,  whether is a code update, commit message, branch, issue, pull request, or git tactics.
 
 ### Table of Contents
+- [Git Basics](#git-basics)
 - [Branching Model](#branching-model)
 - [Commit Messages](#commit-messages)
 - [Pull Requests](#pull-requests)
 - [Git Tactics](#git-tactics)
 
+## Git Basics
+
+If you are new to git there are many great resources to learn the basics:
+- PluralSight's [Git Real](https://www.pluralsight.com/courses/code-school-git-real) and [Git Real 2](https://www.pluralsight.com/courses/code-school-git-real-2) courses
+- [Node School](https://nodeschool.io/)'s self-paced [`git-it`](https://github.com/jlord/git-it-electron) workshop
+- [Git Under the Hood Slides](https://docs.google.com/presentation/d/1H6Ouu6oysziDkZq-YXXXSgLP5iATctiiTD9QUUn1Vt4)
+
+
 ## Branching Model
 
 Branches keep the code organized. Following the convention _branch-per-feature_, create a new branch whether you are developing and pushing a WIP, feature, bug fix, or an experiment.
 
+Additional Resources:
+- [Git Workflow Slides](https://docs.google.com/presentation/d/1PnPuFMqx5t5NWUiwxyQX0aY1mBGnmWl1CzmRm9pDH48)
+
+
 ### Branch Naming Conventions
 
-Git branches must follow the next conventions when working or developing over them.
+The following rules are a common convention for naming Git branches:
 
 1. Start the branch name with a [_Grouping Token_](#grouping-tokens)
 2. Add the [_Issue Tracker Number_](#issue-tracker-number) after the Grouping Token, if available
@@ -93,6 +106,14 @@ subject of an email and the rest of the text as the body.  The blank
 line separating the summary from the body is critical, unless you omit
 the body entirely; tools like rebase can get confused if you run the
 two together.
+
+Since the diff of the commit already describes "what" changed, this detailed
+explanatory text should describe "why" the change was made.  As a project ages
+it is often useful to use `git blame` or review the history of the file to see
+why the code is designed the way it is.  At the moment you are creating a
+commit, you know more about "why" you are making that decision than you will in
+the future, so while adding this context might seem obvious now it is often
+useful down the road.
 
 Write your commit message in the imperative: "Fix bug" and not "Fixed bug"
 or "Fixes bug."  This convention matches up with commit messages generated
