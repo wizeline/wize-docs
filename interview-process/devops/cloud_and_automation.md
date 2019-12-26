@@ -87,7 +87,6 @@ A. retries strategy. Circuit breakers. Queues.
 **6_1** What type of database would you use for x or y application?
 
 
-
 **7_** Your database is having performance problems. What solution would you use?
 
 A. Using a DB cache e.g. redis, memcached.
